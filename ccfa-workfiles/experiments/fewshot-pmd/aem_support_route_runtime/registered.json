@@ -1,0 +1,1026 @@
+{
+  "created_unix": 1791205555.9294343,
+  "jobs": [
+    {
+      "method": "aem",
+      "recipe": "coffee",
+      "K": "2",
+      "seed": 0,
+      "id": "aem_coffee_k2_s0",
+      "epochs": 135,
+      "root": "/hy-tmp",
+      "test": [
+        "coffee_u1_a7_normal_006",
+        "coffee_u1_a7_normal_016",
+        "coffee_u1_a6_normal_026",
+        "coffee_u1_a1_error_001",
+        "coffee_u1_a1_error_010",
+        "coffee_u1_a1_error_013",
+        "coffee_u1_a1_error_014",
+        "coffee_u1_a1_error_015",
+        "coffee_u1_a1_error_016",
+        "coffee_u1_a2_error_005",
+        "coffee_u1_a2_error_006",
+        "coffee_u1_a2_error_017",
+        "coffee_u1_a2_error_018",
+        "coffee_u1_a2_error_019",
+        "coffee_u1_a2_error_020",
+        "coffee_u1_a2_error_021",
+        "coffee_u1_a2_error_022",
+        "coffee_u1_a2_error_023",
+        "coffee_u1_a5_error_024",
+        "coffee_u1_a5_error_025",
+        "coffee_u1_a5_error_026",
+        "coffee_u1_a5_error_027",
+        "coffee_u1_a5_error_028",
+        "coffee_u1_a5_error_029",
+        "coffee_u1_a5_error_030",
+        "coffee_u1_a6_error_031",
+        "coffee_u1_a6_error_032",
+        "coffee_u1_a6_error_033",
+        "coffee_u1_a6_error_034",
+        "coffee_u1_a6_error_036",
+        "coffee_u1_a7_error_002",
+        "coffee_u1_a7_error_003",
+        "coffee_u1_a7_error_004",
+        "coffee_u1_a7_error_007",
+        "coffee_u1_a7_error_008",
+        "coffee_u1_a7_error_009",
+        "coffee_u1_a7_error_011",
+        "coffee_u1_a7_error_035"
+      ],
+      "support_ids": [
+        "coffee_u1_a1_normal_004",
+        "coffee_u1_a2_normal_009"
+      ],
+      "feature_track": "videoclip256_10fps",
+      "fps": 10,
+      "support": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/support/EgoPER/coffee/support_k2_seed0.txt",
+      "support_hash": "0249d69dc3060496",
+      "config": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_k2_seed0.yaml",
+      "checkpoint": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed0_final/epoch_135.pth.tar",
+      "command": "cd /hy-tmp/code/AEM && python train.py /hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_k2_seed0.yaml --output final --ckpt-freq 0"
+    },
+    {
+      "method": "aem",
+      "recipe": "coffee",
+      "K": "2",
+      "seed": 1,
+      "id": "aem_coffee_k2_s1",
+      "epochs": 135,
+      "root": "/hy-tmp",
+      "test": [
+        "coffee_u1_a7_normal_006",
+        "coffee_u1_a7_normal_016",
+        "coffee_u1_a6_normal_026",
+        "coffee_u1_a1_error_001",
+        "coffee_u1_a1_error_010",
+        "coffee_u1_a1_error_013",
+        "coffee_u1_a1_error_014",
+        "coffee_u1_a1_error_015",
+        "coffee_u1_a1_error_016",
+        "coffee_u1_a2_error_005",
+        "coffee_u1_a2_error_006",
+        "coffee_u1_a2_error_017",
+        "coffee_u1_a2_error_018",
+        "coffee_u1_a2_error_019",
+        "coffee_u1_a2_error_020",
+        "coffee_u1_a2_error_021",
+        "coffee_u1_a2_error_022",
+        "coffee_u1_a2_error_023",
+        "coffee_u1_a5_error_024",
+        "coffee_u1_a5_error_025",
+        "coffee_u1_a5_error_026",
+        "coffee_u1_a5_error_027",
+        "coffee_u1_a5_error_028",
+        "coffee_u1_a5_error_029",
+        "coffee_u1_a5_error_030",
+        "coffee_u1_a6_error_031",
+        "coffee_u1_a6_error_032",
+        "coffee_u1_a6_error_033",
+        "coffee_u1_a6_error_034",
+        "coffee_u1_a6_error_036",
+        "coffee_u1_a7_error_002",
+        "coffee_u1_a7_error_003",
+        "coffee_u1_a7_error_004",
+        "coffee_u1_a7_error_007",
+        "coffee_u1_a7_error_008",
+        "coffee_u1_a7_error_009",
+        "coffee_u1_a7_error_011",
+        "coffee_u1_a7_error_035"
+      ],
+      "support_ids": [
+        "coffee_u1_a4_normal_034",
+        "coffee_u1_a7_normal_012"
+      ],
+      "feature_track": "videoclip256_10fps",
+      "fps": 10,
+      "support": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/support/EgoPER/coffee/support_k2_seed1.txt",
+      "support_hash": "f35e9181c7afecff",
+      "config": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_k2_seed1.yaml",
+      "checkpoint": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed1_final/epoch_135.pth.tar",
+      "command": "cd /hy-tmp/code/AEM && python train.py /hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_k2_seed1.yaml --output final --ckpt-freq 0"
+    }
+  ],
+  "support_annotations": {
+    "coffee_u1_a1_normal_004": {
+      "video_id": "coffee_u1_a1_normal_004",
+      "labels": {
+        "action": [
+          0,
+          6,
+          7,
+          8,
+          0,
+          9,
+          10,
+          11,
+          0,
+          12,
+          0,
+          5,
+          0,
+          1,
+          2,
+          0,
+          13,
+          0,
+          13,
+          0,
+          13,
+          0,
+          13,
+          0,
+          14,
+          0,
+          15,
+          0,
+          3,
+          4,
+          0
+        ],
+        "action_type": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "time_stamp": [
+          [
+            0.0,
+            2.0
+          ],
+          [
+            2.1,
+            9.9
+          ],
+          [
+            10.0,
+            21.1
+          ],
+          [
+            21.2,
+            34.1
+          ],
+          [
+            34.2,
+            36.5
+          ],
+          [
+            36.6,
+            58.5
+          ],
+          [
+            58.6,
+            72.6
+          ],
+          [
+            72.7,
+            93.8
+          ],
+          [
+            93.9,
+            100.3
+          ],
+          [
+            100.4,
+            116.9
+          ],
+          [
+            117.0,
+            119.3
+          ],
+          [
+            119.4,
+            127.7
+          ],
+          [
+            127.8,
+            133.6
+          ],
+          [
+            133.7,
+            154.1
+          ],
+          [
+            154.2,
+            171.2
+          ],
+          [
+            171.3,
+            305.2
+          ],
+          [
+            305.3,
+            339.4
+          ],
+          [
+            339.5,
+            405.6
+          ],
+          [
+            405.7,
+            418.1
+          ],
+          [
+            418.2,
+            432.9
+          ],
+          [
+            433.0,
+            442.5
+          ],
+          [
+            442.6,
+            450.0
+          ],
+          [
+            450.1,
+            471.5
+          ],
+          [
+            471.6,
+            475.2
+          ],
+          [
+            475.3,
+            488.7
+          ],
+          [
+            488.8,
+            536.0
+          ],
+          [
+            536.1,
+            590.6
+          ],
+          [
+            590.7,
+            692.3
+          ],
+          [
+            692.4,
+            705.9
+          ],
+          [
+            706.0,
+            710.3
+          ],
+          [
+            710.4,
+            712.7
+          ]
+        ],
+        "error_description": [
+          "BG",
+          "Fold paper filter in half to create semi-circle",
+          "Fold it in half again to create quarter-circle",
+          "Place paper filter in dripper and spread it into cone",
+          "BG",
+          "Weigh 25 grams of coffee beans",
+          "Put coffee beans in coffee grinder",
+          "Grind coffee for 20 seconds",
+          "BG",
+          "Transfer grounds to filter cone",
+          "BG",
+          "Put dripper on mug",
+          "BG",
+          "Measure 12 ounces of cold water",
+          "Transfer water to kettle",
+          "BG",
+          "Check water temperature",
+          "BG",
+          "Check water temperature",
+          "BG",
+          "Check water temperature",
+          "BG",
+          "Check water temperature",
+          "BG",
+          "Pour a small amount of water on grounds",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Discard paper filter and coffee grounds",
+          "Hold cup of coffee in front of you",
+          "BG"
+        ]
+      }
+    },
+    "coffee_u1_a2_normal_009": {
+      "video_id": "coffee_u1_a2_normal_009",
+      "labels": {
+        "action": [
+          0,
+          9,
+          10,
+          11,
+          8,
+          12,
+          5,
+          1,
+          2,
+          0,
+          13,
+          14,
+          0,
+          15,
+          0,
+          15,
+          0,
+          15,
+          0,
+          3,
+          4,
+          0
+        ],
+        "action_type": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "time_stamp": [
+          [
+            0.0,
+            2.2
+          ],
+          [
+            2.3,
+            31.9
+          ],
+          [
+            32.0,
+            38.8
+          ],
+          [
+            38.9,
+            52.9
+          ],
+          [
+            53.0,
+            59.8
+          ],
+          [
+            59.9,
+            70.0
+          ],
+          [
+            70.1,
+            72.7
+          ],
+          [
+            72.8,
+            91.5
+          ],
+          [
+            91.6,
+            104.9
+          ],
+          [
+            105.0,
+            212.2
+          ],
+          [
+            212.3,
+            252.4
+          ],
+          [
+            252.5,
+            262.0
+          ],
+          [
+            262.1,
+            286.7
+          ],
+          [
+            286.8,
+            302.3
+          ],
+          [
+            302.4,
+            306.3
+          ],
+          [
+            306.4,
+            326.9
+          ],
+          [
+            327.0,
+            343.7
+          ],
+          [
+            343.8,
+            360.3
+          ],
+          [
+            360.4,
+            383.7
+          ],
+          [
+            383.8,
+            391.9
+          ],
+          [
+            392.0,
+            397.0
+          ],
+          [
+            397.1,
+            400.7
+          ]
+        ],
+        "error_description": [
+          "BG",
+          "Weigh 25 grams of coffee beans",
+          "Put coffee beans in coffee grinder",
+          "Grind coffee for 20 seconds",
+          "Place paper filter in dripper and spread it into cone",
+          "Transfer grounds to filter cone",
+          "Put dripper on mug",
+          "Measure 12 ounces of cold water",
+          "Transfer water to kettle",
+          "BG",
+          "Check water temperature",
+          "Pour a small amount of water on grounds",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Discard paper filter and coffee grounds",
+          "Hold cup of coffee in front of you",
+          "BG"
+        ]
+      }
+    },
+    "coffee_u1_a4_normal_034": {
+      "video_id": "coffee_u1_a4_normal_034",
+      "labels": {
+        "action": [
+          0,
+          1,
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          0,
+          12,
+          0,
+          5,
+          0,
+          13,
+          0,
+          14,
+          0,
+          15,
+          0,
+          3,
+          4,
+          0
+        ],
+        "action_type": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "time_stamp": [
+          [
+            0.0,
+            2.3
+          ],
+          [
+            2.4,
+            18.0
+          ],
+          [
+            18.1,
+            30.3
+          ],
+          [
+            30.4,
+            38.1
+          ],
+          [
+            38.2,
+            47.7
+          ],
+          [
+            47.8,
+            60.2
+          ],
+          [
+            60.3,
+            82.8
+          ],
+          [
+            82.9,
+            92.1
+          ],
+          [
+            92.2,
+            106.9
+          ],
+          [
+            107.0,
+            114.0
+          ],
+          [
+            114.1,
+            130.4
+          ],
+          [
+            130.5,
+            131.1
+          ],
+          [
+            131.2,
+            135.8
+          ],
+          [
+            135.9,
+            136.9
+          ],
+          [
+            137.0,
+            146.8
+          ],
+          [
+            146.9,
+            148.5
+          ],
+          [
+            148.6,
+            172.9
+          ],
+          [
+            173.0,
+            175.0
+          ],
+          [
+            175.1,
+            223.3
+          ],
+          [
+            223.4,
+            290.4
+          ],
+          [
+            290.5,
+            299.4
+          ],
+          [
+            299.5,
+            305.3
+          ],
+          [
+            305.4,
+            308.9
+          ]
+        ],
+        "error_description": [
+          "BG",
+          "Measure 12 ounces of cold water",
+          "Transfer water to kettle",
+          "Fold paper filter in half to create semi-circle",
+          "Fold it in half again to create quarter-circle",
+          "Place paper filter in dripper and spread it into cone",
+          "Weigh 25 grams of coffee beans",
+          "Put coffee beans in coffee grinder",
+          "Grind coffee for 20 seconds",
+          "BG",
+          "Transfer grounds to filter cone",
+          "BG",
+          "Put dripper on mug",
+          "BG",
+          "Check water temperature",
+          "BG",
+          "Pour a small amount of water on grounds",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Discard paper filter and coffee grounds",
+          "Hold cup of coffee in front of you",
+          "BG"
+        ]
+      }
+    },
+    "coffee_u1_a7_normal_012": {
+      "video_id": "coffee_u1_a7_normal_012",
+      "labels": {
+        "action": [
+          0,
+          5,
+          0,
+          9,
+          10,
+          11,
+          1,
+          2,
+          0,
+          6,
+          7,
+          8,
+          12,
+          0,
+          13,
+          14,
+          0,
+          15,
+          0,
+          15,
+          0,
+          15,
+          0,
+          3,
+          4,
+          0
+        ],
+        "action_type": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "time_stamp": [
+          [
+            0.0,
+            2.3
+          ],
+          [
+            2.4,
+            6.3
+          ],
+          [
+            6.4,
+            8.5
+          ],
+          [
+            8.6,
+            35.8
+          ],
+          [
+            35.9,
+            42.9
+          ],
+          [
+            43.0,
+            61.5
+          ],
+          [
+            61.6,
+            87.2
+          ],
+          [
+            87.3,
+            96.9
+          ],
+          [
+            97.0,
+            100.5
+          ],
+          [
+            100.6,
+            114.9
+          ],
+          [
+            115.0,
+            117.2
+          ],
+          [
+            117.3,
+            124.6
+          ],
+          [
+            124.7,
+            136.6
+          ],
+          [
+            136.7,
+            193.1
+          ],
+          [
+            193.2,
+            251.1
+          ],
+          [
+            251.2,
+            258.6
+          ],
+          [
+            258.7,
+            274.4
+          ],
+          [
+            274.5,
+            310.9
+          ],
+          [
+            311.0,
+            317.8
+          ],
+          [
+            317.9,
+            332.9
+          ],
+          [
+            333.0,
+            342.8
+          ],
+          [
+            342.9,
+            368.6
+          ],
+          [
+            368.7,
+            439.0
+          ],
+          [
+            439.1,
+            448.9
+          ],
+          [
+            449.0,
+            453.6
+          ],
+          [
+            453.7,
+            455.7
+          ]
+        ],
+        "error_description": [
+          "BG",
+          "Put dripper on mug",
+          "BG",
+          "Weigh 25 grams of coffee beans",
+          "Put coffee beans in coffee grinder",
+          "Grind coffee for 20 seconds",
+          "Measure 12 ounces of cold water",
+          "Transfer water to kettle",
+          "BG",
+          "Fold paper filter in half to create semi-circle",
+          "Fold it in half again to create quarter-circle",
+          "Place paper filter in dripper and spread it into cone",
+          "Transfer grounds to filter cone",
+          "BG",
+          "Check water temperature",
+          "Pour a small amount of water on grounds",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Slowly pour the rest of water in circular motion",
+          "BG",
+          "Discard paper filter and coffee grounds",
+          "Hold cup of coffee in front of you",
+          "BG"
+        ]
+      }
+    }
+  },
+  "hashes": {
+    "ccfa-workfiles/experiments/fewshot-pmd/aem-support-route-protocol.md": "aae65a3d5d2c1380256a2827bac22a1e5bc491b832b2c372290533866135aef1",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_gpu.py": "48e8258d075b47540bcc7a9bd1121080395681bff4c97a57463a65e9856d81e6",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/gpu/registered.json": "6b6027604304d33b8c6feb75d16ded83b37445a296475f85c632212fbe7d2554",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a1_error_001.npz": "9584a8dea9fcc25ef77d595106e484889938ef5bdd1ef6dc0bbe4e1b65ac2887",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a1_error_010.npz": "fa5902cc6936c5550b78a92a3a317ecfbff5c729d69e2bbeaba64dc18c38ca92",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a1_error_013.npz": "8f890c6d39cbe4de786167e2d250fb4c7c1e7a9e319ebed416a00d802ef1ea2c",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a1_error_014.npz": "3bada1e5d0790c4704eb01be89cad4f230cae0ae5483e93ceb925599f2c73a82",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a1_error_015.npz": "20257053e75d44e67266d433f01796e95acc07a5ab1aa4a3573ca22928576f40",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a1_error_016.npz": "38dc24c04b92d87b2aae27d1b35a2594087fa1b006bde39dad845809e3e551e5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_005.npz": "bc22546613a36f8f4793dd6e5d6b92a1c1b331cda52e943f4639d6d544f61768",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_006.npz": "f3e8a2b9446f735ce7433adda229509f0384797088beff5c63666f7ea11f114a",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_017.npz": "9cd1ccb7a26340a203e7c762e43379e82d6b9264128e28324b4c87561da8057c",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_018.npz": "f978d724e5856428feb520fa584ce8af3960b998860d94acc5b9c5f0e9de5d3c",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_019.npz": "36cd8c24b3e861a521c9760b2bafa753541934dcfbc0f1b7bbfdf9d23a1da69a",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_020.npz": "c1123c5f1d6a98f491081dffdfc767fdcbc94933375421bc5100cd9c99247f80",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_021.npz": "8685acfeeedc3cf65336bff0f248065f9530591ffda947561864d0681eb107f0",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_022.npz": "321c318b764449ec7c8680812db4247fd0853b510ec45672a996e5284910f17b",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a2_error_023.npz": "011c13376127e42e8e1659bab8cad4b3d8e2f25aea29d1e39cb8613aab690f53",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_024.npz": "9dc15fc4295defcaa99800f2e06d65159037654a76c7a2037462c65fe6af6dee",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_025.npz": "bddf5116c49f620fcd911985208d6043a5c97ab1674c5c0f0dd3897e2c424482",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_026.npz": "9ede37c42ecbe3ac625dfcfcef61bae9cf220701ed71043b8e49db4d7a52959f",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_027.npz": "deb36af23600e2fa7a3fdf39c18d9bc95dead7424e4822c030248748e7003bbc",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_028.npz": "0b95f25fc366a1595f97c79365493b2c344fcfba723164a1eee70b3c832fc05b",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_029.npz": "a8fa8a0a10fbd5d3490f2dc06c145f8759930f620f006d71ebd0c9eb0ee309c8",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a5_error_030.npz": "a0e7e458b78feb3603cffe349e5caadd28d0c8c323cdaa532331dc4b1538e8af",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a6_error_031.npz": "2eccb892157a5a8317c4fda12f646f013d1204804fabdae0252185e9eb6bf55b",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a6_error_032.npz": "bf6ea1418f65eaeb343743043a316a68f343407e0b4b21c2212b9fc724c5f1e4",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a6_error_033.npz": "c261976b12118667bc36f5f7d3b4f584dcc191cd7a3bd6b380a19338b6f07502",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a6_error_034.npz": "06910af647209f33e41ca88019ec2e7ed78c8fca9bdc3e9be907aae6f873b028",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a6_error_036.npz": "84e919a36e62183fd17dfd72278da6578618edbef219e2c7d3055427415a733d",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a6_normal_026.npz": "b599908a352d608eddcc2b9f1c17b094427e2a3009416cfd70a3cc7e144501a4",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_002.npz": "a56554d64e9d6f345044a298fdaf43f95f9d96b921f177d4cbaa01f268f893e4",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_003.npz": "578a6564b1cf6d3b74baf786bb6987eb6f6dc15657f3315117979d1aa2a08e3f",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_004.npz": "cd6139b7d87aed6fe2796f5e40c1b518554516e86b60000a637d0a32843c7deb",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_007.npz": "85759e8cf1cea8354eccee3edda493e92e848fb86922e5f63a6e7df2c60485cf",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_008.npz": "b00049ee78dcec7a262d5e3b46145b9994c3e4c3f67f53beb8e2f5d359815bab",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_009.npz": "8e62d2ba484589840a76c6fe8a9ec5c1397b512b5c064a959b8536f5b98450e4",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_011.npz": "51ed1564c472a53ec9d27f2ad8efa5f291e876de8d53675ecef57356e2ba78b1",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_error_035.npz": "42c0b603c6d8e4e1f2db2b72ee709b0a213afb3b1d0995f6af7182fe0f51a3c0",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_normal_006.npz": "5ab6cb7da23c7a340794bc8f02fcc8c33d17dd615bc46fa349174b1db09acaa6",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s0_KK/coffee_u1_a7_normal_016.npz": "087157dd71f1d8ac3687f3a49314289885e1b62b1dbbfe2e781015abbb34b4c5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a1_error_001.npz": "f37e32e72e18e9f3086b98557d6ae6fe218e2c9d79fcc10b43033675606e3426",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a1_error_010.npz": "656fc00e9b74c16a28ad25b73140941c3e1b1a17f803e92241ec04d1fc6b9571",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a1_error_013.npz": "ad8fd1d1c53e2535101b6cd21729502519f443167478ab9b4e67727c705e4b81",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a1_error_014.npz": "b9a0ea78cc14cdc25245fb587b30d1d7daf0203174df425de694d0b9dc0a56c2",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a1_error_015.npz": "da7e660da8758aa3bfc6837b02593f727df47d7350a84c1e20743b6fa6286f47",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a1_error_016.npz": "dbd93f6ab3331b6589eb52add0e6e4abfa3ec74e770a616630e9f4bfb8b25132",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_005.npz": "4478cbe53684a233bc0200806ab30f80305b79b51a626b7904aba1e70cc1e12a",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_006.npz": "e529fedbe9ca57bf0d37dff7cdb711f2b89c483e0ee2ebe0c441ffbeaf38e191",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_017.npz": "7681fc0b557086e9e516270d2b69baa0b3c5c2b4e0052be4b1f73dc79c9217ae",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_018.npz": "e597ddce490bb91f361a57389d68c9b2e4a9e8501f1bc7a64d69d3b91de7d426",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_019.npz": "a6401568b23c7d84e8029dcd0fa1c7036d9bfb58871a86778121cd003c68c909",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_020.npz": "9cd14338e3f89838d55b9d4caa0602f962a9335dfed0a6875cec78fc2e667a55",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_021.npz": "5f13e87dd66888d3b1812fafa97f59a389b330666dcb336d69063c4c97d0067c",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_022.npz": "37ef40a3a4d11d0965906ba3e95b5a31586e534830ad32569135063529a790ae",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a2_error_023.npz": "1b8ecead459b0d57fd3c2e2dddfb32f6cd9b2d2c9c698425b4993d77058b7b63",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_024.npz": "8fd0bf5928988948b37e7e657e1c935905028cba643d8fb38ce06ab0dddf0017",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_025.npz": "3770bb19b64429104e7e12343f5716eb12b048ff2f04e0264288b76eb4329eb2",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_026.npz": "4cc8d58f362851cc8e64c9ec0c46b1ccba718aab60cd84d290d36169bf837243",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_027.npz": "62b5edd1c8e385253e416695edc41539f24800cc52fa4a30c7f8baa4e644f1ab",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_028.npz": "3b5b541a8201d23a7e5e43d57c3245e9ec45e1838a2087338082bb2805bd758b",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_029.npz": "232e89862e4fcbf948f711f4e1b51274c650eb971b0aea1b5b58cbe1dd5c10a7",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a5_error_030.npz": "301a117bca2dbee027387841904dd9345d3a1bdb5d5e5146820669b71a84ccc5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a6_error_031.npz": "ec1a02600d2a62b1dc4881f206182f09e4280ac398259f30af56b22377a0e73e",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a6_error_032.npz": "ab0d83894be3f9afc7240692ae4fcf739616c4d0c46ad5970201451117ff49e2",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a6_error_033.npz": "d5d4dc602e814ace226c7d71f246ac76e56f7e6ee9bc7d1c6c0af18adf700a35",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a6_error_034.npz": "61709a54acbaea280f5204767b77e22d900b1bc964ba0160834ecec0b15b5dd5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a6_error_036.npz": "522d351b1ebc571a25e7234218877e08f22a93a30efa6ea27799df110fc6329d",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a6_normal_026.npz": "8e04e708e96bd067bc01b8e3577eafe9672171484e253a3eac5caee773e03b2b",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_002.npz": "a9cd39bdcd3c39e5300fb39370972c25c220b255114b99e4c9d81dddfebb86cc",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_003.npz": "5a7a6370c812205a3e9f0130890ffee35c2182956aea75673b9ab5ba86a15445",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_004.npz": "7ff9844c1f99f9342966c867c40e9a027f7a3098c0f94b92967caef930bf6788",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_007.npz": "158cb3e165358cd1d6342045fea5e71482853a1d11a83063d734dd1fb8cd51bd",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_008.npz": "eca796756739f66ef937a5c7bb6c73db3414ce5f3cc21fe785a19661cd8d84d5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_009.npz": "20e2f161934d7af857a8179e72d012fc83bbf4996e97c52d03bd18779b5ae770",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_011.npz": "34474ec7656e6e9de188c2f119eefdbc4c03048033141829ea63c741829428ef",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_error_035.npz": "d834540639035e055b016285f8484a4a218413b9f9642eb4266fd15b52587428",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_normal_006.npz": "5bc31479170236170bdc1df6ecc9cefb60bfc20f500b9bc13618bf43ee837768",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_cross_route_runtime/replay/C/s1_KK/coffee_u1_a7_normal_016.npz": "f114bf19d37c8eb63ee60221a1ee2404acc647d58bd7858b7f1bccaf9aa480a4",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_scarcity_diagnostic.py": "7bc7d3905e67bd1877883981420bc646b50f534deee6f79cb3f562830ba7fef5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_support_route.py": "42ebf42f7944f1bcca3bbb4c457733bc4ead8bf8aa5bf5928bb30573d8b758a1",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_support_route_analyze.py": "763f59732aae88efe23979569174c903a3de5a86b0e616338dd41c1dad63c7e5",
+    "ccfa-workfiles/experiments/fewshot-pmd/aem_support_route_gpu.py": "99d050a31b4cecbf97722f317fbc3a126812856e970431971cc7e37956aa3329",
+    "ccfa-workfiles/experiments/fewshot-pmd/fast_alignment.py": "5437318b99ba9bb88afe633bf6ee0c75b272ba7680ca036dab00d297135c8c38",
+    "ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/jobs.jsonl": "017c3a7ea0555c9758029551839e791266cae8835bf51f51abb948268912f667",
+    "ccfa-workfiles/experiments/fewshot-pmd/grr_smoke.py": "bf5cfe079e4ae7a609acd4fb6d3b73374dfdafcefdcfb39ae7f27655ca70938f",
+    "ccfa-workfiles/experiments/fewshot-pmd/grr_validate.py": "37c865c5a74a27d7797d75242fc6c29fd1ea0134c4f8b1bec52e1bba34df8e2a",
+    "code/AEM/data/egoper/annotation.json": "a79f3677c1671dc3955faeae0857dbaec4aa1e9f2a6ca4b6ea9db41f0c723409",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_001.npy": "8d03e89e75810a322dca84d2c00bb95d36eb5399de76d57cf7a7c1e058d9f81a",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_010.npy": "a77df3ae7ff26c7f207d21f107165be1a9f40bed598e07466bc0e6bda8366bd1",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_013.npy": "2dff22d7e27311ffd24a450f0b65afa0cb6799fa3c4c90b2e79c621581dee0b2",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_014.npy": "16bb2b866268b153bbbec59cf7cf1950de81fe22ceb7af5e79f88ab94ff76590",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_015.npy": "4e19949e90fa0e90ecaeb128320cd75c5e133948f6c9177e49a02c6bbe318a84",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_016.npy": "d2d9cdfdb6a71e10258203c3ea76810825a972c7ebca32ae88b776719c6ee9b3",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_normal_004.npy": "76b9b2f4b970493c841ed2c688b4da4ac6507afd506fa9d35bef5669496b3e27",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_005.npy": "c9af24fc86f97e93eca8a488847b35ec9bac54ae726ecdd1ec76fb082577d25f",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_006.npy": "ce05251d0cc5532dc18f98cf61b14ba0d47e29d27be515b87cad57a65333db9b",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_017.npy": "a04b5de6154233f62927f59eba8d42f49d45a3359167c91746e110a7fe001249",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_018.npy": "c7e66fa3d2a5cc8b84e287aa18c012ca82eb24aeb4cb80362accd2a1002e573a",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_019.npy": "abc6fbf1b61f42cdb3f3abf4e2ff9ec5cd1716343a4ad7ae1d8c5163092426f6",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_020.npy": "386c8a4c8f521c9718b94e3f3c926a745bcffd411e992e40875202bfd5e75ea0",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_021.npy": "a87c4076eada11fb6a6473c92dcd31b78ba71b3ee04a846dc73d5abc99eff936",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_022.npy": "3d703b18e185f52bd4ac3e064d4e60f21ee165a1c0bfbcc805669542b7627dbc",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_023.npy": "4bf7a2e8cdaddbe1a4411784da4329d0b5418859a072f0a03eb82ae7e08ebee8",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_normal_009.npy": "f9075ef21c2778b41064fd89b2d61a305d48f014d1d95d4e1c89790cdbb7a88d",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a4_normal_034.npy": "bc84bf31f9f31c93af5775c032ddf5c4e067949fb277a786756b9dedf562a27a",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_024.npy": "a14889bde1c1a28a9278fa3c22b5cc8986cb7c5abf24c7298708863d3e8eaeac",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_025.npy": "8eeff863bbafcc205e1b51ab076ceb729c9dc11814fc881e164b74de192c33df",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_026.npy": "68540947284638ebfcd10e82eb6ddf9618281d5f9f7715ec78f21de16d5daf80",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_027.npy": "c43aba45a4519a2cf4695307338e84564769f6673048d47633242e9c16e35dde",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_028.npy": "0012731d52c36a7c7602d2681d6e82ef57f45b6f70dd182c210dd01451dedeaa",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_029.npy": "80cc08e45580c0fbaa53cc348f3f30a2213c6a7c666d57683b7b1cfe2003a5d0",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_030.npy": "98ea69328f80fe57a8052e559602d400c5aeb858164a95bf50d60387688374dc",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_031.npy": "5bd04b5278d3f157ce4cb8903821a4f99bb16293283f5e046fc8f3e187074384",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_032.npy": "9e583164e5c9a3933bf2aba5d1c63d4b7fc37bca6f18c3a48212f490bfb5f987",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_033.npy": "f18856796c9a6c714bfe399c3751e832e038390a9b8c423305821e43087efc14",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_034.npy": "e7ecd2126f2cc6b87c896732b9dfc79ed818f9c8a1ec6b9d8c53363150a3788c",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_036.npy": "0038aad0798e47efb6aeb9e0237ccd7344448eac12105e15fd3dbb7e96a16eea",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_normal_026.npy": "73f35c98e7851769a3c1338ef5d8eb3787a95c66901e1018ac85db48b93c26e4",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_002.npy": "470b3c548e4147c639ffea124187b436c13c6afb292e9fe4d0f530c6a97ba0f4",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_003.npy": "24de10e29d3e7e2ad23686025a86bb4b2ea0f5bb318cafb002bb501beda32c0f",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_004.npy": "65566ec99015a76599eec47e8f617d0acd67485e34cf263db0e8e3f44373ac10",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_007.npy": "fed9811d5f96011f586b920c73ff37b179a029f7ac9a50b5e9521fcdb3d4614c",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_008.npy": "ea1790c33fb2117d96d3b0d59693100da0000b1c61c8a431da7c3c9176edb2ca",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_009.npy": "b4eaba88fe85249cf860e35b9992e82dfc8778a2b2ecf8b280f8555cf95eddff",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_011.npy": "b8674e001b3888543a44169199b92fcb71195e82a296a1abab12ff776972e126",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_035.npy": "1c7ae1dcacf0b97fb735763a3e30b970ef7834e9a26281bee3289a87280316a7",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_006.npy": "15bfcf3222b6f6d0bd8ae49bac426fd0db8c2504049f73ffc771d3afb4b47dd7",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_012.npy": "ced7343455b8da613414a5947c6457f6da217bb600fee3eb5477ad8317ad41ca",
+    "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_016.npy": "78e660256f43c825f1090fff31e57dcdec7e8f1e78adc8f4aaf84c5e5a2ef710",
+    "code/GTG2Vid/dp/graph_utils.py": "b7d7067a225d360398eb8e0d9b72c06c689c22808ca041af5341a5a1e603ad73"
+  }
+}

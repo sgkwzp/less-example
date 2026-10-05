@@ -1,0 +1,772 @@
+{
+  "complete": true,
+  "seconds": 43.53868579864502,
+  "smoke": {
+    "video": "coffee_u1_a7_normal_006",
+    "independent_top5_error": 2.980232238769531e-07
+  },
+  "records": [
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_006",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.13862203134204412,
+      "old_segments": 24,
+      "new_segments": 23,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_016",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.1469132084501422,
+      "old_segments": 22,
+      "new_segments": 18,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_normal_026",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.15974839342174213,
+      "old_segments": 12,
+      "new_segments": 12,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_001",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.11220992894833483,
+      "old_segments": 29,
+      "new_segments": 24,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_010",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.14077327373568588,
+      "old_segments": 17,
+      "new_segments": 13,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_013",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.13669896576352714,
+      "old_segments": 54,
+      "new_segments": 36,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_014",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.14796403090862056,
+      "old_segments": 25,
+      "new_segments": 19,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_015",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.15574300389757967,
+      "old_segments": 24,
+      "new_segments": 24,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_016",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.14603823691860096,
+      "old_segments": 39,
+      "new_segments": 30,
+      "singletons": 3
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_005",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.16022154096850372,
+      "old_segments": 23,
+      "new_segments": 20,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_006",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.13776957478301888,
+      "old_segments": 33,
+      "new_segments": 25,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_017",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.15078626465978434,
+      "old_segments": 14,
+      "new_segments": 18,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_018",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.17070767340320941,
+      "old_segments": 16,
+      "new_segments": 18,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_019",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.1703394857997053,
+      "old_segments": 20,
+      "new_segments": 19,
+      "singletons": 3
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_020",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.16154165245391963,
+      "old_segments": 14,
+      "new_segments": 19,
+      "singletons": 4
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_021",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.15436319586641886,
+      "old_segments": 13,
+      "new_segments": 19,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_022",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.15994760104214514,
+      "old_segments": 16,
+      "new_segments": 14,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_023",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.17386928360541293,
+      "old_segments": 13,
+      "new_segments": 19,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_024",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.16678885874732324,
+      "old_segments": 23,
+      "new_segments": 21,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_025",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.1795317645400831,
+      "old_segments": 18,
+      "new_segments": 17,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_026",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.16938946751792353,
+      "old_segments": 25,
+      "new_segments": 22,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_027",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.1373741490410203,
+      "old_segments": 11,
+      "new_segments": 10,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_028",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.13557293919741834,
+      "old_segments": 9,
+      "new_segments": 16,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_029",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.16254933587270678,
+      "old_segments": 15,
+      "new_segments": 18,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_030",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.17076708788911585,
+      "old_segments": 15,
+      "new_segments": 14,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_031",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.17263177834690419,
+      "old_segments": 27,
+      "new_segments": 22,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_032",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.1672501481189064,
+      "old_segments": 19,
+      "new_segments": 19,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_033",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.170998044865721,
+      "old_segments": 17,
+      "new_segments": 20,
+      "singletons": 6
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_034",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.15186879130854783,
+      "old_segments": 14,
+      "new_segments": 12,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_036",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.14851101805454672,
+      "old_segments": 8,
+      "new_segments": 8,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_002",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.11820388314916808,
+      "old_segments": 25,
+      "new_segments": 31,
+      "singletons": 1
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_003",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.12962222413440533,
+      "old_segments": 19,
+      "new_segments": 19,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_004",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.14274430369140062,
+      "old_segments": 31,
+      "new_segments": 22,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_007",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.17573375441995845,
+      "old_segments": 24,
+      "new_segments": 23,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_008",
+      "selected": "coffee_u1_a2_normal_009",
+      "cost": -0.15770421849491817,
+      "old_segments": 28,
+      "new_segments": 24,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_009",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.15612605717941558,
+      "old_segments": 28,
+      "new_segments": 21,
+      "singletons": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_011",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.15278747847286117,
+      "old_segments": 15,
+      "new_segments": 16,
+      "singletons": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_035",
+      "selected": "coffee_u1_a1_normal_004",
+      "cost": -0.130982688399344,
+      "old_segments": 27,
+      "new_segments": 26,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_006",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1339680827861876,
+      "old_segments": 26,
+      "new_segments": 22,
+      "singletons": 4
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_016",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.15947570829084534,
+      "old_segments": 32,
+      "new_segments": 28,
+      "singletons": 3
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_normal_026",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1780801673994455,
+      "old_segments": 18,
+      "new_segments": 19,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_001",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.10931305134790525,
+      "old_segments": 55,
+      "new_segments": 44,
+      "singletons": 4
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_010",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1661699815475754,
+      "old_segments": 21,
+      "new_segments": 21,
+      "singletons": 5
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_013",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.13457893458443912,
+      "old_segments": 52,
+      "new_segments": 28,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_014",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.170123316281914,
+      "old_segments": 24,
+      "new_segments": 21,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_015",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.16664098958640136,
+      "old_segments": 22,
+      "new_segments": 25,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_016",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.14045434251679587,
+      "old_segments": 43,
+      "new_segments": 35,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_005",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.16350277777721856,
+      "old_segments": 26,
+      "new_segments": 25,
+      "singletons": 3
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_006",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.16303269666273135,
+      "old_segments": 32,
+      "new_segments": 23,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_017",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.16780479294867873,
+      "old_segments": 17,
+      "new_segments": 19,
+      "singletons": 3
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_018",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.17684256184461808,
+      "old_segments": 18,
+      "new_segments": 19,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_019",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1561206978272105,
+      "old_segments": 17,
+      "new_segments": 18,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_020",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.16493139926060135,
+      "old_segments": 15,
+      "new_segments": 17,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_021",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.1702381950053058,
+      "old_segments": 25,
+      "new_segments": 17,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_022",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.15990211921560832,
+      "old_segments": 19,
+      "new_segments": 21,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_023",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.1807024956857134,
+      "old_segments": 12,
+      "new_segments": 19,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_024",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.15993315131027278,
+      "old_segments": 20,
+      "new_segments": 21,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_025",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1853349490610324,
+      "old_segments": 20,
+      "new_segments": 21,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_026",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.18536331548945595,
+      "old_segments": 17,
+      "new_segments": 21,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_027",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.15637252072310187,
+      "old_segments": 9,
+      "new_segments": 16,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_028",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.12089596274768662,
+      "old_segments": 9,
+      "new_segments": 15,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_029",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.17828409046908905,
+      "old_segments": 10,
+      "new_segments": 14,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_030",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.18948944127128803,
+      "old_segments": 15,
+      "new_segments": 20,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_031",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.17832947279160663,
+      "old_segments": 18,
+      "new_segments": 18,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_032",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1678827898663416,
+      "old_segments": 14,
+      "new_segments": 15,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_033",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.176766737700216,
+      "old_segments": 17,
+      "new_segments": 15,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_034",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.17797284828803053,
+      "old_segments": 12,
+      "new_segments": 13,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_036",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.16596587872264956,
+      "old_segments": 18,
+      "new_segments": 23,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_002",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.13384954791550305,
+      "old_segments": 29,
+      "new_segments": 27,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_003",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.14264786253274211,
+      "old_segments": 26,
+      "new_segments": 21,
+      "singletons": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_004",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.14993088267579535,
+      "old_segments": 26,
+      "new_segments": 26,
+      "singletons": 5
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_007",
+      "selected": "coffee_u1_a7_normal_012",
+      "cost": -0.19678618301031267,
+      "old_segments": 24,
+      "new_segments": 19,
+      "singletons": 2
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_008",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.19622383825345274,
+      "old_segments": 23,
+      "new_segments": 18,
+      "singletons": 4
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_009",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1809838944189364,
+      "old_segments": 29,
+      "new_segments": 26,
+      "singletons": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_011",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.1544021636205445,
+      "old_segments": 18,
+      "new_segments": 17,
+      "singletons": 3
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_035",
+      "selected": "coffee_u1_a4_normal_034",
+      "cost": -0.14293416040356718,
+      "old_segments": 31,
+      "new_segments": 23,
+      "singletons": 2
+    }
+  ],
+  "hashes": {
+    "routes/s0/coffee_u1_a1_error_001.npz": "ccb87d73cdd9a4b3a6f2f4ea69df1ef8b2b1eb3607b48ac01489fef1175d94f1",
+    "routes/s0/coffee_u1_a1_error_010.npz": "e71cdb548fcff7a4506b9c7b0561e03e3b936207e050e4950a085b45e63aef74",
+    "routes/s0/coffee_u1_a1_error_013.npz": "b8a95090673229b9cc03cb3a1b5ba094fdcb600f3dbc9f8121e9c091d9cb8823",
+    "routes/s0/coffee_u1_a1_error_014.npz": "e8ff9695e53dfb47aaa1211a0d9796a4d884def010b932eba4f6071e04a727bf",
+    "routes/s0/coffee_u1_a1_error_015.npz": "cacff400409e0476ac6248e358581ce09ec4ab93fa955af46efb81eee83b150b",
+    "routes/s0/coffee_u1_a1_error_016.npz": "c0904a32195c178b498abd54854b0008de8c7a731e539c4efa1b4e239785984a",
+    "routes/s0/coffee_u1_a2_error_005.npz": "699e1f348a2def13d364dcb595c9e4504df5ecbde787c2be3ce0dda984d01574",
+    "routes/s0/coffee_u1_a2_error_006.npz": "96bcf7432489d2cca5c39c546f16c69ba9eaa195555585222e0ea23391227c2d",
+    "routes/s0/coffee_u1_a2_error_017.npz": "530beed1f0262a5be2f00ecd96531c117176154d24feedf2c6ce8bddd38cc430",
+    "routes/s0/coffee_u1_a2_error_018.npz": "876f00290d4de5073c20cc5ef6b927931bd2c35900d6cbc025c80f54ade1e363",
+    "routes/s0/coffee_u1_a2_error_019.npz": "2e6a588c96e71d0f5eb047f9b24b6fef71a0cdf894c06f24898e0a773626176c",
+    "routes/s0/coffee_u1_a2_error_020.npz": "093123081c76316948eaa28431b8eda5374728236a9d8c7107b601ee7a9141cf",
+    "routes/s0/coffee_u1_a2_error_021.npz": "5cc2a6911b911434c7ebb8541ee2e36b49c772bc35186838861cbf4f04cad971",
+    "routes/s0/coffee_u1_a2_error_022.npz": "0d11481d49b1d80adb34108fa67d961102919cc41437d717841f3025fef3fbc7",
+    "routes/s0/coffee_u1_a2_error_023.npz": "cf55ce04c3868389ffc9362147f604d2c3536f329eaff7d88dbbe17b470de1b9",
+    "routes/s0/coffee_u1_a5_error_024.npz": "9c782ee52db992b747d964906e1f7b094ff56475c68ecfacf68a4f085be760ac",
+    "routes/s0/coffee_u1_a5_error_025.npz": "74909cc093cd6d3c3ba4a67cc242654b02821a63de8af631d41127d10bca9aee",
+    "routes/s0/coffee_u1_a5_error_026.npz": "f4da3280b18b82775a03bca2be6e0201a39b4000ca9c334227f8bb8650270add",
+    "routes/s0/coffee_u1_a5_error_027.npz": "5df363fbc35cda1e20bd8bce4eebeee59a1c505c9695c27a0a195f857756be7c",
+    "routes/s0/coffee_u1_a5_error_028.npz": "93cc7d96ad35a6550f4ccee69f1b415487e0c32fcc1b85da8c87141575fa2e7d",
+    "routes/s0/coffee_u1_a5_error_029.npz": "fe98d70fcaf607c508820b73334f66455418098b2af0ab847eca6eaf1c1e8a66",
+    "routes/s0/coffee_u1_a5_error_030.npz": "ebf2f53e3c03dabc137501dfc5e9df13e9b8a87502ece99d16f6e2a768e0e179",
+    "routes/s0/coffee_u1_a6_error_031.npz": "7afd6ce4ce9cb7a87c5589dd6225d9fbaf4a629098cd8f71917aceb9fe2ceec7",
+    "routes/s0/coffee_u1_a6_error_032.npz": "2b8ac3b1e9ae12442e92ed35772127d77578942125340091215df03606713285",
+    "routes/s0/coffee_u1_a6_error_033.npz": "043c2ff1ca434f75c29bdcb6e0d7a82b1d6aeb100b75cb083f0f0903eb979c45",
+    "routes/s0/coffee_u1_a6_error_034.npz": "d170d283f354b91b77a2b6a95ae8ef245bafe2085b379a45c8ee65a41b913c22",
+    "routes/s0/coffee_u1_a6_error_036.npz": "6f0084ba206a1fcf5141cf565ea80408592635f7628902223ad98a3a8bd58033",
+    "routes/s0/coffee_u1_a6_normal_026.npz": "c3038c1f9e392136ba9144cc5a1b07d83e369474cdc7c01d3803c54cafcd588d",
+    "routes/s0/coffee_u1_a7_error_002.npz": "883b0a923ae961568e932d24179f605a63dc053acd9a17b0bbf3d125e4b6e693",
+    "routes/s0/coffee_u1_a7_error_003.npz": "08c65b29bb0056267badbfef94c0b9f8c90ee1f12624c894e6e7fc738e70955c",
+    "routes/s0/coffee_u1_a7_error_004.npz": "db542d9e13a7560e0e61fba04fa2cb72869a4ea788f5efde993f41a81591d5e3",
+    "routes/s0/coffee_u1_a7_error_007.npz": "ee4ce6b1fd9d1918a296ef9b997323ea8dcb34f9c72fbbdb299b58f0d55a66b6",
+    "routes/s0/coffee_u1_a7_error_008.npz": "b424675ab68735810a0a323747378914c1e6ab96d363cd57b558bc169e4b9176",
+    "routes/s0/coffee_u1_a7_error_009.npz": "962502ad108093edc5613ff391f9a9d63e90c399f6997df3fda9c00010e3d57b",
+    "routes/s0/coffee_u1_a7_error_011.npz": "49044c3f66f553cab80769214a1758c1d377c31e9b3496db51dd25cd7d00cde6",
+    "routes/s0/coffee_u1_a7_error_035.npz": "32f2f455f2cfd43b7259400b748945365914ba2d778bb8ecf869cd71e91de4f9",
+    "routes/s0/coffee_u1_a7_normal_006.npz": "d79d39bf9c5731acabf7c2768aac9de9504a30279b2f63a85e6e83be36c6d4ca",
+    "routes/s0/coffee_u1_a7_normal_016.npz": "055bbcf8b11ecc164a8d8dd58291a1518b6aa014563f1a4b4bfae1b65f8d1829",
+    "routes/s1/coffee_u1_a1_error_001.npz": "cdf95793e91fe877de0451bf77667a43487a9adbc7d4179beea287075338b0b0",
+    "routes/s1/coffee_u1_a1_error_010.npz": "745cada258b60605352156dc036aad7676c31d593db67373c8b3b54f5dadd1ef",
+    "routes/s1/coffee_u1_a1_error_013.npz": "83caadb4373bfb047f1b7a55fe254e65a1c784f4a859a36e533de542ec294a48",
+    "routes/s1/coffee_u1_a1_error_014.npz": "2c85b9c4eff14c3525a2b9d684d0bc95f648f8ccc9d836892347444eca71ac37",
+    "routes/s1/coffee_u1_a1_error_015.npz": "84f2efa974b28f2b2be57790bc5981f2f8161a1584916b73997d1947949234d9",
+    "routes/s1/coffee_u1_a1_error_016.npz": "f68b6cd2218aa107a838d4c81ce2867a3ac3d23ef33d2415b78a684a46622e9b",
+    "routes/s1/coffee_u1_a2_error_005.npz": "ad80c0c23575b801437e4382d5690f3e7695d85000cd971381e72595996b068c",
+    "routes/s1/coffee_u1_a2_error_006.npz": "ba2fd1f344f186fb56bad9c23fdf8a9b7521f611c1c49b580289a07346852c60",
+    "routes/s1/coffee_u1_a2_error_017.npz": "6040934a47dfce914456e76c6047ba657548869c02b6ea9c5d97fc9f48155e0c",
+    "routes/s1/coffee_u1_a2_error_018.npz": "5d9654a9fd98bfdb34a75bdbac519249b76ebb084ccaf67b7d71ee105be1bd5b",
+    "routes/s1/coffee_u1_a2_error_019.npz": "154dddd7947eefac18ee20c7868c4b37bc250978a15a71d43f2d4740ba4699dd",
+    "routes/s1/coffee_u1_a2_error_020.npz": "f90071f4f91d755a7022966b222faf817de5fe983aa37b66e3362728a8317794",
+    "routes/s1/coffee_u1_a2_error_021.npz": "cede7ed3ea6baf806dede7031961dd0931890757f73af903d649aff5325f546b",
+    "routes/s1/coffee_u1_a2_error_022.npz": "db60ed2ee8980ee33fff35e69874ea7a257b4adc9ad2d28ecb484c0712c52c83",
+    "routes/s1/coffee_u1_a2_error_023.npz": "44b867579eac23fdb6e2272d00b4e1260ab96598eb7b80c4c4974ceefb8e0f67",
+    "routes/s1/coffee_u1_a5_error_024.npz": "f463123684ce60cd0555fbd9bea4f0b5c4054525a87206ad660c93ad49ab42f7",
+    "routes/s1/coffee_u1_a5_error_025.npz": "568a00c1356b82585c6b726a9e284fb9411151602b639211d2463b343df2fe20",
+    "routes/s1/coffee_u1_a5_error_026.npz": "2880bf520061c488f990906268db3d054cba08267f9677c63fa585e88483b3f7",
+    "routes/s1/coffee_u1_a5_error_027.npz": "5394749d16b4a1dd6c1b63d2aac9fe6ca782a334e53d8582acdd8cdd4dbc4ca1",
+    "routes/s1/coffee_u1_a5_error_028.npz": "97722cee4ff815a070b2f455e9e688ee6836be0ef051e4a8a1d453ec28003471",
+    "routes/s1/coffee_u1_a5_error_029.npz": "ffc99156d5efaf387cb5f4c722aa07849595928923f9c1a9b8f33c57bb0f6b0a",
+    "routes/s1/coffee_u1_a5_error_030.npz": "9dca2e496a701e823cc7281886529f1865214fed612b44f341cbad0a9c2ef52e",
+    "routes/s1/coffee_u1_a6_error_031.npz": "fabafb3dd0e8ae0067614cba13e43076d8cffaf151e4f8c77c108a4b481a8015",
+    "routes/s1/coffee_u1_a6_error_032.npz": "ab0c3d3e86e60304b38bbd9d03abe4c86a445acc415de9acae0dfdac7affc4e1",
+    "routes/s1/coffee_u1_a6_error_033.npz": "4d868ac3dc8c670ecb1f49980c28925d16f175c0302554b84f5094eba4c2bd25",
+    "routes/s1/coffee_u1_a6_error_034.npz": "79770fe6d265babbee9f7f960406565f6e8d953e0b2c5ee610ee1cf1dfff4aa1",
+    "routes/s1/coffee_u1_a6_error_036.npz": "2f2a6735827a2c83542f4122e2e7c49475229063f03571f9984907792c3c670b",
+    "routes/s1/coffee_u1_a6_normal_026.npz": "217523250f39d59e4f0703079050fb0bb800e7031904314aeefcd7df555a1106",
+    "routes/s1/coffee_u1_a7_error_002.npz": "571531c729e87962bc22af653e68e20df08fe67e5483162309649e8132cc2a05",
+    "routes/s1/coffee_u1_a7_error_003.npz": "8261db65419ab038a6e7147d6bbddbf166b6a997715fc3ec5c9505421e24a3bf",
+    "routes/s1/coffee_u1_a7_error_004.npz": "39f6df6f8daff7cb13d192fecbe0dcf3ffa23bf723f8aa093b7d5b8c30c69dc7",
+    "routes/s1/coffee_u1_a7_error_007.npz": "5642816099e61bf12bde3b70d2e97b5725ecec9c23e0b94ea243e9b2718d6bc7",
+    "routes/s1/coffee_u1_a7_error_008.npz": "fb344724f9e4f492faace78e02de34ab136b0f66185a65b59bffc1af55672723",
+    "routes/s1/coffee_u1_a7_error_009.npz": "d048d16931d0bbbc8d05125eb9e710e8b859fa8732e52db1ddf792eb6f5fdeae",
+    "routes/s1/coffee_u1_a7_error_011.npz": "b35025612f44daf9c7936ed0df41ed9062733be210b5be2f61a268c452f4da07",
+    "routes/s1/coffee_u1_a7_error_035.npz": "a726a8515954a8169c52212695e9daa64fff03d5617bdddcf57fa8dc19181c86",
+    "routes/s1/coffee_u1_a7_normal_006.npz": "32372f19d1ac2c332be9e375f8becaa48d214ebf8f7bf3adf7f4a546ad7abe67",
+    "routes/s1/coffee_u1_a7_normal_016.npz": "3bfc6c56303fd47ccdd3ee78c336e25aba8d764b931e9c1996e4eb9b06e44a6a"
+  }
+}

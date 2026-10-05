@@ -1,0 +1,712 @@
+{
+  "complete": true,
+  "core_seconds": 30.852288007736206,
+  "wall_seconds": 54.049720287323,
+  "checks": [
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_025",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_026",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_027",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_028",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_029",
+      "historical_fixed_route_error": 1.1920928955078125e-07,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_030",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_031",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_032",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_017",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_018",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_019",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_020",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_021",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 1,
+      "historical_score_max_difference": 0.5420485138893127,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_022",
+      "historical_fixed_route_error": 1.1920928955078125e-07,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_023",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_024",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_009",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_010",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_011",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_012",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_013",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_014",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_015",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_016",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 1,
+      "historical_score_max_difference": 0.036124229431152344,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_001",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_002",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_003",
+      "historical_fixed_route_error": 1.1920928955078125e-07,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_004",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_005",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_006",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_007",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_008",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_normal_006",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_normal_016",
+      "historical_fixed_route_error": 8.940696716308594e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a1_normal_026",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_025",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_026",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_027",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_028",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_029",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_030",
+      "historical_fixed_route_error": 1.1920928955078125e-07,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_031",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_032",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_017",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_018",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_019",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_020",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_021",
+      "historical_fixed_route_error": 2.9802322387695312e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 1,
+      "historical_score_max_difference": 0.553040623664856,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_022",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_023",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_024",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_009",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_010",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_011",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_012",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_013",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_014",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_015",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_016",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_001",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_002",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_003",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_004",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_005",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_006",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_007",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 1.1920928955078125e-07,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_008",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_normal_006",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_normal_016",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a1_normal_026",
+      "historical_fixed_route_error": 5.960464477539063e-08,
+      "native_replay_error": 0.0,
+      "historical_route_changed_frames": 0,
+      "historical_score_max_difference": 5.960464477539063e-08,
+      "all_background_fallback": false
+    }
+  ],
+  "registration_sha": "1f3bac42321dc1696d7f0051fbfd1056fbc63e6108c8a6d2a5effeb06e29a118",
+  "inputs_sha": "b174eaa86d52acef4b9fb26d7692d53da13ade739976260af39bb3c7aae64994",
+  "gpu_registration_sha": "975b7bffa4151b10f6109fa4fe9996c5abc025e23c7298b7fb5bedfa2dd91f15",
+  "hashes": {
+    "scores/s0/oatmeal_u1_a2_error_025.npz": "d622401edd31d290139014e46e17c37e9379f4d99fae8067b84db7bdee467d22",
+    "scores/s0/oatmeal_u1_a2_error_026.npz": "66eef07ac051cab16567e2136b0701a96c12d315b8927c8c5280f80d2c2d55ef",
+    "scores/s0/oatmeal_u1_a2_error_027.npz": "34b1aa3373c76a1821d0f79398be3560dcab98d9fcbc13dc5f14de587ddc21af",
+    "scores/s0/oatmeal_u1_a2_error_028.npz": "79a4821f0837120db1c6a10d53efc2fe65b83124f7eb8a9a79fd5caed46a513b",
+    "scores/s0/oatmeal_u1_a2_error_029.npz": "c1d0c0baf73814e4a6a99bc0fd674a390c259082c4a56682b5c4557286897d61",
+    "scores/s0/oatmeal_u1_a2_error_030.npz": "6ea3e7f86a088e3eb80e0b980d4539a691f30c762df81776046457adf45ff675",
+    "scores/s0/oatmeal_u1_a2_error_031.npz": "cd77724fdf0ddf0bc3cf74a2e993cae2c92f1f845442a196350a5e3e69b908a3",
+    "scores/s0/oatmeal_u1_a2_error_032.npz": "e8f6f386349c3519f7dc8bcd692e33224b55fc958a68ef9ff79d9c360e906378",
+    "scores/s0/oatmeal_u1_a3_error_017.npz": "cbcb75f43cbd3c78afbc94b88039898104387c9d53965294cd493720fcbea207",
+    "scores/s0/oatmeal_u1_a3_error_018.npz": "333ba7ef29681d9a91c1b03ead790577dd99f2fc963add8c29f0715592e477f5",
+    "scores/s0/oatmeal_u1_a3_error_019.npz": "a1f0e17b41d7984113a92a80ddbd041a1f70c5e46028ea16cdb2ed0e4da28597",
+    "scores/s0/oatmeal_u1_a3_error_020.npz": "f3b05162a996916ccb6e5264cb65721f8e7efb6f8b94f1ff1a3928bd66ea6518",
+    "scores/s0/oatmeal_u1_a3_error_021.npz": "b94b55900dbd2dbb89685b5a522dad51694980db6689e1faba98f101ba903494",
+    "scores/s0/oatmeal_u1_a3_error_022.npz": "5fe1982ffa2fbdb21fd0fdb6eb3f5ebd03b3607b8223654d3239fc3000e5fc03",
+    "scores/s0/oatmeal_u1_a3_error_023.npz": "73659c0472772b4713d1fcb09e0e14556df7c099c845ec9f9fdbd590b5f7e8d0",
+    "scores/s0/oatmeal_u1_a3_error_024.npz": "8214dc94b13f7348ed14f531a1edbdeeb5ca56dea60dd2888f417174d32d6fc9",
+    "scores/s0/oatmeal_u1_a4_error_009.npz": "7f5de68ac1e18d2753d82612d1e3ab9f4c3a4423ded8276228caead784707d13",
+    "scores/s0/oatmeal_u1_a4_error_010.npz": "66cafc88a5f0adb01d82fee77f16507a06098d5e5f671ec70559702a1de54095",
+    "scores/s0/oatmeal_u1_a4_error_011.npz": "419f943068b02ec6c5fc36e26232e65783fa3e0ca554c87891a199b2ec067192",
+    "scores/s0/oatmeal_u1_a4_error_012.npz": "c8434e095160831dad8e12db8ab62a2c349eb288df3b14f571d54049a0e144b3",
+    "scores/s0/oatmeal_u1_a4_error_013.npz": "41869bf428f262c79b4593a4df8f58e59c5c0c5cb00c503d66b983f8938cc5ba",
+    "scores/s0/oatmeal_u1_a4_error_014.npz": "e084bd4d347e14571a37a9e3f46fbd65a99e7cf468e31e825bece03416a06ed0",
+    "scores/s0/oatmeal_u1_a4_error_015.npz": "c9e4ec2f2a22a82370e3e7e59c0fe4b750e78ff9e62c5f57c83b03ff87c327ca",
+    "scores/s0/oatmeal_u1_a4_error_016.npz": "c784d2ed95d379aef6b1a6a422ffd5d8f0e1a10045b2be758aad324ed83574cd",
+    "scores/s0/oatmeal_u1_a5_error_001.npz": "890ce5557e164c7506813f5b1198cca999a40117f778874c0d553b9120e910b9",
+    "scores/s0/oatmeal_u1_a5_error_002.npz": "eb74574e28448ad8b5f2d6c5c8bab8f712cdfe4a338164d28ca457b23a8550b0",
+    "scores/s0/oatmeal_u1_a5_error_003.npz": "6485fda585ef92d88cda7167cbede32ba902e9b22c22697c4632cc1e8c141ba1",
+    "scores/s0/oatmeal_u1_a5_error_004.npz": "1450f0870171d79856cdeec6233fe9db543ab03d51a7f2f9123097989419e375",
+    "scores/s0/oatmeal_u1_a5_error_005.npz": "b94a06e1769543efdd659c121e43f592e9c4b49ad47b2325ae2b226285beb51f",
+    "scores/s0/oatmeal_u1_a5_error_006.npz": "4c44c23a9055b256e609913dbc7fc2b55c267dd62ae31ec4d51a30a423bd206b",
+    "scores/s0/oatmeal_u1_a5_error_007.npz": "40627efda1f99566d740382d9b02cdad4521ab9e32463dd7bd843aa388b757e8",
+    "scores/s0/oatmeal_u1_a5_error_008.npz": "a8a5ee4dc80f797968f6f9d71cad3d268522f80ca89683fdd2d43b4233409fcf",
+    "scores/s0/oatmeal_u1_a2_normal_006.npz": "309ad4614d7e7e749408aa556b76409cf7349ec427412f89b570b45cb2db875f",
+    "scores/s0/oatmeal_u1_a2_normal_016.npz": "b20f1bcef8e9421ad1e31ecfec0bd4e9b51da2e92f3f304cec8272ebf853e3bd",
+    "scores/s0/oatmeal_u1_a1_normal_026.npz": "4f75df0173f95ed7c78be0fb5e20e6c06aa5df4630238d506b97f40d95f891e1",
+    "scores/s1/oatmeal_u1_a2_error_025.npz": "cd345e94f874750cbeaf7cbb3c9f37e9e73a016c0f2f40fc907bc7f1ee384a75",
+    "scores/s1/oatmeal_u1_a2_error_026.npz": "c417180135bcbf8cf7a5f4ece7d4ae1fc67160fb4a8f0fc736f17140b7b2f15b",
+    "scores/s1/oatmeal_u1_a2_error_027.npz": "277494a4e010de699fe4cd1b37df7d093761d269409ad0fa02edc608c2334112",
+    "scores/s1/oatmeal_u1_a2_error_028.npz": "e37d230cc0054303196e744bf3041b1cad90d27dd653acea46604901f20b7855",
+    "scores/s1/oatmeal_u1_a2_error_029.npz": "48bef8adf91296893c6b4c542733ae5340c63e80081fe12c1a5f0b602fac2f02",
+    "scores/s1/oatmeal_u1_a2_error_030.npz": "a4d00a8c918a1ff7bce926f17163a459a1ca078b8386ca05c0e75e5220269be5",
+    "scores/s1/oatmeal_u1_a2_error_031.npz": "5b3f1cb63763cf1a008328b8da110d67bdb15581e524dbc7cf98500a6f208a5c",
+    "scores/s1/oatmeal_u1_a2_error_032.npz": "72d4f504b0a73398046e81ec51143bdd0a72d84d947805f401e3c852b2b9e5f6",
+    "scores/s1/oatmeal_u1_a3_error_017.npz": "8ecf518594bee83191a833b3230e869a2db44d37a433e02d7f04d3db4f8aaf12",
+    "scores/s1/oatmeal_u1_a3_error_018.npz": "5d08ff6b4e16166427e8a6ebc3d4ee8eda978cef58fde6395d924e0cb19d2036",
+    "scores/s1/oatmeal_u1_a3_error_019.npz": "de13018ce8a98f8eed55436a2d6c0683764b4af39c4bbd3e612a0584f7a6ed17",
+    "scores/s1/oatmeal_u1_a3_error_020.npz": "2e633b40526b50baf1b32620be1aaf91081bed421c80a9c151b49c175c1fb7c0",
+    "scores/s1/oatmeal_u1_a3_error_021.npz": "e053912c377df3f8d047e867c9ba53ceaf10e2304669168d229bcf6c5056c9a4",
+    "scores/s1/oatmeal_u1_a3_error_022.npz": "09508c43dea95f78b52d61389e15f4285559d1230f2c13e886dd949810026c00",
+    "scores/s1/oatmeal_u1_a3_error_023.npz": "117e90e78df6dd82b3f4735868578e6287c45542655544b89bc11d4fa9e707da",
+    "scores/s1/oatmeal_u1_a3_error_024.npz": "272c1beb408d12be6b0a4f64b500078e0a56f62f1900a35bd7ace44026a0b9b6",
+    "scores/s1/oatmeal_u1_a4_error_009.npz": "97e54a3ffa86def744f107f28a2863ee49b2a8502629eb11cd7ef4afa505aa4e",
+    "scores/s1/oatmeal_u1_a4_error_010.npz": "52d536ce2e2cfcb4cb764cfec0a5f493d7f1805e6b933d8abe73c8ede47e28a0",
+    "scores/s1/oatmeal_u1_a4_error_011.npz": "bce33a9cd6c916d19a37eaea69af331792b320b2973acf6d1f96b8f21da9ccfa",
+    "scores/s1/oatmeal_u1_a4_error_012.npz": "f01d7f1850800bdaa9b7c1ffe4926566677c1963629574848d48d0d5260bac8a",
+    "scores/s1/oatmeal_u1_a4_error_013.npz": "ebf40c3b9888859bfab72dc4d71ea69d418c8941b3eefd477901d74e53cd847f",
+    "scores/s1/oatmeal_u1_a4_error_014.npz": "0ee414ca47e0e7f8ca30d52d5488fdc9249cf98d1df707b06d0bb3e93a395cc2",
+    "scores/s1/oatmeal_u1_a4_error_015.npz": "f15f91739cda0600348d7f34dbe2b984743f7afd61f6ecd72c5aa4510477efcb",
+    "scores/s1/oatmeal_u1_a4_error_016.npz": "dab52c25d784382d3fb69088ffb5863f63aafb7d2498f71d4606c91523d5f1e5",
+    "scores/s1/oatmeal_u1_a5_error_001.npz": "580be76aeb789de7c6eb3e2055a2d9b77b7e087c462482356321b4dadfceb906",
+    "scores/s1/oatmeal_u1_a5_error_002.npz": "884440c709d64b721f16d82909873607abc88126884ca06bcee48fe586ba748b",
+    "scores/s1/oatmeal_u1_a5_error_003.npz": "2f9e4afaa775ba659eb74ce14c60f55e0b37e98b4363100827b39179e1512947",
+    "scores/s1/oatmeal_u1_a5_error_004.npz": "8805e25a801c4ec462de379b513085466040c9aee797a5a1ee58b3b477b0703c",
+    "scores/s1/oatmeal_u1_a5_error_005.npz": "6c318aa14f7100c66e37d7ca90f2fe7d1679e93ea52f2d86ff6cb12635abe1fd",
+    "scores/s1/oatmeal_u1_a5_error_006.npz": "7445c8190f71c95f543ac7a8e2ee005f0a46f992fe34155b18b6902c18ed31f6",
+    "scores/s1/oatmeal_u1_a5_error_007.npz": "16b0864507dd188ecc2db94b4c0b935ffdbb52beee82bd4012ddde433aee2321",
+    "scores/s1/oatmeal_u1_a5_error_008.npz": "68736861bb36ac5737b5211cabc5f92cb1b66d2f6180abda07729e94e3771216",
+    "scores/s1/oatmeal_u1_a2_normal_006.npz": "b49e3eff18b6c42cff674d01d3de1330a8b6010e2c56da0b743d5097c2d9c65b",
+    "scores/s1/oatmeal_u1_a2_normal_016.npz": "a52a373554069e124f232e9c7deef0d123894e7284caad459ec7d688ffef6495",
+    "scores/s1/oatmeal_u1_a1_normal_026.npz": "442387125d9ff2eb44bd89ede73fafe12476dee7acba58b53a23122be25cd876"
+  }
+}

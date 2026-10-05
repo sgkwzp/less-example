@@ -1,0 +1,466 @@
+{
+  "complete": true,
+  "core_seconds": 12.504087448120117,
+  "checks": [
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_006",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_016",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_normal_026",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_001",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_010",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_013",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_014",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_015",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_016",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_005",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_006",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_017",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_018",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_019",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_020",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_021",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_022",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_023",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_024",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_025",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_026",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_027",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_028",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_029",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_030",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_031",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_032",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_033",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_034",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_036",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_002",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_003",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_004",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_007",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_008",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_009",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_011",
+      "control_error": 0.0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_035",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_006",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_016",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_normal_026",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_001",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_010",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_013",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_014",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_015",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_016",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_005",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_006",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_017",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_018",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_019",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_020",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_021",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_022",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_023",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_024",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_025",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_026",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_027",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_028",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_029",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_030",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_031",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_032",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_033",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_034",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_036",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_002",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_003",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_004",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_007",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_008",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_009",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_011",
+      "control_error": 0.0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_035",
+      "control_error": 0.0
+    }
+  ],
+  "hashes": {
+    "scores/s0/coffee_u1_a1_error_001.npz": "2f5a2f930e7d37af6280050afb3f7b1ced8916a1ac35078075d390f0c88aa6c6",
+    "scores/s0/coffee_u1_a1_error_010.npz": "4795ac9a5b3bd6cd3ded5657864bf9af425dbc5c8b0465fb512ed993b39ed90a",
+    "scores/s0/coffee_u1_a1_error_013.npz": "c67e4c9abf468189d01ca6feb67a570c2a243bc52c725adabd755b7adfad77dc",
+    "scores/s0/coffee_u1_a1_error_014.npz": "056a5bfe1381d72ec0c639b9a56de866103193abbeab68c85bc04c489f8d9a88",
+    "scores/s0/coffee_u1_a1_error_015.npz": "19a984e57688c38bb3b9630ad056a8032d5407d26e539e508d80658913cb8617",
+    "scores/s0/coffee_u1_a1_error_016.npz": "deafa1e1df87f2bdeda5291240395bb8c5690b89d84990946a655126cfc7367a",
+    "scores/s0/coffee_u1_a2_error_005.npz": "cdb4ccb6359bb7c87192819cbd81a305df1fd65bf748e0ff37ce87dbd4f6cd30",
+    "scores/s0/coffee_u1_a2_error_006.npz": "b9e56a746f7d741a366307d3cd83a86056eaa62b4b5446da1a397bd17a07f2d1",
+    "scores/s0/coffee_u1_a2_error_017.npz": "30307673bca9965d0d13820884947ced40c80e4065cea08ef0f7c545fea6b9fd",
+    "scores/s0/coffee_u1_a2_error_018.npz": "84d9aba694d78a76659bac76a187780e56af69909455a7faef23af9861699367",
+    "scores/s0/coffee_u1_a2_error_019.npz": "b655ccadcb008895a9c8408645440cdd289cde58fc7e4463a5c827da45b1a314",
+    "scores/s0/coffee_u1_a2_error_020.npz": "e80989a54ba707e7fe866a8eaf167c22ecca618b5844fadbd22701a38dfd6ba2",
+    "scores/s0/coffee_u1_a2_error_021.npz": "19f01af6e70197261449a666f0897e2878a1f92d0b64f5b59a8cc8a64fcba6a1",
+    "scores/s0/coffee_u1_a2_error_022.npz": "09ccbe497c64ff74d69e225b5a9f231f60cc8401aee4fa36405d2681b7018e5b",
+    "scores/s0/coffee_u1_a2_error_023.npz": "86bff7645dc05fb6e564cd3824aec7254321640a8699dd1b59e4ceff7c8b852e",
+    "scores/s0/coffee_u1_a5_error_024.npz": "1375cdc830f371988ba26981d6cced9021d86c74a40be5a4523f88163c89ee71",
+    "scores/s0/coffee_u1_a5_error_025.npz": "0c2fffd15f46eb6b451edf0f3bf0a3ab0e92d6f4d9d82b67cde2e0a14e7506d0",
+    "scores/s0/coffee_u1_a5_error_026.npz": "dbed4c3d2eb6d7887732fa793178e33d5249b60b3fd6fa1af8e76d9aa81c5e7f",
+    "scores/s0/coffee_u1_a5_error_027.npz": "5a380628dab6c435ac7fdc37f1cbf7cc1dea929cdcc47757b701913602352397",
+    "scores/s0/coffee_u1_a5_error_028.npz": "e95ea75014b9f83e9d7c2489389589c2d77cd707587b5b7195db111b56b8bb2e",
+    "scores/s0/coffee_u1_a5_error_029.npz": "eccc397e60cf420bd2acd4663a2ef9cec57c2c82c473b1a36de40a2bdb483130",
+    "scores/s0/coffee_u1_a5_error_030.npz": "2a7a3da86837b13f90d1742e79fefd15cafe923b6bba2d0d3be9ff302f0a72ec",
+    "scores/s0/coffee_u1_a6_error_031.npz": "fa1f9b13a527a79192613e76e82ff9905fd0bf8377ad2fe33838f519e17f59d3",
+    "scores/s0/coffee_u1_a6_error_032.npz": "38570e95534715e1a70e4c97f1db1bcd99ed635f996c78eb29fc1eca66d0eda2",
+    "scores/s0/coffee_u1_a6_error_033.npz": "71147b1dac47e1dfd454a0a532baee80e7ec7abb0e805c87ac200dd6a865031c",
+    "scores/s0/coffee_u1_a6_error_034.npz": "78257a59a2789f88a66140f3bb220b1653ffa84f60ef1e3af3c04f85e17af03d",
+    "scores/s0/coffee_u1_a6_error_036.npz": "93bfc2a80f26f532559a3d19612e58c601e6c46fa733351cc4b4b0f169ddd9bc",
+    "scores/s0/coffee_u1_a6_normal_026.npz": "6ce0c9cc9589a90470a03c7e8b26363701c98d129635708416686baf6b6b2867",
+    "scores/s0/coffee_u1_a7_error_002.npz": "0306e10358363da1421bceedd5be21edb7795c4cc4f2de9a9f8833775eccf61b",
+    "scores/s0/coffee_u1_a7_error_003.npz": "88e3ff1f2076a1f28b5e4c85cd81ccbd7cc65dca0fec119c83e8cfdb91d20134",
+    "scores/s0/coffee_u1_a7_error_004.npz": "edbe88241a374ef2dee918b24f70673dc05c2ea13084bbcdaf3fff2f5058e809",
+    "scores/s0/coffee_u1_a7_error_007.npz": "ffbeb347f5a4a635fc68ec91da66cef25ec5d3fda687bf3f65927fad3db78f6a",
+    "scores/s0/coffee_u1_a7_error_008.npz": "e57fd7480d59120dd0306f23cee0583faf9720047b3fa3d94df0cb98318f80e2",
+    "scores/s0/coffee_u1_a7_error_009.npz": "998575e64f75ffec673fba49db6155039959034b52f4d85d7b50883046fa2535",
+    "scores/s0/coffee_u1_a7_error_011.npz": "cebda337e0b37f837c9ae7762dab1c8cf31865ff6e55e4337c0888cf4770af0f",
+    "scores/s0/coffee_u1_a7_error_035.npz": "3be015055e5597b023833fb3035ffd9507e025d4b3884b4603a758c1e5113180",
+    "scores/s0/coffee_u1_a7_normal_006.npz": "ec7de20a7d9c583d500d319ce7f59ef3ad2cf19ae35f1daaa320076086f106ab",
+    "scores/s0/coffee_u1_a7_normal_016.npz": "819c9e5eca946c509458390a4dd781bd1cfe936ddc1e119deb5c4277450149d9",
+    "scores/s1/coffee_u1_a1_error_001.npz": "b264f4cecbb488ea25835eaed7906e391c7d2d7af59bb08f2356cfe68db09696",
+    "scores/s1/coffee_u1_a1_error_010.npz": "90df914144bd820c70bd993c147bac3a243decfd1fe7e40999c0bffe4f965b67",
+    "scores/s1/coffee_u1_a1_error_013.npz": "cd4e551240a25ed0939260b74c0310a9130ee159555e09adf3959552ef1bddcb",
+    "scores/s1/coffee_u1_a1_error_014.npz": "6183ea56a057776ef02bfdd52b8ccb8e721166bfe62fbb326a3884b1a442d658",
+    "scores/s1/coffee_u1_a1_error_015.npz": "f1175cc00829a69af72c46e6272084cb67509c6ad2ca5ce56f562682de4b9671",
+    "scores/s1/coffee_u1_a1_error_016.npz": "0495baf0ff0bf7628ae6d3f4a6f638ec05db609b3bae69887b17735be5d1c2a7",
+    "scores/s1/coffee_u1_a2_error_005.npz": "1f9b4c5a059f05290bbfac42628a09bb1ac3ce94b1367572aea9f9861bee869b",
+    "scores/s1/coffee_u1_a2_error_006.npz": "93e807ff57ccd1013988f8d238f0bd6731aac609276ec2376c53b8f0da58e644",
+    "scores/s1/coffee_u1_a2_error_017.npz": "a3d7a53a2f6f8d8a57854d7de77d15082cf43ec0547b502cbf5a79dfe056253c",
+    "scores/s1/coffee_u1_a2_error_018.npz": "af8f1e7a63d43306810deb17b51d67971550bb0bce2953a0c09800798e961614",
+    "scores/s1/coffee_u1_a2_error_019.npz": "61a50a8178fe07563f58c735efe56630aa657716d36f83280cf77411b45fd0bb",
+    "scores/s1/coffee_u1_a2_error_020.npz": "998d9dd3b743b7481eb818ceeaedc88fdfae2d383f84c66eb417120ddc554ddf",
+    "scores/s1/coffee_u1_a2_error_021.npz": "54ea300a0796a9e70132aadc87ef1173ed2300b257e546e217be72c444a7bf7c",
+    "scores/s1/coffee_u1_a2_error_022.npz": "afa02edee15d497727deb21d2c6df35b22ca0f0ade4c2390cb07680ab599290f",
+    "scores/s1/coffee_u1_a2_error_023.npz": "c077eadd44cbf4c5e5feeb549fe5970e612fcc487a5bca1ad0d5ff8f2556e8c4",
+    "scores/s1/coffee_u1_a5_error_024.npz": "53eb72c79a4213d2ffc07666bc8c5c83ec9e77cd6272f0891504ef344813127e",
+    "scores/s1/coffee_u1_a5_error_025.npz": "ee59f7c392bb824c861419bdc0ced39cadf4798c13a331fab92463a9fca982eb",
+    "scores/s1/coffee_u1_a5_error_026.npz": "609541b5605c6446aa21dfddedad162a3b2105110d82ee0a744b72cbd62689fc",
+    "scores/s1/coffee_u1_a5_error_027.npz": "f3eecec8d99a8a7fb66fbaea3d605761a5fa28fb33f0b38faf16b278bd3264ae",
+    "scores/s1/coffee_u1_a5_error_028.npz": "e83ec901ee9e7563d9f1ab446f9a695ee3c2f1c9a8883927a4e0e777f72a8db0",
+    "scores/s1/coffee_u1_a5_error_029.npz": "072ce18ae6da82a5d9bff576ba30a2cd28bcc279c89e65bac1d92b59f87f848a",
+    "scores/s1/coffee_u1_a5_error_030.npz": "a83aa3ac2856682c5faa3dd4e2b0077116fc1c46c7840511862385db4ceec36a",
+    "scores/s1/coffee_u1_a6_error_031.npz": "4fba45cfdcfad1eb5275fd27a503fc03cf3eb74e3247d962c835cafad32c92a0",
+    "scores/s1/coffee_u1_a6_error_032.npz": "82512ca7768f32f1000131dcaa06b5515d89466ecfb5b823ded0d26451f889da",
+    "scores/s1/coffee_u1_a6_error_033.npz": "822e49787d8facd5b0312a59e97a115bd4c913d5a5e13ed4a9153402571cb4ef",
+    "scores/s1/coffee_u1_a6_error_034.npz": "5f7c2dd2edbb0629ef2e8670bb749b9ecf861911daa84227725b1a415c145f33",
+    "scores/s1/coffee_u1_a6_error_036.npz": "42e2befcbd0635424103853f2dad0823b20bbd48467150ef417588fb17125241",
+    "scores/s1/coffee_u1_a6_normal_026.npz": "4660204be64b77d327e32f3c41b375e5cf8be3e99bbc7aefd7ae842b76dec6e6",
+    "scores/s1/coffee_u1_a7_error_002.npz": "99c6a25a34959953a7d579bc11d12405dbfbe43622dc324159d25f88409e0b82",
+    "scores/s1/coffee_u1_a7_error_003.npz": "536ba753c9f6eefe2765a55bea67cbf37d32e58cf6bd844b0e33d50e70993f3b",
+    "scores/s1/coffee_u1_a7_error_004.npz": "8b99b2c44f9046fcf5f91dc192c1880e4824efbba84535194972637f7ce1600b",
+    "scores/s1/coffee_u1_a7_error_007.npz": "ad769868ceb68548b367d811418cceb46a9bde230365b0b56d5172ea1ee7972a",
+    "scores/s1/coffee_u1_a7_error_008.npz": "a67ecde22037e71e34763bfadc443d5bbcc94c5b98af9b7419293f8b8d2cfee4",
+    "scores/s1/coffee_u1_a7_error_009.npz": "eee1c0c4ccb23ef87258273beae15b3c859d7635428d5c99efbf7b44124a8ec7",
+    "scores/s1/coffee_u1_a7_error_011.npz": "9f1ddd8d0044c1becb334a574ef3d4afd9107fd2a271a25c077ece6b4a1cb93c",
+    "scores/s1/coffee_u1_a7_error_035.npz": "0d8e10550a1b3c4c8696d5e5b0e4ca34aba66819f5ec4853e38db93770fe5b68",
+    "scores/s1/coffee_u1_a7_normal_006.npz": "24cc1f372df3b188b7730b1be67fefcaec6f30d6bc14fec56ebb64dd6f18e98c",
+    "scores/s1/coffee_u1_a7_normal_016.npz": "9d92d7a9b2b900cfb0bfdb18b57cc5075e44a7eda808abb201d1737d1e672c11"
+  },
+  "registration_sha": "d7b1b5ddd3b7a42217b9ba608b94039f7e25aee0ae26b1239ff3caa0ed123db8",
+  "routes_manifest_sha": "414230d318f85dae3e8f70a3f94b416d932927cdb8201e56485708d7148af89b"
+}

@@ -1,0 +1,12 @@
+{
+  "created_unix": 1791215015.4595542,
+  "hashes": {
+    "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/oatmeal_k2_seed0_final/epoch_135.pth.tar": "0792204b704f65eadd210698a7a49a8636cadc82142b8326be75403b8dff3bd9",
+    "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/oatmeal_k2_seed0.yaml": "7d01f001b93d15fd55d9741f262c4d95afd9246d49fe418a91629253c5fb6e71",
+    "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/support/EgoPER/oatmeal/support_k2_seed0.txt": "76444a0debc4ca1341afcf8e5d0fac494ba763576c206149d65d7bcb541ec5f9",
+    "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/oatmeal_k2_seed1_final/epoch_135.pth.tar": "2a021d6b69ca136402fdcb0e036fdfe32b0f2c6781f7fe3459315ee9d59f9e78",
+    "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/oatmeal_k2_seed1.yaml": "99996f8db72f6ad64b9e38a3d6b154e25b4a4c2492a91efe17251045401ec1bc",
+    "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/support/EgoPER/oatmeal/support_k2_seed1.txt": "abd079bbf0c75b68371ca6b87d956008c36688d380a0147e089a5c5b71b94d8d"
+  },
+  "prior_identity_sha": "6b6027604304d33b8c6feb75d16ded83b37445a296475f85c632212fbe7d2554"
+}

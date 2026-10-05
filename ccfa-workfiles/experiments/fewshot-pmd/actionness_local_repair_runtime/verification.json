@@ -1,0 +1,547 @@
+{
+  "complete": true,
+  "gpu_used": false,
+  "seconds": 16.936789989471436,
+  "all_hashes_unchanged": true,
+  "independent_and_old_reproduction_max_error": 2.220446049250313e-16,
+  "constant_auc": 0.5,
+  "region_invariance_checks": [
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_006",
+      "stable_retained_frames": 2234,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_016",
+      "stable_retained_frames": 2061,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_normal_026",
+      "stable_retained_frames": 689,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_001",
+      "stable_retained_frames": 2131,
+      "smoothing_changed_retained_frames": 10
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_010",
+      "stable_retained_frames": 1685,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_013",
+      "stable_retained_frames": 3936,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_014",
+      "stable_retained_frames": 1815,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_015",
+      "stable_retained_frames": 1965,
+      "smoothing_changed_retained_frames": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_016",
+      "stable_retained_frames": 4073,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_005",
+      "stable_retained_frames": 1943,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_006",
+      "stable_retained_frames": 2201,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_017",
+      "stable_retained_frames": 1191,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_018",
+      "stable_retained_frames": 1567,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_019",
+      "stable_retained_frames": 1652,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_020",
+      "stable_retained_frames": 1068,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_021",
+      "stable_retained_frames": 1788,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_022",
+      "stable_retained_frames": 1671,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_023",
+      "stable_retained_frames": 1517,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_024",
+      "stable_retained_frames": 1018,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_025",
+      "stable_retained_frames": 1725,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_026",
+      "stable_retained_frames": 1539,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_027",
+      "stable_retained_frames": 812,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_028",
+      "stable_retained_frames": 964,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_029",
+      "stable_retained_frames": 637,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_030",
+      "stable_retained_frames": 968,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_031",
+      "stable_retained_frames": 1660,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_032",
+      "stable_retained_frames": 1296,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_033",
+      "stable_retained_frames": 1170,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_034",
+      "stable_retained_frames": 816,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_036",
+      "stable_retained_frames": 355,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_002",
+      "stable_retained_frames": 2436,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_003",
+      "stable_retained_frames": 1946,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_004",
+      "stable_retained_frames": 1699,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_007",
+      "stable_retained_frames": 2630,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_008",
+      "stable_retained_frames": 2593,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_009",
+      "stable_retained_frames": 2599,
+      "smoothing_changed_retained_frames": 2
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_011",
+      "stable_retained_frames": 1287,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_035",
+      "stable_retained_frames": 2383,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_006",
+      "stable_retained_frames": 2894,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_016",
+      "stable_retained_frames": 3128,
+      "smoothing_changed_retained_frames": 4
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_normal_026",
+      "stable_retained_frames": 1736,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_001",
+      "stable_retained_frames": 4504,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_010",
+      "stable_retained_frames": 2791,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_013",
+      "stable_retained_frames": 5324,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_014",
+      "stable_retained_frames": 2810,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_015",
+      "stable_retained_frames": 2796,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_016",
+      "stable_retained_frames": 4395,
+      "smoothing_changed_retained_frames": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_005",
+      "stable_retained_frames": 3041,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_006",
+      "stable_retained_frames": 3493,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_017",
+      "stable_retained_frames": 2542,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_018",
+      "stable_retained_frames": 2334,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_019",
+      "stable_retained_frames": 1710,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_020",
+      "stable_retained_frames": 1503,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_021",
+      "stable_retained_frames": 1986,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_022",
+      "stable_retained_frames": 1907,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_023",
+      "stable_retained_frames": 1241,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_024",
+      "stable_retained_frames": 1575,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_025",
+      "stable_retained_frames": 2177,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_026",
+      "stable_retained_frames": 1555,
+      "smoothing_changed_retained_frames": 10
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_027",
+      "stable_retained_frames": 709,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_028",
+      "stable_retained_frames": 799,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_029",
+      "stable_retained_frames": 721,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_030",
+      "stable_retained_frames": 999,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_031",
+      "stable_retained_frames": 1782,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_032",
+      "stable_retained_frames": 1450,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_033",
+      "stable_retained_frames": 1411,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_034",
+      "stable_retained_frames": 1403,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_036",
+      "stable_retained_frames": 1241,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_002",
+      "stable_retained_frames": 3370,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_003",
+      "stable_retained_frames": 2856,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_004",
+      "stable_retained_frames": 2312,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_007",
+      "stable_retained_frames": 3108,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_008",
+      "stable_retained_frames": 3162,
+      "smoothing_changed_retained_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_009",
+      "stable_retained_frames": 3095,
+      "smoothing_changed_retained_frames": 15
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_011",
+      "stable_retained_frames": 1463,
+      "smoothing_changed_retained_frames": 1
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_035",
+      "stable_retained_frames": 3556,
+      "smoothing_changed_retained_frames": 0
+    }
+  ],
+  "score_hashes": {
+    "scores/s0/coffee_u1_a7_normal_006.npz": "3412fee60a039eb3d655699be39ca3dfd0ba1c9c1c30f211d314feb27d5d678b",
+    "scores/s0/coffee_u1_a7_normal_016.npz": "f2d6ccd09da3150e66d5650ab5cbeb0ec49e9651c2eebd6876db4ab5ff10ad34",
+    "scores/s0/coffee_u1_a6_normal_026.npz": "c2b6411678003d804527f467857ee87e608ad1203115ebf0602288fef3417591",
+    "scores/s0/coffee_u1_a1_error_001.npz": "37f9b547040c0397329724f477e46c14e38f21bb1ec8aa56e8ea479f27a87dc8",
+    "scores/s0/coffee_u1_a1_error_010.npz": "21ffa43fc925b640dc6b9868c74f58244f26d1db99915bd89a9831557dc97ab4",
+    "scores/s0/coffee_u1_a1_error_013.npz": "fe94158adb592bcdd997ba07235b752aa07596dc1518538fa5776e5dd5fa2ad9",
+    "scores/s0/coffee_u1_a1_error_014.npz": "1836386068cf5ece81e27f3bc6a9d8f5844391fce43ba8ba8ad57f7ae3278c79",
+    "scores/s0/coffee_u1_a1_error_015.npz": "6b51192d549fcba6f029190371a7a8de4eafa3a36366d3e4bad7a9419ee63a59",
+    "scores/s0/coffee_u1_a1_error_016.npz": "205699dd7014708bfbb62a0209601239681b1c5ab0bb69738a9fc3ce4d56991e",
+    "scores/s0/coffee_u1_a2_error_005.npz": "178163ce6cc6d1a52aafeb368712ed8ca5a8fd117ce7f42da9e66ff3dd1da8bb",
+    "scores/s0/coffee_u1_a2_error_006.npz": "4055576e3da67d82f62513457fa65a039db2c1366d3948be301a0853960828ee",
+    "scores/s0/coffee_u1_a2_error_017.npz": "f2fa9061df5b2b1e3011c1fb8da018cb2f2bd0bd4bedf76314a1143051ff1704",
+    "scores/s0/coffee_u1_a2_error_018.npz": "6672459e7864f42509fc53806d0dd1881ec1ed8d5f4ed29493e55ab2db39b704",
+    "scores/s0/coffee_u1_a2_error_019.npz": "03276cd097e8feda6513ac17b7628df27e0d5748ddde0edc2d2327ffab017e3e",
+    "scores/s0/coffee_u1_a2_error_020.npz": "d3adc9f5b866939ae7cf8d9a28024d1794b028f3ab5e6d9fde78641a5cd8957c",
+    "scores/s0/coffee_u1_a2_error_021.npz": "72c97978bb99f21ddf85de4b5d158f4ea62f50f1d5b875745a61d7791a693a21",
+    "scores/s0/coffee_u1_a2_error_022.npz": "1030a8a8b4006184b9c7461d83d709ec4dbc6924bd32bc56df043f8873a4e261",
+    "scores/s0/coffee_u1_a2_error_023.npz": "ed64001fd911cf40344824569aa8831d88fa2d804de6341fe92db47d35f89e45",
+    "scores/s0/coffee_u1_a5_error_024.npz": "9c47ac0bc9e0c88608a3ac0b5011242be05b2e3df1e12cd068473c4f75f71005",
+    "scores/s0/coffee_u1_a5_error_025.npz": "b492f25eaa8d54430ebaac9965699f8d6d08b9273e038bdc1d0dbc1942ebc493",
+    "scores/s0/coffee_u1_a5_error_026.npz": "e155763f3dda8028858a25e831e2623cfe6d5515f9a779165c92306158620c7f",
+    "scores/s0/coffee_u1_a5_error_027.npz": "bc225def25ccad415d52492184c07aa41855c5245592191defb276886020b8ad",
+    "scores/s0/coffee_u1_a5_error_028.npz": "ab4157d93cc286cef14e6a0a3b7b13900ce92e95e970b9dc90e7a6c4dfeae7e5",
+    "scores/s0/coffee_u1_a5_error_029.npz": "8bab0f3485d34205121a88fb2df870a4ca11b7dea7626c194d1a458a4b26b626",
+    "scores/s0/coffee_u1_a5_error_030.npz": "8c78fadb22aca9383ad01857f6f0eeab16335898c28d1f702fe42d2267f78112",
+    "scores/s0/coffee_u1_a6_error_031.npz": "81b4af348452cc12d2515e22bba6d7a85cfbb8c4293c872899a7790e2d0d35df",
+    "scores/s0/coffee_u1_a6_error_032.npz": "e92ebc4a42c6400559d336bf28105eb738341179f30bf03014bf368accf59dd6",
+    "scores/s0/coffee_u1_a6_error_033.npz": "e583382869c702bc2e7a12f27be504aca0cd09f23ce7b19f7a735b7fd32620ec",
+    "scores/s0/coffee_u1_a6_error_034.npz": "52da047d51f871dfaed0601b247cecb486b2cab64469d13996039e88604f7c41",
+    "scores/s0/coffee_u1_a6_error_036.npz": "a50c901d870183b53d20589c405f6e37828afa7104717295dab87cd2297086e3",
+    "scores/s0/coffee_u1_a7_error_002.npz": "e01b8a1251af9ba2beede89b44955c262c687a09c5c4c38df2a6c36ae53f5a52",
+    "scores/s0/coffee_u1_a7_error_003.npz": "c5acfe3fd65d0b51728f5800eef5d8d2ba0a5bb800c276d2e9a4531e06da1860",
+    "scores/s0/coffee_u1_a7_error_004.npz": "7989ca6815834f0b61c846ce035e4db3e44e88867fb649a86a676a764083b478",
+    "scores/s0/coffee_u1_a7_error_007.npz": "b450b8da4ae13b68b379efa94ed36980cc7e2f13940ff8d739e3149d1db50dc9",
+    "scores/s0/coffee_u1_a7_error_008.npz": "4f0450744923275af7c62a57c9b5279c92bc49e7161080bf915e8178cc22d99a",
+    "scores/s0/coffee_u1_a7_error_009.npz": "cdc008f7064814b92eee8c2ab16a5ce4a04f68d1a426e96fb806a40ec79a2f39",
+    "scores/s0/coffee_u1_a7_error_011.npz": "fbf2a088fad05aecee79c74fd03098f953635326adb90b6514a5b5057ffec47a",
+    "scores/s0/coffee_u1_a7_error_035.npz": "d249ca5fd1be9b2f1a51ed63d2e6e28b27f01a1369c6fc45f463fb6fc851cec0",
+    "scores/s1/coffee_u1_a7_normal_006.npz": "c5112934e57b5c0c4571a0f1821d5038c273005cd17c9a1f877e6aa260c37d3c",
+    "scores/s1/coffee_u1_a7_normal_016.npz": "bdec4af0728866d23d94944d561aff2a7db7730b2630330ceac3cad1436e7bbe",
+    "scores/s1/coffee_u1_a6_normal_026.npz": "9ef73a34acbd34789224b5e50157f810d62625fea86a1474da42942e0f4e381e",
+    "scores/s1/coffee_u1_a1_error_001.npz": "7aefcd25b82c3eb4000047e2cd54cc8d5247a66ca524ee2fc4f86a995ae1c111",
+    "scores/s1/coffee_u1_a1_error_010.npz": "b617a8b4139d3052f6634f9a8a19dac638684c85b5f096195a6a35613d193f43",
+    "scores/s1/coffee_u1_a1_error_013.npz": "ff00a69b3f3d23f5e230f34ce0ba94fb86c790a468a49b57ba4ec597f105a196",
+    "scores/s1/coffee_u1_a1_error_014.npz": "76386d2e2147bcdab34549e7d51863b035de39bd1a9d16155cf36465154d892e",
+    "scores/s1/coffee_u1_a1_error_015.npz": "b8e6b2d10219b0ca612e5fe72071d70b29341b9654681578e65339d11f6ad798",
+    "scores/s1/coffee_u1_a1_error_016.npz": "6fbf8c7e18a6076bc8c4078ca01e69fb4395f3b8db44a2ed0025a3e8bdfdeb11",
+    "scores/s1/coffee_u1_a2_error_005.npz": "d5d1487d83d666965a0199862381ab991e0a27ae845402b3feb4210be15109c9",
+    "scores/s1/coffee_u1_a2_error_006.npz": "cc56ca5749b2c5a66ac65b937a52e693969107ef53cfb085512ac4510cbdc7bc",
+    "scores/s1/coffee_u1_a2_error_017.npz": "1a8cf4043fa6ff88dfdfcaa32156ec51957c1a611a2a798653c6662054583874",
+    "scores/s1/coffee_u1_a2_error_018.npz": "a0dc981ec0b10cb0ec304296d0ac112a00b3ce47e325d12e5e61498cc5cf2d27",
+    "scores/s1/coffee_u1_a2_error_019.npz": "b1c698cc5ca6eccf18e19f8740b00c3355457e95d97b5760b0d426f5c10b5bce",
+    "scores/s1/coffee_u1_a2_error_020.npz": "937503034c266703364253cf3b581c6edd17fba1e2038137fe4d1e5b230f97dc",
+    "scores/s1/coffee_u1_a2_error_021.npz": "d1e9d11808984b73efefec8364021aa44fdb25c056102a6be9e29f8e1f7dbb17",
+    "scores/s1/coffee_u1_a2_error_022.npz": "8e89131265d5adf70d55e16281210ce00066c51405ed76441f3fd3356f67c610",
+    "scores/s1/coffee_u1_a2_error_023.npz": "6698414cad33f5d549cce75cd8b61750e1ad9b11b638602f9e1a1d0bf4254157",
+    "scores/s1/coffee_u1_a5_error_024.npz": "303c91f928038ec3cd12f0d235c37d57f3d44bc8ce0c9758ae5d643147024eee",
+    "scores/s1/coffee_u1_a5_error_025.npz": "139dbc1146ea947ce192ad4d8c3885ea1f127701631886d83aac43a5b6ba2cfc",
+    "scores/s1/coffee_u1_a5_error_026.npz": "ce89288bbe31cf47fa8213dfeb8fb5c7dd28724e94d4d81066376e823bd4e0c9",
+    "scores/s1/coffee_u1_a5_error_027.npz": "3f36b9efd8cd79c62b60e62cee424583843338bd8bbfabd429b36095e58f56a1",
+    "scores/s1/coffee_u1_a5_error_028.npz": "5c1c29f8e8100a01302ab946ec5cb6d3938642a0fb710f7c4254303058c09ec8",
+    "scores/s1/coffee_u1_a5_error_029.npz": "6a1e32e3736053c09b6dec764edfe3c7231d5b53211e7e15a843e0814f258791",
+    "scores/s1/coffee_u1_a5_error_030.npz": "ef96ee553fcf47c3ea739244768fdf2ed33e6508bbdbf6c019aa907e68286686",
+    "scores/s1/coffee_u1_a6_error_031.npz": "39079d85bda1c89a637545c191828a042924abf5cb2bf527f059862159156cab",
+    "scores/s1/coffee_u1_a6_error_032.npz": "3528f7076feac7f3be03438ffea109ecbfd33b4793c88d473625ce6b481bb623",
+    "scores/s1/coffee_u1_a6_error_033.npz": "f4ef1fcc2f8ce6d4604579154661f1fa5266fcc4731dd589588b3b901cfb3713",
+    "scores/s1/coffee_u1_a6_error_034.npz": "9349965ffe2633866b65d538e8f19c5c778a7459adba97d748c8d56ff6aadb09",
+    "scores/s1/coffee_u1_a6_error_036.npz": "8864297f281ba3fd508a9bf735cf149766218d6e5ca1c5431761c1e5e54fd436",
+    "scores/s1/coffee_u1_a7_error_002.npz": "358e612d4055fdd79ecc09af600d0f28869100d6a4ca1a1f5f142473d4d7c08d",
+    "scores/s1/coffee_u1_a7_error_003.npz": "bdf0132724eeb34e497a4a00b1e56cbe5c583a1ce09f42eb21c40ff0f0ea55a6",
+    "scores/s1/coffee_u1_a7_error_004.npz": "3ebbd647a4c1d1e766cc087ae187d73f98787803136ecaaedf3ca611ec935e77",
+    "scores/s1/coffee_u1_a7_error_007.npz": "aa5a4abb66421740a6b1977c47d4f94677498195b82f8d8ceb3f76a1b4b9f1bc",
+    "scores/s1/coffee_u1_a7_error_008.npz": "4548bee70203e65b8dd2b99101a9d3b62f9af1db8f68f145228e3c28bfb53e10",
+    "scores/s1/coffee_u1_a7_error_009.npz": "a44b2ae496d6e048d2111244d41458130cdc3c12286546cf024c6c3afd5320fa",
+    "scores/s1/coffee_u1_a7_error_011.npz": "a48ec7a849a5839c638c00dbb57ed2306658a32e0ffe7255d25619ebb6f7fa43",
+    "scores/s1/coffee_u1_a7_error_035.npz": "8d8461a43b1adfd27e761b7b6973d067de6ce7be0f72de69a016135be2e94e0b"
+  },
+  "registration_sha": "969ac3ccafe9dc2d199f436d3ca4c89db1a68c9e8986bfe92a8490d86a1b138c",
+  "result_sha": "44dce4698ffeb0d0d6bf12d71abfcc2a41bda482ce5c2c98e1213ead6d489460",
+  "bootstrap_sha": "28c5dd761d77f80be6960f00a66388b668658a52b707c674131be62099f44732"
+}

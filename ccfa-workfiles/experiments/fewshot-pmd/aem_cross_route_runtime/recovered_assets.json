@@ -1,0 +1,65 @@
+{
+  "rows": [
+    {
+      "job": "aem_coffee_k2_s0",
+      "assets": {
+        "config": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_k2_seed0.yaml",
+          "bytes": 1558,
+          "sha256": "16e37515740c823a4e51268d52b01d7732bceee6b5a890b9279146c9b1df1227"
+        },
+        "checkpoint": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed0_final/epoch_135.pth.tar",
+          "bytes": 618574509,
+          "sha256": "7e91b2fa0f9db20af63d42e4df3042a644bf7857d800389a29bcbe384022fe25"
+        }
+      }
+    },
+    {
+      "job": "aem_coffee_k2_s1",
+      "assets": {
+        "config": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_k2_seed1.yaml",
+          "bytes": 1558,
+          "sha256": "011363ce0b84ba09805d91a2bddc58c507cc16344acb17845c368acd8316e482"
+        },
+        "checkpoint": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed1_final/epoch_135.pth.tar",
+          "bytes": 618574509,
+          "sha256": "9b93e8d64a493c69f76abb4b1d1bb1f3cf97aa983e7b424d03d5455a131e3ddb"
+        }
+      }
+    },
+    {
+      "job": "aem_coffee_kfull_s0",
+      "assets": {
+        "config": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_kfull_seed0.yaml",
+          "bytes": 1561,
+          "sha256": "5e3f71f175e2421532ef7cf08dc503f7646136231f25ce503dc9459fe2bf472d"
+        },
+        "checkpoint": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_kfull_seed0_final/epoch_135.pth.tar",
+          "bytes": 618574509,
+          "sha256": "e80877876b4d3d13a11db9e2e5f8d71029c9077a2753d3c70c6f5861e5133656"
+        }
+      }
+    },
+    {
+      "job": "aem_coffee_kfull_s1",
+      "assets": {
+        "config": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/configs/aem/coffee_kfull_seed1.yaml",
+          "bytes": 1561,
+          "sha256": "62daaaaa521a96f2b2fca9bb02eb8890840afe23c467a484de5497f092f6db0c"
+        },
+        "checkpoint": {
+          "path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_kfull_seed1_final/epoch_135.pth.tar",
+          "bytes": 618574509,
+          "sha256": "d4dc626070de46b8a93baa1b5464e167cd17b0dfbeb46b161192350ad1986d5c"
+        }
+      }
+    }
+  ],
+  "cpu_affinity": 128
+}

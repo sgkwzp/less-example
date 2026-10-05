@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "all_input_hashes_verified": true,
+  "constant_auc": 0.5,
+  "independent_auc_and_explicit_bootstrap_max_error": 2.220446049250313e-16,
+  "seconds": 21.38374972343445,
+  "result_sha": "f7e57302d5b4186d221f5a0a879970939d49241e4c934dd14a365d76d12e34f6",
+  "bootstrap_sha": "766caf404c3704972c7a43918b87e9682f195c2cc75281f5e1893429173769e1",
+  "original_segment_control_max_error": 0.0
+}

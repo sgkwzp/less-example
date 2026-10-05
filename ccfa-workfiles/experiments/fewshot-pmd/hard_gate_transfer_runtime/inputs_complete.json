@@ -1,0 +1,637 @@
+{
+  "complete": true,
+  "seconds": 17.03365421295166,
+  "fits": {
+    "0": {
+      "folds": [
+        {
+          "video": "oatmeal_u1_a2_normal_031",
+          "auc": 0.8414667904189668,
+          "normal_action_rejection": 0.0,
+          "background_retention": 0.015151515151515152,
+          "loss": 0.16717625841917044,
+          "max_gradient": 5.039821742922057e-08,
+          "iterations": 32,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "video": "oatmeal_u1_a1_normal_002",
+          "auc": 0.9422403097958401,
+          "normal_action_rejection": 0.00043084877208099956,
+          "background_retention": 0.0,
+          "loss": 0.15768353448193118,
+          "max_gradient": 9.202531327679592e-09,
+          "iterations": 31,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+        }
+      ],
+      "final": {
+        "loss": 0.1749644110631987,
+        "max_gradient": 2.0766224770318864e-07,
+        "iterations": 31,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      "oof_auc": 0.9209347396855163,
+      "oof_brier": 0.056480951158456694
+    },
+    "1": {
+      "folds": [
+        {
+          "video": "oatmeal_u1_a6_normal_004",
+          "auc": 0.9348184728733606,
+          "normal_action_rejection": 0.024311183144246355,
+          "background_retention": 0.4563758389261745,
+          "loss": 0.20949192632500652,
+          "max_gradient": 2.0988911893227158e-08,
+          "iterations": 37,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "video": "oatmeal_u1_a6_normal_010",
+          "auc": 0.9473909312846506,
+          "normal_action_rejection": 0.0009510223490252021,
+          "background_retention": 0.025139664804469275,
+          "loss": 0.2215605459457807,
+          "max_gradient": 4.4926300330969116e-08,
+          "iterations": 35,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "final": {
+        "loss": 0.22657444661869966,
+        "max_gradient": 2.616967657853575e-08,
+        "iterations": 33,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+      },
+      "oof_auc": 0.9360646674562345,
+      "oof_brier": 0.0746971363760896
+    }
+  },
+  "records": [
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_025",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.15371291234441425,
+      "frames": 1725
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_026",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.17202032417079632,
+      "frames": 2521
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_027",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.16731223191819747,
+      "frames": 2663
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_028",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.14421524176761735,
+      "frames": 1970
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_029",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.18312373067409146,
+      "frames": 2934
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_030",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.17194077070524344,
+      "frames": 3101
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_031",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.16159720484620468,
+      "frames": 2676
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_error_032",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.16847764262245848,
+      "frames": 3024
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_017",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.14727620119348053,
+      "frames": 1955
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_018",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.17089724310888482,
+      "frames": 2724
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_019",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.16027436179384716,
+      "frames": 2796
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_020",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.1557899782430387,
+      "frames": 1753
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_021",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.1696017961003605,
+      "frames": 2758
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_022",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.17152890757902606,
+      "frames": 2904
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_023",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.13210714141216182,
+      "frames": 2608
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a3_error_024",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.1674745926428446,
+      "frames": 2789
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_009",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.16532357672587533,
+      "frames": 1862
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_010",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.18661246910212273,
+      "frames": 2481
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_011",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.18723204122134124,
+      "frames": 2649
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_012",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.15330503416255808,
+      "frames": 1487
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_013",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.17843986574568735,
+      "frames": 2459
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_014",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.19003768471642404,
+      "frames": 2452
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_015",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.19272520932624884,
+      "frames": 2427
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a4_error_016",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.17130364846242851,
+      "frames": 2613
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_001",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.16863353108442747,
+      "frames": 1625
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_002",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.19816319983181113,
+      "frames": 2834
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_003",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.16587551782317872,
+      "frames": 2888
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_004",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.15174198709527387,
+      "frames": 1880
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_005",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.15377271953804494,
+      "frames": 2518
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_006",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.16289523478495116,
+      "frames": 2513
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_007",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.17020069285201642,
+      "frames": 2806
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a5_error_008",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.15453740701291388,
+      "frames": 2618
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_normal_006",
+      "selected": "oatmeal_u1_a1_normal_002",
+      "cost": -0.1870805829903243,
+      "frames": 2824
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a2_normal_016",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.20350451723605037,
+      "frames": 2169
+    },
+    {
+      "seed": 0,
+      "video": "oatmeal_u1_a1_normal_026",
+      "selected": "oatmeal_u1_a2_normal_031",
+      "cost": -0.2128612220857538,
+      "frames": 2169
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_025",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.18401210354344136,
+      "frames": 1725
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_026",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18908657906787563,
+      "frames": 2521
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_027",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.18385970938518514,
+      "frames": 2663
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_028",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.16046641037331394,
+      "frames": 1970
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_029",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18472560836750082,
+      "frames": 2934
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_030",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.1795764118748345,
+      "frames": 3101
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_031",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.1588157437162638,
+      "frames": 2676
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_error_032",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.1608537523010955,
+      "frames": 3024
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_017",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.1646017244071378,
+      "frames": 1955
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_018",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18832174894808848,
+      "frames": 2724
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_019",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18209730160791687,
+      "frames": 2796
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_020",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.17285479264439035,
+      "frames": 1753
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_021",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.17718143647629836,
+      "frames": 2758
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_022",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18758781829440951,
+      "frames": 2904
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_023",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.14121089389208816,
+      "frames": 2608
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a3_error_024",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.18398228685804682,
+      "frames": 2789
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_009",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.17602864980035401,
+      "frames": 1862
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_010",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.1995535934207295,
+      "frames": 2481
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_011",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.18968112303436974,
+      "frames": 2649
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_012",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.15979401171633317,
+      "frames": 1487
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_013",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.17399853995526623,
+      "frames": 2459
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_014",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.1896307530074546,
+      "frames": 2452
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_015",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.19269750342018624,
+      "frames": 2427
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a4_error_016",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.1667654129533597,
+      "frames": 2613
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_001",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18807398717907758,
+      "frames": 1625
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_002",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.20164121357111514,
+      "frames": 2834
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_003",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.17194678960368037,
+      "frames": 2888
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_004",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.15565810888866954,
+      "frames": 1880
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_005",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.1612159372614349,
+      "frames": 2518
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_006",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.18802873898405764,
+      "frames": 2513
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_007",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.17893097767654836,
+      "frames": 2806
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a5_error_008",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.16485199636749132,
+      "frames": 2618
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_normal_006",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.20000019225769441,
+      "frames": 2824
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a2_normal_016",
+      "selected": "oatmeal_u1_a6_normal_010",
+      "cost": -0.24094611601350135,
+      "frames": 2169
+    },
+    {
+      "seed": 1,
+      "video": "oatmeal_u1_a1_normal_026",
+      "selected": "oatmeal_u1_a6_normal_004",
+      "cost": -0.20648772607150853,
+      "frames": 2169
+    }
+  ],
+  "registration_sha": "1f3bac42321dc1696d7f0051fbfd1056fbc63e6108c8a6d2a5effeb06e29a118",
+  "hashes": {
+    "inputs/s0/oatmeal_u1_a2_error_025.npz": "ee45109560363a8012fefacbb155b21d889d975230513185f111996863bfdbb8",
+    "inputs/s0/oatmeal_u1_a2_error_026.npz": "dbd02a6c602ec0082d3ecd7ca6822c7366875776a12f776b5fd3495b40cc6ea2",
+    "inputs/s0/oatmeal_u1_a2_error_027.npz": "4a293d9da4e2369b3e3b550daf4a8b89ff7f1f93103a06a857ccbd31f3c53b63",
+    "inputs/s0/oatmeal_u1_a2_error_028.npz": "aa36d9cfa081e4162a08b29a8c3af4b08790f3f5a6ad6341fcee26e5c04fb327",
+    "inputs/s0/oatmeal_u1_a2_error_029.npz": "5b54ef2ff7aeb5265b2a5fd445579d8d9ee94681d361a137c7ad595bd70c5554",
+    "inputs/s0/oatmeal_u1_a2_error_030.npz": "0500b3c3acb16df2fdb168e325b815e223c3f7a699a5ae4ee0f017a8215afa83",
+    "inputs/s0/oatmeal_u1_a2_error_031.npz": "37f1f00f9ee29437dbdabb3430a66c6e99322c925539c2e0bd6ca0bf3838168f",
+    "inputs/s0/oatmeal_u1_a2_error_032.npz": "20a8451086bba362929694b90814fde312181a05e9907826bf169b0d80511d1f",
+    "inputs/s0/oatmeal_u1_a3_error_017.npz": "9c77d496e810432f024cc98b62f71a19b1a9945c7ccbff56930cc986e9aa448d",
+    "inputs/s0/oatmeal_u1_a3_error_018.npz": "2f1709fc01e80e81a53fa5e67971aaffb917a5e8ffd13b0dd47a530e8b870bd1",
+    "inputs/s0/oatmeal_u1_a3_error_019.npz": "39d5f6b10e10714f3e6b31a27dce851503501fde85bc2dd5be3165f8f3d17642",
+    "inputs/s0/oatmeal_u1_a3_error_020.npz": "e600deaa1d378866b16efcc04bef9d042f3af0318d8c81fdae63040dd1313052",
+    "inputs/s0/oatmeal_u1_a3_error_021.npz": "1e4b25a8781d97ce9a242dddaae2b575aeee94cd35a354f407dce0937741b8a2",
+    "inputs/s0/oatmeal_u1_a3_error_022.npz": "95578d4aa1ced06ac47cd7e9d91582eaf30fca469da59370bbe2712b117c1cf0",
+    "inputs/s0/oatmeal_u1_a3_error_023.npz": "09e517923f2ff054a45a10aa7fe10adba786ad3b567d4d24d6056ba8264f2742",
+    "inputs/s0/oatmeal_u1_a3_error_024.npz": "062601db45393f3ff1bca8d46b7bb83da9bf54dbab7b5b502612d8727b667504",
+    "inputs/s0/oatmeal_u1_a4_error_009.npz": "204f70da488dbb1293a22bcd88f5f27b2829819edd5b0262e532352ce7050514",
+    "inputs/s0/oatmeal_u1_a4_error_010.npz": "e24160c6f3ff435d6af9c15bc997a6661f37a4bfb57889c2cf386f2b33658df2",
+    "inputs/s0/oatmeal_u1_a4_error_011.npz": "9fcc7fe881b60914c77bff91ad6122497c5bdd98b2397a5e748d36388c6232f2",
+    "inputs/s0/oatmeal_u1_a4_error_012.npz": "b7326951ec3dd209e478757861da9d6e681351b8f30f9f3473c4c377bc6fbd59",
+    "inputs/s0/oatmeal_u1_a4_error_013.npz": "f48e23ead5031429b3290a4476d5fa33e643e9a52955103d7677deb630231734",
+    "inputs/s0/oatmeal_u1_a4_error_014.npz": "e412101f926137d9c4b6b226bc70c7e31932fa6170fd9e20d907db66cc99097f",
+    "inputs/s0/oatmeal_u1_a4_error_015.npz": "34cf3f102c79724ed68db7f4adc686c1b50d6bb429741df41444ca57325835b0",
+    "inputs/s0/oatmeal_u1_a4_error_016.npz": "0525dab7d2c2a7fed67011eeab5cfd8df06f73735f53cdb9ae6cafb549ad214a",
+    "inputs/s0/oatmeal_u1_a5_error_001.npz": "af403d63eb633bce3121f73ce7cddcd5c4976936b375e259b3cc5e0b26798762",
+    "inputs/s0/oatmeal_u1_a5_error_002.npz": "070433a1ce340f09c8727751448d519c4509014e87a9def3e8f4b4057694dde6",
+    "inputs/s0/oatmeal_u1_a5_error_003.npz": "6ddc2764ae0b0f4e9f9d9b5d097496d7af960c16d9fea414abb35509d155bebb",
+    "inputs/s0/oatmeal_u1_a5_error_004.npz": "5dfbe7a516ff8fceeaf570d2d024ae0cc8c272e4661911eed03539ce64bbf53e",
+    "inputs/s0/oatmeal_u1_a5_error_005.npz": "d0b0343eb4bb30f49930e2d4baca75f1419ff7018c45dca2c159ca5c7b76e513",
+    "inputs/s0/oatmeal_u1_a5_error_006.npz": "4992c3e7a2ab2a38458f4777ca718fc5cbc6099e9654003ada8853312a2cd0f5",
+    "inputs/s0/oatmeal_u1_a5_error_007.npz": "eeff2c5041a61d11ba553a7ca35b1a8d2feffc1dd74107c7792c84036154c4f0",
+    "inputs/s0/oatmeal_u1_a5_error_008.npz": "321812c149d4bedff9e42538850de4ecdb466181bd28a2b2aa8fba7d37142230",
+    "inputs/s0/oatmeal_u1_a2_normal_006.npz": "7adabf1cf8a91dafe19047eb2f2b1c8cc7388260d82b996d5bd7983e5d7f41a7",
+    "inputs/s0/oatmeal_u1_a2_normal_016.npz": "7b388f14100235e67ea6adb7c570f05410a4fc159219da491ca4d6997fdc19dd",
+    "inputs/s0/oatmeal_u1_a1_normal_026.npz": "323e579f790f1ed8a7057b20b94f451aaff00b7b5d1de3edacbecb7587a1e198",
+    "inputs/s1/oatmeal_u1_a2_error_025.npz": "1f0ad5d8cbc9401a90c0ec407396b26c81f2910838e4cac42ceaa78b9eee9661",
+    "inputs/s1/oatmeal_u1_a2_error_026.npz": "90b73654224b6224be7f2936aaff90fbe068bd619860e48fa4e663a57d9e01e7",
+    "inputs/s1/oatmeal_u1_a2_error_027.npz": "8d27f29aee416e95e0f2dbf88c393bf71746a2ef13acf30a47ad652277d46904",
+    "inputs/s1/oatmeal_u1_a2_error_028.npz": "9354f25579b531600356ec7a34e1a5248c7b06a65d6e9fe68e5b360ac8748f85",
+    "inputs/s1/oatmeal_u1_a2_error_029.npz": "acb31f6d7c71f4d2aed21b54ac95e9d3e42f6075f41050e8530578823238a63e",
+    "inputs/s1/oatmeal_u1_a2_error_030.npz": "d0220c849b44eb91c9f2f37339487ad3524b60662359a62a3ccc5e1f85f71de8",
+    "inputs/s1/oatmeal_u1_a2_error_031.npz": "c493252e50383717784465061b75a8e62a7530d1c7f285427055d9b5df271a14",
+    "inputs/s1/oatmeal_u1_a2_error_032.npz": "dd2e0407674645e3f4e65b5c640e92b31f2fd06418a50b0293e18a62e8109668",
+    "inputs/s1/oatmeal_u1_a3_error_017.npz": "8e436967e2504a2ea8119cfac6a18cb509a1675b5eb5840de0526816bd23b4fd",
+    "inputs/s1/oatmeal_u1_a3_error_018.npz": "c725fa20f28cbbcc8662bbd9e86b51579731a0e9f8680595e3bf20811537e62f",
+    "inputs/s1/oatmeal_u1_a3_error_019.npz": "17c92ccc08d7bd7fa0f64c36e9cfc6cbe397ba46a2ab311ee417f05ecff38aef",
+    "inputs/s1/oatmeal_u1_a3_error_020.npz": "bb2384e3eb8e5c454b86975b48ae06014338258ea4548d97d2edbdf0f799a6bf",
+    "inputs/s1/oatmeal_u1_a3_error_021.npz": "6f02b280a5317d0f04dcb72b8333fe17f614255d74887659133c2ed74d38762b",
+    "inputs/s1/oatmeal_u1_a3_error_022.npz": "fe26d5416962a1fe45faeed5e4fb728f37fee3650be32ac334b1f544b0a668fa",
+    "inputs/s1/oatmeal_u1_a3_error_023.npz": "2b24281a71defe699bc6270c78c1f67a176f7e46427935093e4608f0838a7211",
+    "inputs/s1/oatmeal_u1_a3_error_024.npz": "624f21eee6322fd7e432428fe64ee6309fa11c068803e1eea3ed58fd47953b7e",
+    "inputs/s1/oatmeal_u1_a4_error_009.npz": "92f7959fb242b338dd354b96a45050fc0edc6f55b84903453c12760f4c53b8db",
+    "inputs/s1/oatmeal_u1_a4_error_010.npz": "0d0b4f35600c5f2f6e0cb2d2b799c5ca239f4bcd4efd044ab94cf6f2f6868e6b",
+    "inputs/s1/oatmeal_u1_a4_error_011.npz": "fea4bb243ff89b543875161f243c8dee82a022cd03bbfaf02d382b58bf48daae",
+    "inputs/s1/oatmeal_u1_a4_error_012.npz": "c12ff0669ea23cfa632590eef9762fda1138e6f4d36ed5e3afa9a78182546401",
+    "inputs/s1/oatmeal_u1_a4_error_013.npz": "7fbf1fd76e1783ccc39e3bf18e81bc86bfa38bf39dbd36819f6b546199bc4798",
+    "inputs/s1/oatmeal_u1_a4_error_014.npz": "27d6123d7479abcfbe82b4215fb98eff0dd42137c921c9704721da356b300def",
+    "inputs/s1/oatmeal_u1_a4_error_015.npz": "1b400a90eb6f93b5a2d3cd5b621896dd01c97db72738e9e04f36e0cce86d867c",
+    "inputs/s1/oatmeal_u1_a4_error_016.npz": "92ebe9c66b8fc36da45ded63fcef0b35e2ac9b6688dc2123a04c1d90e0c02164",
+    "inputs/s1/oatmeal_u1_a5_error_001.npz": "bdf8650e43c1475ea50e48148acbef9e0731a105dea54d6aa486d6f0439dd2d4",
+    "inputs/s1/oatmeal_u1_a5_error_002.npz": "34563ff0887e39fda116a1831001eba75a02eb196400f0c7457c37ab51f40b65",
+    "inputs/s1/oatmeal_u1_a5_error_003.npz": "76b4d220b0520094e317ba01c593af762f311d4c9d619c416024bc2da1572c5a",
+    "inputs/s1/oatmeal_u1_a5_error_004.npz": "4187666d665a3c6ae72bad0ff1615e03211de97856954d51e3b6375e95c1072f",
+    "inputs/s1/oatmeal_u1_a5_error_005.npz": "ccd078bb5e76acc8d4ec8c6bebea1a82c91716fb24999ce743f131689b9c9cd8",
+    "inputs/s1/oatmeal_u1_a5_error_006.npz": "1cd9d60b6871bcd47481b4d751b3952e412693c6efa9279bb0d8f2b0fd98a0c0",
+    "inputs/s1/oatmeal_u1_a5_error_007.npz": "b1f8e38386282076da08374bc6481097341a316bea65a5bc2a0fb2c0c0278dbb",
+    "inputs/s1/oatmeal_u1_a5_error_008.npz": "fd1e353d5f17b0f76e0227e397353092bc8a10273ec614d396341a7926a7e9f2",
+    "inputs/s1/oatmeal_u1_a2_normal_006.npz": "c2b51b738809ba5b6f706324b32ac60b254ade4d26e24e3a1ab6133eb4486f77",
+    "inputs/s1/oatmeal_u1_a2_normal_016.npz": "927d30ad6faa40f2f88dd94a72f4469c97d12bf024b61cea7cb9d7fb2ee447ac",
+    "inputs/s1/oatmeal_u1_a1_normal_026.npz": "7a3e347296a22b49ce02296f10dac046268802cfdcb722ed47e573e64ca1c935",
+    "fits/s0.npz": "2818dee028497afadc8bdb7c8496b3b034b545f583188c3529ed3518cac05790",
+    "fits/s1.npz": "51285ce149d069c4223417475b00cb77525e581a9311de396d4625d5b813533f"
+  }
+}

@@ -1,0 +1,318 @@
+[
+  {
+    "path": "ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed0_final/epoch_135.pth.tar",
+    "kind": "checkpoint",
+    "bytes": 618574509,
+    "sha256": "7e91b2fa0f9db20af63d42e4df3042a644bf7857d800389a29bcbe384022fe25",
+    "original_server_path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed0_final/epoch_135.pth.tar"
+  },
+  {
+    "path": "ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed1_final/epoch_135.pth.tar",
+    "kind": "checkpoint",
+    "bytes": 618574509,
+    "sha256": "9b93e8d64a493c69f76abb4b1d1bb1f3cf97aa983e7b424d03d5455a131e3ddb",
+    "original_server_path": "/hy-tmp/ccfa-workfiles/experiments/fewshot-pmd/g1_runtime/checkpoints/aem/coffee_k2_seed1_final/epoch_135.pth.tar"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_001.npy",
+    "kind": "native256_feature",
+    "bytes": 10087552,
+    "sha256": "8d03e89e75810a322dca84d2c00bb95d36eb5399de76d57cf7a7c1e058d9f81a",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_001.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_010.npy",
+    "kind": "native256_feature",
+    "bytes": 6275200,
+    "sha256": "a77df3ae7ff26c7f207d21f107165be1a9f40bed598e07466bc0e6bda8366bd1",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_010.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_013.npy",
+    "kind": "native256_feature",
+    "bytes": 10369152,
+    "sha256": "2dff22d7e27311ffd24a450f0b65afa0cb6799fa3c4c90b2e79c621581dee0b2",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_013.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_014.npy",
+    "kind": "native256_feature",
+    "bytes": 6584448,
+    "sha256": "16bb2b866268b153bbbec59cf7cf1950de81fe22ceb7af5e79f88ab94ff76590",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_014.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_015.npy",
+    "kind": "native256_feature",
+    "bytes": 5520512,
+    "sha256": "4e19949e90fa0e90ecaeb128320cd75c5e133948f6c9177e49a02c6bbe318a84",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_015.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_016.npy",
+    "kind": "native256_feature",
+    "bytes": 7574656,
+    "sha256": "d2d9cdfdb6a71e10258203c3ea76810825a972c7ebca32ae88b776719c6ee9b3",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_error_016.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_normal_004.npy",
+    "kind": "native256_feature",
+    "bytes": 7298176,
+    "sha256": "76b9b2f4b970493c841ed2c688b4da4ac6507afd506fa9d35bef5669496b3e27",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a1_normal_004.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_005.npy",
+    "kind": "native256_feature",
+    "bytes": 4264064,
+    "sha256": "c9af24fc86f97e93eca8a488847b35ec9bac54ae726ecdd1ec76fb082577d25f",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_005.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_006.npy",
+    "kind": "native256_feature",
+    "bytes": 5140608,
+    "sha256": "ce05251d0cc5532dc18f98cf61b14ba0d47e29d27be515b87cad57a65333db9b",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_006.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_017.npy",
+    "kind": "native256_feature",
+    "bytes": 2722944,
+    "sha256": "a04b5de6154233f62927f59eba8d42f49d45a3359167c91746e110a7fe001249",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_017.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_018.npy",
+    "kind": "native256_feature",
+    "bytes": 2903168,
+    "sha256": "c7e66fa3d2a5cc8b84e287aa18c012ca82eb24aeb4cb80362accd2a1002e573a",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_018.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_019.npy",
+    "kind": "native256_feature",
+    "bytes": 2267264,
+    "sha256": "abc6fbf1b61f42cdb3f3abf4e2ff9ec5cd1716343a4ad7ae1d8c5163092426f6",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_019.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_020.npy",
+    "kind": "native256_feature",
+    "bytes": 2310272,
+    "sha256": "386c8a4c8f521c9718b94e3f3c926a745bcffd411e992e40875202bfd5e75ea0",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_020.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_021.npy",
+    "kind": "native256_feature",
+    "bytes": 2104448,
+    "sha256": "a87c4076eada11fb6a6473c92dcd31b78ba71b3ee04a846dc73d5abc99eff936",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_021.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_022.npy",
+    "kind": "native256_feature",
+    "bytes": 2628736,
+    "sha256": "3d703b18e185f52bd4ac3e064d4e60f21ee165a1c0bfbcc805669542b7627dbc",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_022.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_023.npy",
+    "kind": "native256_feature",
+    "bytes": 1990784,
+    "sha256": "4bf7a2e8cdaddbe1a4411784da4329d0b5418859a072f0a03eb82ae7e08ebee8",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_error_023.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_normal_009.npy",
+    "kind": "native256_feature",
+    "bytes": 4103296,
+    "sha256": "f9075ef21c2778b41064fd89b2d61a305d48f014d1d95d4e1c89790cdbb7a88d",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a2_normal_009.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a4_normal_034.npy",
+    "kind": "native256_feature",
+    "bytes": 3163264,
+    "sha256": "bc84bf31f9f31c93af5775c032ddf5c4e067949fb277a786756b9dedf562a27a",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a4_normal_034.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_024.npy",
+    "kind": "native256_feature",
+    "bytes": 2783360,
+    "sha256": "a14889bde1c1a28a9278fa3c22b5cc8986cb7c5abf24c7298708863d3e8eaeac",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_024.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_025.npy",
+    "kind": "native256_feature",
+    "bytes": 2899072,
+    "sha256": "8eeff863bbafcc205e1b51ab076ceb729c9dc11814fc881e164b74de192c33df",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_025.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_026.npy",
+    "kind": "native256_feature",
+    "bytes": 2683008,
+    "sha256": "68540947284638ebfcd10e82eb6ddf9618281d5f9f7715ec78f21de16d5daf80",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_026.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_027.npy",
+    "kind": "native256_feature",
+    "bytes": 2570368,
+    "sha256": "c43aba45a4519a2cf4695307338e84564769f6673048d47633242e9c16e35dde",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_027.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_028.npy",
+    "kind": "native256_feature",
+    "bytes": 2115712,
+    "sha256": "0012731d52c36a7c7602d2681d6e82ef57f45b6f70dd182c210dd01451dedeaa",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_028.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_029.npy",
+    "kind": "native256_feature",
+    "bytes": 2200704,
+    "sha256": "80cc08e45580c0fbaa53cc348f3f30a2213c6a7c666d57683b7b1cfe2003a5d0",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_029.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_030.npy",
+    "kind": "native256_feature",
+    "bytes": 2452608,
+    "sha256": "98ea69328f80fe57a8052e559602d400c5aeb858164a95bf50d60387688374dc",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a5_error_030.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_031.npy",
+    "kind": "native256_feature",
+    "bytes": 2798720,
+    "sha256": "5bd04b5278d3f157ce4cb8903821a4f99bb16293283f5e046fc8f3e187074384",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_031.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_032.npy",
+    "kind": "native256_feature",
+    "bytes": 2974848,
+    "sha256": "9e583164e5c9a3933bf2aba5d1c63d4b7fc37bca6f18c3a48212f490bfb5f987",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_032.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_033.npy",
+    "kind": "native256_feature",
+    "bytes": 2669696,
+    "sha256": "f18856796c9a6c714bfe399c3751e832e038390a9b8c423305821e43087efc14",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_033.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_034.npy",
+    "kind": "native256_feature",
+    "bytes": 3155072,
+    "sha256": "e7ecd2126f2cc6b87c896732b9dfc79ed818f9c8a1ec6b9d8c53363150a3788c",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_034.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_036.npy",
+    "kind": "native256_feature",
+    "bytes": 2912384,
+    "sha256": "0038aad0798e47efb6aeb9e0237ccd7344448eac12105e15fd3dbb7e96a16eea",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_error_036.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_normal_026.npy",
+    "kind": "native256_feature",
+    "bytes": 3433600,
+    "sha256": "73f35c98e7851769a3c1338ef5d8eb3787a95c66901e1018ac85db48b93c26e4",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a6_normal_026.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_002.npy",
+    "kind": "native256_feature",
+    "bytes": 6963328,
+    "sha256": "470b3c548e4147c639ffea124187b436c13c6afb292e9fe4d0f530c6a97ba0f4",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_002.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_003.npy",
+    "kind": "native256_feature",
+    "bytes": 4574336,
+    "sha256": "24de10e29d3e7e2ad23686025a86bb4b2ea0f5bb318cafb002bb501beda32c0f",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_003.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_004.npy",
+    "kind": "native256_feature",
+    "bytes": 4679808,
+    "sha256": "65566ec99015a76599eec47e8f617d0acd67485e34cf263db0e8e3f44373ac10",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_004.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_007.npy",
+    "kind": "native256_feature",
+    "bytes": 3789952,
+    "sha256": "fed9811d5f96011f586b920c73ff37b179a029f7ac9a50b5e9521fcdb3d4614c",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_007.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_008.npy",
+    "kind": "native256_feature",
+    "bytes": 4217984,
+    "sha256": "ea1790c33fb2117d96d3b0d59693100da0000b1c61c8a431da7c3c9176edb2ca",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_008.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_009.npy",
+    "kind": "native256_feature",
+    "bytes": 4703360,
+    "sha256": "b4eaba88fe85249cf860e35b9992e82dfc8778a2b2ecf8b280f8555cf95eddff",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_009.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_011.npy",
+    "kind": "native256_feature",
+    "bytes": 4543616,
+    "sha256": "b8674e001b3888543a44169199b92fcb71195e82a296a1abab12ff776972e126",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_011.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_035.npy",
+    "kind": "native256_feature",
+    "bytes": 6377600,
+    "sha256": "1c7ae1dcacf0b97fb735763a3e30b970ef7834e9a26281bee3289a87280316a7",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_error_035.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_006.npy",
+    "kind": "native256_feature",
+    "bytes": 5946496,
+    "sha256": "15bfcf3222b6f6d0bd8ae49bac426fd0db8c2504049f73ffc771d3afb4b47dd7",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_006.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_012.npy",
+    "kind": "native256_feature",
+    "bytes": 4666496,
+    "sha256": "ced7343455b8da613414a5947c6457f6da217bb600fee3eb5477ad8317ad41ca",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_012.npy"
+  },
+  {
+    "path": "code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_016.npy",
+    "kind": "native256_feature",
+    "bytes": 5088384,
+    "sha256": "78e660256f43c825f1090fff31e57dcdec7e8f1e78adc8f4aaf84c5e5a2ef710",
+    "original_server_path": "/hy-tmp/code/AEM/data/egoper/coffee/vc_v_features_10fps/coffee_u1_a7_normal_016.npy"
+  },
+  {
+    "path": "external/open_clip_model.safetensors",
+    "kind": "EVA02_CLIP",
+    "bytes": null,
+    "sha256": "f753bca0e8327f77e8845b0af2510d599c3e4614237007b48078c791f2cf391c",
+    "original_server_path": "/root/.cache/huggingface/hub/models--timm--eva02_large_patch14_clip_336.merged2b_s6b_b61k/snapshots/4f62907359c8506be7021582f360564693b22c15/open_clip_model.safetensors",
+    "download": "https://huggingface.co/timm/eva02_large_patch14_clip_336.merged2b_s6b_b61k"
+  }
+]

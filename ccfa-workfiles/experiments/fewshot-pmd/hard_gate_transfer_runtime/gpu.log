@@ -1,0 +1,5 @@
+/usr/local/lib/python3.11/dist-packages/torch/nn/modules/transformer.py:502: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at ../aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+GPU_SEED_COMPLETE 0
+GPU_SEED_COMPLETE 1
+GPU_COMPLETE 70 54.05343198776245

@@ -1,0 +1,385 @@
+{
+  "records": [
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_006",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_016",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_normal_026",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_001",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_010",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_013",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_014",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_015",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_016",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_005",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_006",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_017",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_018",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_019",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_020",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_021",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_022",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_023",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_024",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_025",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_026",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_027",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_028",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_029",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_030",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_031",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_032",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_033",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_034",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_036",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_002",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_003",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_004",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_007",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_008",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_009",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_011",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_035",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_006",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_016",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_normal_026",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_001",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_010",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_013",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_014",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_015",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_016",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_005",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_006",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_017",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_018",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_019",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_020",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_021",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_022",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_023",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_024",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_025",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_026",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_027",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_028",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_029",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_030",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_031",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_032",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_033",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_034",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_036",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_002",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_003",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_004",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_007",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_008",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_009",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_011",
+      "changed_route_frames": 0
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_035",
+      "changed_route_frames": 0
+    }
+  ],
+  "changed_route_frames": 0
+}

@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "input_hashes_verified": true,
+  "max_independent_auc_bootstrap_error": 1.1102230246251565e-16,
+  "constant_auc": 0.5,
+  "seconds": 9.754359722137451,
+  "result_sha": "73bc264e23a0a56aaeeb0b207101c451b014da86caf4820625bea078ac40b542",
+  "bootstrap_sha": "e6f71ddca0f7b6653df28121d354dd53aad849c5221d1386aa5b1d71eadbf299"
+}

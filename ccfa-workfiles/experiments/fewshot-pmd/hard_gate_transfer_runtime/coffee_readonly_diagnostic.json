@@ -1,0 +1,2537 @@
+{
+  "scope": "Post-result read-only coffee diagnosis, no new score, threshold or performance candidate",
+  "results": {
+    "0": {
+      "route_accuracy": {
+        "retained_normal": {
+          "frames": 53373,
+          "accuracy": 0.5955820358608285
+        },
+        "retained_error": {
+          "frames": 5441,
+          "accuracy": 0.43043558169454144
+        },
+        "rejected_normal": {
+          "frames": 33510,
+          "accuracy": 0.6594449418084154
+        },
+        "rejected_error": {
+          "frames": 3722,
+          "accuracy": 0.584631918323482
+        }
+      },
+      "normal_residual": {
+        "retained": {
+          "frames": 53373,
+          "mean": 0.5520564913749695,
+          "quantiles": [
+            0.5098661184310913,
+            0.5448593497276306,
+            0.6072067022323608
+          ]
+        },
+        "rejected": {
+          "frames": 33510,
+          "mean": 0.5439018607139587,
+          "quantiles": [
+            0.5044653415679932,
+            0.5332125425338745,
+            0.6035100221633911
+          ]
+        }
+      },
+      "matched_video_step_normal_differences": [
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 4,
+          "rejected_frames": 72,
+          "retained_frames": 2,
+          "mean_difference": -0.01762288808822632
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 7,
+          "rejected_frames": 77,
+          "retained_frames": 38,
+          "mean_difference": 0.012561261653900146
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 11,
+          "rejected_frames": 1,
+          "retained_frames": 226,
+          "mean_difference": 0.0024955272674560547
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 12,
+          "rejected_frames": 21,
+          "retained_frames": 137,
+          "mean_difference": 0.002033829689025879
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 13,
+          "rejected_frames": 131,
+          "retained_frames": 438,
+          "mean_difference": 0.05129757523536682
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 15,
+          "rejected_frames": 778,
+          "retained_frames": 80,
+          "mean_difference": 0.011221230030059814
+        },
+        {
+          "video": "coffee_u1_a7_normal_016",
+          "step": 3,
+          "rejected_frames": 23,
+          "retained_frames": 112,
+          "mean_difference": 0.018628299236297607
+        },
+        {
+          "video": "coffee_u1_a7_normal_016",
+          "step": 14,
+          "rejected_frames": 29,
+          "retained_frames": 62,
+          "mean_difference": 0.010176122188568115
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 1,
+          "rejected_frames": 167,
+          "retained_frames": 4,
+          "mean_difference": -0.004473447799682617
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 6,
+          "rejected_frames": 132,
+          "retained_frames": 40,
+          "mean_difference": -0.0013260245323181152
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 7,
+          "rejected_frames": 60,
+          "retained_frames": 10,
+          "mean_difference": -0.01697760820388794
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 8,
+          "rejected_frames": 102,
+          "retained_frames": 35,
+          "mean_difference": -0.05450981855392456
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 9,
+          "rejected_frames": 97,
+          "retained_frames": 213,
+          "mean_difference": 0.04269516468048096
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 11,
+          "rejected_frames": 276,
+          "retained_frames": 19,
+          "mean_difference": -0.0018838047981262207
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 12,
+          "rejected_frames": 102,
+          "retained_frames": 54,
+          "mean_difference": -0.044088780879974365
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 1,
+          "rejected_frames": 82,
+          "retained_frames": 224,
+          "mean_difference": -0.04468047618865967
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 4,
+          "rejected_frames": 10,
+          "retained_frames": 55,
+          "mean_difference": 0.015222132205963135
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 6,
+          "rejected_frames": 138,
+          "retained_frames": 79,
+          "mean_difference": 0.06338948011398315
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 9,
+          "rejected_frames": 110,
+          "retained_frames": 412,
+          "mean_difference": 0.009732663631439209
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 11,
+          "rejected_frames": 461,
+          "retained_frames": 89,
+          "mean_difference": 0.007301688194274902
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 12,
+          "rejected_frames": 8,
+          "retained_frames": 342,
+          "mean_difference": -0.00264662504196167
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 13,
+          "rejected_frames": 521,
+          "retained_frames": 264,
+          "mean_difference": 0.01042240858078003
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 3,
+          "rejected_frames": 55,
+          "retained_frames": 103,
+          "mean_difference": 0.048767268657684326
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 8,
+          "rejected_frames": 40,
+          "retained_frames": 73,
+          "mean_difference": 0.006428658962249756
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 12,
+          "rejected_frames": 146,
+          "retained_frames": 149,
+          "mean_difference": -0.014562010765075684
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 13,
+          "rejected_frames": 633,
+          "retained_frames": 17,
+          "mean_difference": -0.003932356834411621
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 2,
+          "rejected_frames": 102,
+          "retained_frames": 64,
+          "mean_difference": 0.007242798805236816
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 3,
+          "rejected_frames": 59,
+          "retained_frames": 159,
+          "mean_difference": -0.0034431815147399902
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 6,
+          "rejected_frames": 163,
+          "retained_frames": 160,
+          "mean_difference": 0.01291358470916748
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 7,
+          "rejected_frames": 189,
+          "retained_frames": 19,
+          "mean_difference": 0.008965551853179932
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 9,
+          "rejected_frames": 25,
+          "retained_frames": 417,
+          "mean_difference": 0.012350320816040039
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 11,
+          "rejected_frames": 233,
+          "retained_frames": 342,
+          "mean_difference": 0.00974947214126587
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 12,
+          "rejected_frames": 135,
+          "retained_frames": 722,
+          "mean_difference": 0.005468428134918213
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 13,
+          "rejected_frames": 142,
+          "retained_frames": 143,
+          "mean_difference": -0.028787314891815186
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 14,
+          "rejected_frames": 72,
+          "retained_frames": 10,
+          "mean_difference": -0.03324764966964722
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 15,
+          "rejected_frames": 518,
+          "retained_frames": 83,
+          "mean_difference": -0.04272386431694031
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 5,
+          "rejected_frames": 5,
+          "retained_frames": 70,
+          "mean_difference": -0.03773623704910278
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 6,
+          "rejected_frames": 172,
+          "retained_frames": 108,
+          "mean_difference": -0.013023316860198975
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 7,
+          "rejected_frames": 82,
+          "retained_frames": 24,
+          "mean_difference": 0.029616832733154297
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 9,
+          "rejected_frames": 179,
+          "retained_frames": 92,
+          "mean_difference": 0.019219040870666504
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 11,
+          "rejected_frames": 95,
+          "retained_frames": 166,
+          "mean_difference": -0.002886652946472168
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 13,
+          "rejected_frames": 245,
+          "retained_frames": 141,
+          "mean_difference": -0.009877026081085205
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 15,
+          "rejected_frames": 608,
+          "retained_frames": 53,
+          "mean_difference": -0.05776697397232056
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 4,
+          "rejected_frames": 67,
+          "retained_frames": 47,
+          "mean_difference": 0.009633958339691162
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 6,
+          "rejected_frames": 4,
+          "retained_frames": 202,
+          "mean_difference": -0.034045279026031494
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 8,
+          "rejected_frames": 20,
+          "retained_frames": 76,
+          "mean_difference": 0.020008563995361328
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 11,
+          "rejected_frames": 62,
+          "retained_frames": 244,
+          "mean_difference": 0.01983463764190674
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 12,
+          "rejected_frames": 77,
+          "retained_frames": 107,
+          "mean_difference": 0.04384583234786987
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 13,
+          "rejected_frames": 271,
+          "retained_frames": 149,
+          "mean_difference": 0.043853968381881714
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 14,
+          "rejected_frames": 69,
+          "retained_frames": 30,
+          "mean_difference": -0.02807396650314331
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 15,
+          "rejected_frames": 448,
+          "retained_frames": 80,
+          "mean_difference": -0.012172341346740723
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 2,
+          "rejected_frames": 10,
+          "retained_frames": 195,
+          "mean_difference": 0.02083057165145874
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 4,
+          "rejected_frames": 47,
+          "retained_frames": 21,
+          "mean_difference": 0.017103374004364014
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 6,
+          "rejected_frames": 2,
+          "retained_frames": 349,
+          "mean_difference": 0.01582413911819458
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 9,
+          "rejected_frames": 247,
+          "retained_frames": 615,
+          "mean_difference": -0.02770024538040161
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 11,
+          "rejected_frames": 209,
+          "retained_frames": 334,
+          "mean_difference": 0.023033499717712402
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 13,
+          "rejected_frames": 323,
+          "retained_frames": 119,
+          "mean_difference": 0.030057668685913086
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 14,
+          "rejected_frames": 45,
+          "retained_frames": 69,
+          "mean_difference": 0.00026094913482666016
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 3,
+          "rejected_frames": 2,
+          "retained_frames": 180,
+          "mean_difference": 0.04882925748825073
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 9,
+          "rejected_frames": 178,
+          "retained_frames": 163,
+          "mean_difference": -0.007906138896942139
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 12,
+          "rejected_frames": 42,
+          "retained_frames": 236,
+          "mean_difference": -0.01707404851913452
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 13,
+          "rejected_frames": 488,
+          "retained_frames": 257,
+          "mean_difference": -0.00020354986190795898
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 15,
+          "rejected_frames": 740,
+          "retained_frames": 73,
+          "mean_difference": -0.00898444652557373
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 1,
+          "rejected_frames": 91,
+          "retained_frames": 304,
+          "mean_difference": -0.023016929626464844
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 3,
+          "rejected_frames": 39,
+          "retained_frames": 49,
+          "mean_difference": 0.03500652313232422
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 8,
+          "rejected_frames": 10,
+          "retained_frames": 51,
+          "mean_difference": -0.02122020721435547
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 9,
+          "rejected_frames": 20,
+          "retained_frames": 219,
+          "mean_difference": 0.019693493843078613
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 10,
+          "rejected_frames": 31,
+          "retained_frames": 74,
+          "mean_difference": 0.025453150272369385
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 11,
+          "rejected_frames": 27,
+          "retained_frames": 242,
+          "mean_difference": 0.022110819816589355
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 12,
+          "rejected_frames": 44,
+          "retained_frames": 236,
+          "mean_difference": 0.05079597234725952
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 13,
+          "rejected_frames": 373,
+          "retained_frames": 11,
+          "mean_difference": 0.020766079425811768
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 15,
+          "rejected_frames": 640,
+          "retained_frames": 190,
+          "mean_difference": -0.01986759901046753
+        },
+        {
+          "video": "coffee_u1_a2_error_017",
+          "step": 2,
+          "rejected_frames": 21,
+          "retained_frames": 93,
+          "mean_difference": 0.003156423568725586
+        },
+        {
+          "video": "coffee_u1_a2_error_017",
+          "step": 6,
+          "rejected_frames": 55,
+          "retained_frames": 59,
+          "mean_difference": -0.0014966130256652832
+        },
+        {
+          "video": "coffee_u1_a2_error_017",
+          "step": 9,
+          "rejected_frames": 49,
+          "retained_frames": 222,
+          "mean_difference": 0.006713688373565674
+        },
+        {
+          "video": "coffee_u1_a2_error_017",
+          "step": 11,
+          "rejected_frames": 68,
+          "retained_frames": 113,
+          "mean_difference": 0.00170135498046875
+        },
+        {
+          "video": "coffee_u1_a2_error_017",
+          "step": 13,
+          "rejected_frames": 38,
+          "retained_frames": 141,
+          "mean_difference": 0.033052146434783936
+        },
+        {
+          "video": "coffee_u1_a2_error_018",
+          "step": 11,
+          "rejected_frames": 33,
+          "retained_frames": 154,
+          "mean_difference": 0.01968824863433838
+        },
+        {
+          "video": "coffee_u1_a2_error_018",
+          "step": 14,
+          "rejected_frames": 18,
+          "retained_frames": 49,
+          "mean_difference": -0.025283634662628174
+        },
+        {
+          "video": "coffee_u1_a2_error_019",
+          "step": 7,
+          "rejected_frames": 8,
+          "retained_frames": 42,
+          "mean_difference": 0.0026068687438964844
+        },
+        {
+          "video": "coffee_u1_a2_error_019",
+          "step": 11,
+          "rejected_frames": 107,
+          "retained_frames": 120,
+          "mean_difference": -0.0065454840660095215
+        },
+        {
+          "video": "coffee_u1_a2_error_019",
+          "step": 15,
+          "rejected_frames": 101,
+          "retained_frames": 175,
+          "mean_difference": -0.022000670433044434
+        },
+        {
+          "video": "coffee_u1_a2_error_020",
+          "step": 1,
+          "rejected_frames": 78,
+          "retained_frames": 99,
+          "mean_difference": -0.08825880289077759
+        },
+        {
+          "video": "coffee_u1_a2_error_020",
+          "step": 11,
+          "rejected_frames": 150,
+          "retained_frames": 38,
+          "mean_difference": -0.019127488136291504
+        },
+        {
+          "video": "coffee_u1_a2_error_020",
+          "step": 15,
+          "rejected_frames": 37,
+          "retained_frames": 155,
+          "mean_difference": 0.00048470497131347656
+        },
+        {
+          "video": "coffee_u1_a2_error_021",
+          "step": 6,
+          "rejected_frames": 41,
+          "retained_frames": 79,
+          "mean_difference": -0.018911302089691162
+        },
+        {
+          "video": "coffee_u1_a2_error_021",
+          "step": 7,
+          "rejected_frames": 38,
+          "retained_frames": 54,
+          "mean_difference": 0.001316070556640625
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 3,
+          "rejected_frames": 1,
+          "retained_frames": 65,
+          "mean_difference": 0.009079158306121826
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 6,
+          "rejected_frames": 10,
+          "retained_frames": 80,
+          "mean_difference": 0.002530395984649658
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 7,
+          "rejected_frames": 31,
+          "retained_frames": 53,
+          "mean_difference": -0.0024434924125671387
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 14,
+          "rejected_frames": 61,
+          "retained_frames": 7,
+          "mean_difference": -0.00046074390411376953
+        },
+        {
+          "video": "coffee_u1_a2_error_023",
+          "step": 7,
+          "rejected_frames": 40,
+          "retained_frames": 23,
+          "mean_difference": -0.02342623472213745
+        },
+        {
+          "video": "coffee_u1_a2_error_023",
+          "step": 11,
+          "rejected_frames": 24,
+          "retained_frames": 139,
+          "mean_difference": 0.004842936992645264
+        },
+        {
+          "video": "coffee_u1_a2_error_023",
+          "step": 14,
+          "rejected_frames": 23,
+          "retained_frames": 46,
+          "mean_difference": -0.007419884204864502
+        },
+        {
+          "video": "coffee_u1_a5_error_024",
+          "step": 6,
+          "rejected_frames": 35,
+          "retained_frames": 92,
+          "mean_difference": 0.015555977821350098
+        },
+        {
+          "video": "coffee_u1_a5_error_024",
+          "step": 7,
+          "rejected_frames": 71,
+          "retained_frames": 35,
+          "mean_difference": -0.006330609321594238
+        },
+        {
+          "video": "coffee_u1_a5_error_024",
+          "step": 13,
+          "rejected_frames": 74,
+          "retained_frames": 46,
+          "mean_difference": -0.024818480014801025
+        },
+        {
+          "video": "coffee_u1_a5_error_024",
+          "step": 15,
+          "rejected_frames": 231,
+          "retained_frames": 20,
+          "mean_difference": -0.010474741458892822
+        },
+        {
+          "video": "coffee_u1_a5_error_025",
+          "step": 6,
+          "rejected_frames": 6,
+          "retained_frames": 161,
+          "mean_difference": 0.021511971950531006
+        },
+        {
+          "video": "coffee_u1_a5_error_025",
+          "step": 14,
+          "rejected_frames": 60,
+          "retained_frames": 24,
+          "mean_difference": 0.0219573974609375
+        },
+        {
+          "video": "coffee_u1_a5_error_025",
+          "step": 15,
+          "rejected_frames": 37,
+          "retained_frames": 146,
+          "mean_difference": 0.0074089765548706055
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 2,
+          "rejected_frames": 81,
+          "retained_frames": 18,
+          "mean_difference": -0.012559235095977783
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 6,
+          "rejected_frames": 110,
+          "retained_frames": 21,
+          "mean_difference": 0.0125388503074646
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 7,
+          "rejected_frames": 4,
+          "retained_frames": 91,
+          "mean_difference": -0.009384572505950928
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 8,
+          "rejected_frames": 9,
+          "retained_frames": 115,
+          "mean_difference": 0.04298979043960571
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 11,
+          "rejected_frames": 131,
+          "retained_frames": 27,
+          "mean_difference": 0.017935752868652344
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 13,
+          "rejected_frames": 148,
+          "retained_frames": 17,
+          "mean_difference": -0.026487112045288086
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 1,
+          "rejected_frames": 93,
+          "retained_frames": 51,
+          "mean_difference": -0.0061261653900146484
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 7,
+          "rejected_frames": 41,
+          "retained_frames": 48,
+          "mean_difference": -0.004317641258239746
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 8,
+          "rejected_frames": 1,
+          "retained_frames": 78,
+          "mean_difference": 0.010472893714904785
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 10,
+          "rejected_frames": 4,
+          "retained_frames": 128,
+          "mean_difference": 0.026002168655395508
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 11,
+          "rejected_frames": 17,
+          "retained_frames": 115,
+          "mean_difference": 0.011588215827941895
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 13,
+          "rejected_frames": 81,
+          "retained_frames": 19,
+          "mean_difference": -0.028914213180541992
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 8,
+          "rejected_frames": 91,
+          "retained_frames": 45,
+          "mean_difference": -0.023682057857513428
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 9,
+          "rejected_frames": 148,
+          "retained_frames": 76,
+          "mean_difference": 0.00014698505401611328
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 10,
+          "rejected_frames": 67,
+          "retained_frames": 23,
+          "mean_difference": 0.05435490608215332
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 12,
+          "rejected_frames": 7,
+          "retained_frames": 93,
+          "mean_difference": -0.02847445011138916
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 13,
+          "rejected_frames": 77,
+          "retained_frames": 17,
+          "mean_difference": -0.02986663579940796
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 3,
+          "rejected_frames": 67,
+          "retained_frames": 31,
+          "mean_difference": -0.07979100942611694
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 4,
+          "rejected_frames": 26,
+          "retained_frames": 16,
+          "mean_difference": -0.023842036724090576
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 8,
+          "rejected_frames": 6,
+          "retained_frames": 64,
+          "mean_difference": 0.023689448833465576
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 11,
+          "rejected_frames": 76,
+          "retained_frames": 77,
+          "mean_difference": 0.02781277894973755
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 12,
+          "rejected_frames": 5,
+          "retained_frames": 95,
+          "mean_difference": -0.01841074228286743
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 1,
+          "rejected_frames": 121,
+          "retained_frames": 57,
+          "mean_difference": -0.010369658470153809
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 6,
+          "rejected_frames": 51,
+          "retained_frames": 60,
+          "mean_difference": 0.03737461566925049
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 7,
+          "rejected_frames": 77,
+          "retained_frames": 21,
+          "mean_difference": 0.014048576354980469
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 11,
+          "rejected_frames": 112,
+          "retained_frames": 127,
+          "mean_difference": -0.007845699787139893
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 15,
+          "rejected_frames": 52,
+          "retained_frames": 13,
+          "mean_difference": 0.00707322359085083
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 6,
+          "rejected_frames": 29,
+          "retained_frames": 66,
+          "mean_difference": -0.011046648025512695
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 7,
+          "rejected_frames": 19,
+          "retained_frames": 53,
+          "mean_difference": 0.011851966381072998
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 11,
+          "rejected_frames": 160,
+          "retained_frames": 104,
+          "mean_difference": -0.0015764236450195312
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 12,
+          "rejected_frames": 80,
+          "retained_frames": 29,
+          "mean_difference": -0.01925957202911377
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 13,
+          "rejected_frames": 77,
+          "retained_frames": 35,
+          "mean_difference": -0.013601124286651611
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 3,
+          "rejected_frames": 21,
+          "retained_frames": 52,
+          "mean_difference": 0.04902857542037964
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 5,
+          "rejected_frames": 10,
+          "retained_frames": 42,
+          "mean_difference": 0.01510012149810791
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 9,
+          "rejected_frames": 82,
+          "retained_frames": 200,
+          "mean_difference": 0.03247636556625366
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 12,
+          "rejected_frames": 67,
+          "retained_frames": 65,
+          "mean_difference": -0.007240176200866699
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 13,
+          "rejected_frames": 117,
+          "retained_frames": 28,
+          "mean_difference": -0.026632368564605713
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 15,
+          "rejected_frames": 518,
+          "retained_frames": 13,
+          "mean_difference": -0.036264896392822266
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 1,
+          "rejected_frames": 131,
+          "retained_frames": 61,
+          "mean_difference": 0.012999653816223145
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 7,
+          "rejected_frames": 58,
+          "retained_frames": 62,
+          "mean_difference": 0.009049773216247559
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 8,
+          "rejected_frames": 41,
+          "retained_frames": 73,
+          "mean_difference": -0.019041061401367188
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 11,
+          "rejected_frames": 123,
+          "retained_frames": 140,
+          "mean_difference": 0.028006553649902344
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 12,
+          "rejected_frames": 102,
+          "retained_frames": 11,
+          "mean_difference": -0.017802894115447998
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 1,
+          "rejected_frames": 55,
+          "retained_frames": 83,
+          "mean_difference": -0.0050013065338134766
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 9,
+          "rejected_frames": 91,
+          "retained_frames": 156,
+          "mean_difference": 0.018655121326446533
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 10,
+          "rejected_frames": 36,
+          "retained_frames": 87,
+          "mean_difference": 0.03791159391403198
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 13,
+          "rejected_frames": 103,
+          "retained_frames": 71,
+          "mean_difference": -0.0006223917007446289
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 3,
+          "rejected_frames": 151,
+          "retained_frames": 113,
+          "mean_difference": 0.005502581596374512
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 4,
+          "rejected_frames": 56,
+          "retained_frames": 11,
+          "mean_difference": -0.004525721073150635
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 5,
+          "rejected_frames": 30,
+          "retained_frames": 142,
+          "mean_difference": -0.004374861717224121
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 7,
+          "rejected_frames": 13,
+          "retained_frames": 72,
+          "mean_difference": -0.024570941925048828
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 8,
+          "rejected_frames": 97,
+          "retained_frames": 110,
+          "mean_difference": 0.01615053415298462
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 11,
+          "rejected_frames": 95,
+          "retained_frames": 154,
+          "mean_difference": -0.002231776714324951
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 13,
+          "rejected_frames": 355,
+          "retained_frames": 119,
+          "mean_difference": 0.02053159475326538
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 14,
+          "rejected_frames": 6,
+          "retained_frames": 89,
+          "mean_difference": -0.00430673360824585
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 15,
+          "rejected_frames": 227,
+          "retained_frames": 548,
+          "mean_difference": -0.001013636589050293
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 7,
+          "rejected_frames": 110,
+          "retained_frames": 2,
+          "mean_difference": 0.07061600685119629
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 13,
+          "rejected_frames": 192,
+          "retained_frames": 170,
+          "mean_difference": 0.012279093265533447
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 14,
+          "rejected_frames": 79,
+          "retained_frames": 60,
+          "mean_difference": -0.02523207664489746
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 15,
+          "rejected_frames": 58,
+          "retained_frames": 463,
+          "mean_difference": 0.02831980586051941
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 2,
+          "rejected_frames": 27,
+          "retained_frames": 104,
+          "mean_difference": 0.008708417415618896
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 3,
+          "rejected_frames": 56,
+          "retained_frames": 91,
+          "mean_difference": 0.00938349962234497
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 7,
+          "rejected_frames": 48,
+          "retained_frames": 52,
+          "mean_difference": 0.001212000846862793
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 9,
+          "rejected_frames": 83,
+          "retained_frames": 392,
+          "mean_difference": -0.012987613677978516
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 10,
+          "rejected_frames": 35,
+          "retained_frames": 99,
+          "mean_difference": 0.005992710590362549
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 11,
+          "rejected_frames": 189,
+          "retained_frames": 4,
+          "mean_difference": -0.011362969875335693
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 12,
+          "rejected_frames": 93,
+          "retained_frames": 172,
+          "mean_difference": -0.022119641304016113
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 13,
+          "rejected_frames": 446,
+          "retained_frames": 73,
+          "mean_difference": 0.009725630283355713
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 15,
+          "rejected_frames": 455,
+          "retained_frames": 147,
+          "mean_difference": -0.02128434181213379
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 3,
+          "rejected_frames": 24,
+          "retained_frames": 61,
+          "mean_difference": -0.08956199884414673
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 4,
+          "rejected_frames": 21,
+          "retained_frames": 110,
+          "mean_difference": 0.0028498172760009766
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 5,
+          "rejected_frames": 47,
+          "retained_frames": 2,
+          "mean_difference": 0.030655980110168457
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 11,
+          "rejected_frames": 26,
+          "retained_frames": 209,
+          "mean_difference": -0.010638713836669922
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 13,
+          "rejected_frames": 49,
+          "retained_frames": 436,
+          "mean_difference": 0.007505148649215698
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 15,
+          "rejected_frames": 314,
+          "retained_frames": 389,
+          "mean_difference": 0.012014955282211304
+        },
+        {
+          "video": "coffee_u1_a7_error_008",
+          "step": 3,
+          "rejected_frames": 35,
+          "retained_frames": 36,
+          "mean_difference": -0.00010412931442260742
+        },
+        {
+          "video": "coffee_u1_a7_error_008",
+          "step": 11,
+          "rejected_frames": 35,
+          "retained_frames": 210,
+          "mean_difference": -0.0056236982345581055
+        },
+        {
+          "video": "coffee_u1_a7_error_008",
+          "step": 14,
+          "rejected_frames": 53,
+          "retained_frames": 29,
+          "mean_difference": -0.01838761568069458
+        },
+        {
+          "video": "coffee_u1_a7_error_008",
+          "step": 15,
+          "rejected_frames": 168,
+          "retained_frames": 684,
+          "mean_difference": -0.0014193058013916016
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 3,
+          "rejected_frames": 98,
+          "retained_frames": 25,
+          "mean_difference": -0.01329571008682251
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 5,
+          "rejected_frames": 27,
+          "retained_frames": 24,
+          "mean_difference": 0.04743695259094238
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 7,
+          "rejected_frames": 29,
+          "retained_frames": 43,
+          "mean_difference": 0.04146122932434082
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 8,
+          "rejected_frames": 45,
+          "retained_frames": 93,
+          "mean_difference": 0.03216564655303955
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 9,
+          "rejected_frames": 39,
+          "retained_frames": 607,
+          "mean_difference": 0.00683361291885376
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 12,
+          "rejected_frames": 83,
+          "retained_frames": 111,
+          "mean_difference": -0.012555837631225586
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 13,
+          "rejected_frames": 16,
+          "retained_frames": 647,
+          "mean_difference": 0.035443514585494995
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 2,
+          "rejected_frames": 9,
+          "retained_frames": 104,
+          "mean_difference": 0.04258614778518677
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 3,
+          "rejected_frames": 4,
+          "retained_frames": 135,
+          "mean_difference": 0.019020497798919678
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 5,
+          "rejected_frames": 87,
+          "retained_frames": 15,
+          "mean_difference": -0.054179489612579346
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 8,
+          "rejected_frames": 82,
+          "retained_frames": 22,
+          "mean_difference": -0.01239711046218872
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 3,
+          "rejected_frames": 44,
+          "retained_frames": 134,
+          "mean_difference": -0.01761704683303833
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 5,
+          "rejected_frames": 61,
+          "retained_frames": 1,
+          "mean_difference": 0.0016965866088867188
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 8,
+          "rejected_frames": 69,
+          "retained_frames": 13,
+          "mean_difference": -0.03568679094314575
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 9,
+          "rejected_frames": 88,
+          "retained_frames": 82,
+          "mean_difference": 0.030222296714782715
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 13,
+          "rejected_frames": 176,
+          "retained_frames": 137,
+          "mean_difference": 0.014987945556640625
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 15,
+          "rejected_frames": 175,
+          "retained_frames": 323,
+          "mean_difference": -0.010251820087432861
+        }
+      ],
+      "matched_equal_cell_mean_difference": 0.001388373562527187,
+      "gap_length_bins": {
+        "1-10": {
+          "frames": 153,
+          "errors": 9,
+          "normal": 144,
+          "error_auc": 0.6003086419753086,
+          "route_accuracy": 0.3790849673202614,
+          "by_step": {
+            "1": null,
+            "2": null,
+            "3": 0.5789473684210527,
+            "4": null,
+            "5": 1.0,
+            "6": null,
+            "7": null,
+            "8": 0.7692307692307693,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null
+          }
+        },
+        "11-30": {
+          "frames": 560,
+          "errors": 32,
+          "normal": 528,
+          "error_auc": 0.46016808712121215,
+          "route_accuracy": 0.5,
+          "by_step": {
+            "2": null,
+            "3": 0.0,
+            "4": null,
+            "8": 0.273972602739726,
+            "9": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null
+          }
+        },
+        "31-100": {
+          "frames": 5138,
+          "errors": 385,
+          "normal": 4753,
+          "error_auc": 0.41099811192384306,
+          "route_accuracy": 0.5506033476060724,
+          "by_step": {
+            "1": null,
+            "2": null,
+            "3": 0.42777235772357725,
+            "4": null,
+            "5": 0.13304011259676282,
+            "6": 0.4536454849498328,
+            "7": null,
+            "8": 0.8656716417910447,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": 0.09999812597215194,
+            "13": null,
+            "14": null
+          }
+        },
+        "101-1000000000": {
+          "frames": 31381,
+          "errors": 3296,
+          "normal": 28085,
+          "error_auc": 0.48332966756603996,
+          "route_accuracy": 0.6726044421783882,
+          "by_step": {
+            "1": 0.6816816816816816,
+            "2": null,
+            "3": 0.04036379275450315,
+            "4": null,
+            "5": 0.6016597510373445,
+            "6": 0.4860013111036303,
+            "7": 0.2667014613778706,
+            "8": 0.2525105708245243,
+            "9": 0.48656945510360705,
+            "10": null,
+            "11": 0.9280138768430182,
+            "12": 0.5289981757373062,
+            "13": 1.0,
+            "14": null,
+            "15": 0.39867181722129263
+          }
+        }
+      }
+    },
+    "1": {
+      "route_accuracy": {
+        "retained_normal": {
+          "frames": 67517,
+          "accuracy": 0.680761882192633
+        },
+        "retained_error": {
+          "frames": 6387,
+          "accuracy": 0.5780491623610459
+        },
+        "rejected_normal": {
+          "frames": 19366,
+          "accuracy": 0.6792316430858205
+        },
+        "rejected_error": {
+          "frames": 2776,
+          "accuracy": 0.6685878962536023
+        }
+      },
+      "normal_residual": {
+        "retained": {
+          "frames": 67517,
+          "mean": 0.5746914744377136,
+          "quantiles": [
+            0.4755887985229492,
+            0.5716603994369507,
+            0.6625770330429077
+          ]
+        },
+        "rejected": {
+          "frames": 19366,
+          "mean": 0.5812293887138367,
+          "quantiles": [
+            0.5414319038391113,
+            0.5723280906677246,
+            0.6304132044315338
+          ]
+        }
+      },
+      "matched_video_step_normal_differences": [
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 1,
+          "rejected_frames": 84,
+          "retained_frames": 131,
+          "mean_difference": 0.021346688270568848
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 4,
+          "rejected_frames": 39,
+          "retained_frames": 35,
+          "mean_difference": -0.008257448673248291
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 5,
+          "rejected_frames": 58,
+          "retained_frames": 17,
+          "mean_difference": 0.008381307125091553
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 13,
+          "rejected_frames": 78,
+          "retained_frames": 491,
+          "mean_difference": 0.02250981330871582
+        },
+        {
+          "video": "coffee_u1_a7_normal_006",
+          "step": 15,
+          "rejected_frames": 460,
+          "retained_frames": 398,
+          "mean_difference": 0.014275729656219482
+        },
+        {
+          "video": "coffee_u1_a7_normal_016",
+          "step": 4,
+          "rejected_frames": 30,
+          "retained_frames": 30,
+          "mean_difference": -0.03238433599472046
+        },
+        {
+          "video": "coffee_u1_a7_normal_016",
+          "step": 15,
+          "rejected_frames": 298,
+          "retained_frames": 253,
+          "mean_difference": 0.011332571506500244
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 1,
+          "rejected_frames": 158,
+          "retained_frames": 13,
+          "mean_difference": -0.012328565120697021
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 4,
+          "rejected_frames": 52,
+          "retained_frames": 2,
+          "mean_difference": -0.059313178062438965
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 11,
+          "rejected_frames": 264,
+          "retained_frames": 31,
+          "mean_difference": 0.09042936563491821
+        },
+        {
+          "video": "coffee_u1_a6_normal_026",
+          "step": 14,
+          "rejected_frames": 52,
+          "retained_frames": 55,
+          "mean_difference": 0.060877203941345215
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 1,
+          "rejected_frames": 102,
+          "retained_frames": 204,
+          "mean_difference": 0.0052454471588134766
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 8,
+          "rejected_frames": 2,
+          "retained_frames": 196,
+          "mean_difference": 0.04141676425933838
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 10,
+          "rejected_frames": 88,
+          "retained_frames": 158,
+          "mean_difference": -0.07095229625701904
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 11,
+          "rejected_frames": 221,
+          "retained_frames": 329,
+          "mean_difference": 0.06998693943023682
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 12,
+          "rejected_frames": 11,
+          "retained_frames": 339,
+          "mean_difference": 0.03963726758956909
+        },
+        {
+          "video": "coffee_u1_a1_error_001",
+          "step": 13,
+          "rejected_frames": 33,
+          "retained_frames": 752,
+          "mean_difference": 0.015253186225891113
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 4,
+          "rejected_frames": 65,
+          "retained_frames": 7,
+          "mean_difference": -0.016322076320648193
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 12,
+          "rejected_frames": 14,
+          "retained_frames": 281,
+          "mean_difference": -0.010903358459472656
+        },
+        {
+          "video": "coffee_u1_a1_error_010",
+          "step": 13,
+          "rejected_frames": 363,
+          "retained_frames": 287,
+          "mean_difference": 0.016337096691131592
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 3,
+          "rejected_frames": 29,
+          "retained_frames": 189,
+          "mean_difference": -0.007487833499908447
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 11,
+          "rejected_frames": 80,
+          "retained_frames": 495,
+          "mean_difference": 0.015762507915496826
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 12,
+          "rejected_frames": 163,
+          "retained_frames": 694,
+          "mean_difference": 0.04669058322906494
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 13,
+          "rejected_frames": 82,
+          "retained_frames": 203,
+          "mean_difference": -0.00017774105072021484
+        },
+        {
+          "video": "coffee_u1_a1_error_013",
+          "step": 15,
+          "rejected_frames": 544,
+          "retained_frames": 57,
+          "mean_difference": 0.021874725818634033
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 9,
+          "rejected_frames": 6,
+          "retained_frames": 265,
+          "mean_difference": 0.06764683127403259
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 12,
+          "rejected_frames": 26,
+          "retained_frames": 381,
+          "mean_difference": -0.018956542015075684
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 13,
+          "rejected_frames": 261,
+          "retained_frames": 125,
+          "mean_difference": -0.014304101467132568
+        },
+        {
+          "video": "coffee_u1_a1_error_014",
+          "step": 15,
+          "rejected_frames": 440,
+          "retained_frames": 221,
+          "mean_difference": 0.005094468593597412
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 1,
+          "rejected_frames": 86,
+          "retained_frames": 125,
+          "mean_difference": 0.006497502326965332
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 11,
+          "rejected_frames": 10,
+          "retained_frames": 296,
+          "mean_difference": 0.03218948841094971
+        },
+        {
+          "video": "coffee_u1_a1_error_015",
+          "step": 14,
+          "rejected_frames": 29,
+          "retained_frames": 70,
+          "mean_difference": -0.0052550435066223145
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 1,
+          "rejected_frames": 69,
+          "retained_frames": 82,
+          "mean_difference": -0.001507580280303955
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 9,
+          "rejected_frames": 41,
+          "retained_frames": 821,
+          "mean_difference": 0.0923537015914917
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 10,
+          "rejected_frames": 2,
+          "retained_frames": 392,
+          "mean_difference": -0.04880928993225098
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 11,
+          "rejected_frames": 58,
+          "retained_frames": 485,
+          "mean_difference": 0.0025829672813415527
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 13,
+          "rejected_frames": 45,
+          "retained_frames": 397,
+          "mean_difference": 0.03946560621261597
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 14,
+          "rejected_frames": 110,
+          "retained_frames": 4,
+          "mean_difference": 0.002010166645050049
+        },
+        {
+          "video": "coffee_u1_a1_error_016",
+          "step": 15,
+          "rejected_frames": 258,
+          "retained_frames": 198,
+          "mean_difference": 0.026147902011871338
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 9,
+          "rejected_frames": 7,
+          "retained_frames": 334,
+          "mean_difference": 0.09500637650489807
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 12,
+          "rejected_frames": 51,
+          "retained_frames": 227,
+          "mean_difference": 0.09289324283599854
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 13,
+          "rejected_frames": 355,
+          "retained_frames": 390,
+          "mean_difference": -0.005721867084503174
+        },
+        {
+          "video": "coffee_u1_a2_error_005",
+          "step": 15,
+          "rejected_frames": 123,
+          "retained_frames": 690,
+          "mean_difference": -0.013595342636108398
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 3,
+          "rejected_frames": 5,
+          "retained_frames": 83,
+          "mean_difference": 0.009545445442199707
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 4,
+          "rejected_frames": 45,
+          "retained_frames": 15,
+          "mean_difference": -0.03672724962234497
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 13,
+          "rejected_frames": 151,
+          "retained_frames": 233,
+          "mean_difference": -0.00012165307998657227
+        },
+        {
+          "video": "coffee_u1_a2_error_006",
+          "step": 15,
+          "rejected_frames": 315,
+          "retained_frames": 515,
+          "mean_difference": -0.002162158489227295
+        },
+        {
+          "video": "coffee_u1_a2_error_017",
+          "step": 4,
+          "rejected_frames": 9,
+          "retained_frames": 26,
+          "mean_difference": -0.007985353469848633
+        },
+        {
+          "video": "coffee_u1_a2_error_018",
+          "step": 1,
+          "rejected_frames": 62,
+          "retained_frames": 71,
+          "mean_difference": -0.018716514110565186
+        },
+        {
+          "video": "coffee_u1_a2_error_019",
+          "step": 12,
+          "rejected_frames": 87,
+          "retained_frames": 38,
+          "mean_difference": -0.03988677263259888
+        },
+        {
+          "video": "coffee_u1_a2_error_020",
+          "step": 5,
+          "rejected_frames": 24,
+          "retained_frames": 22,
+          "mean_difference": -0.01496577262878418
+        },
+        {
+          "video": "coffee_u1_a2_error_020",
+          "step": 10,
+          "rejected_frames": 2,
+          "retained_frames": 115,
+          "mean_difference": 0.0274658203125
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 1,
+          "rejected_frames": 125,
+          "retained_frames": 2,
+          "mean_difference": 0.012936115264892578
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 2,
+          "rejected_frames": 5,
+          "retained_frames": 106,
+          "mean_difference": -0.00809246301651001
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 4,
+          "rejected_frames": 2,
+          "retained_frames": 54,
+          "mean_difference": -0.01664799451828003
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 14,
+          "rejected_frames": 30,
+          "retained_frames": 38,
+          "mean_difference": 0.015090584754943848
+        },
+        {
+          "video": "coffee_u1_a2_error_022",
+          "step": 15,
+          "rejected_frames": 10,
+          "retained_frames": 301,
+          "mean_difference": 0.04312610626220703
+        },
+        {
+          "video": "coffee_u1_a2_error_023",
+          "step": 4,
+          "rejected_frames": 31,
+          "retained_frames": 13,
+          "mean_difference": 0.006937563419342041
+        },
+        {
+          "video": "coffee_u1_a2_error_023",
+          "step": 14,
+          "rejected_frames": 22,
+          "retained_frames": 47,
+          "mean_difference": -0.006900966167449951
+        },
+        {
+          "video": "coffee_u1_a5_error_024",
+          "step": 12,
+          "rejected_frames": 5,
+          "retained_frames": 145,
+          "mean_difference": 0.06044936180114746
+        },
+        {
+          "video": "coffee_u1_a5_error_024",
+          "step": 13,
+          "rejected_frames": 9,
+          "retained_frames": 111,
+          "mean_difference": -0.023436665534973145
+        },
+        {
+          "video": "coffee_u1_a5_error_025",
+          "step": 2,
+          "rejected_frames": 82,
+          "retained_frames": 25,
+          "mean_difference": -0.011878132820129395
+        },
+        {
+          "video": "coffee_u1_a5_error_025",
+          "step": 5,
+          "rejected_frames": 13,
+          "retained_frames": 31,
+          "mean_difference": 0.01767551898956299
+        },
+        {
+          "video": "coffee_u1_a5_error_025",
+          "step": 13,
+          "rejected_frames": 8,
+          "retained_frames": 96,
+          "mean_difference": -0.012169480323791504
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 1,
+          "rejected_frames": 95,
+          "retained_frames": 55,
+          "mean_difference": -0.0027802586555480957
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 11,
+          "rejected_frames": 131,
+          "retained_frames": 27,
+          "mean_difference": -0.009879767894744873
+        },
+        {
+          "video": "coffee_u1_a5_error_026",
+          "step": 15,
+          "rejected_frames": 78,
+          "retained_frames": 127,
+          "mean_difference": 0.010522961616516113
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 1,
+          "rejected_frames": 134,
+          "retained_frames": 10,
+          "mean_difference": 0.01349329948425293
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 2,
+          "rejected_frames": 65,
+          "retained_frames": 39,
+          "mean_difference": -0.00423043966293335
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 5,
+          "rejected_frames": 7,
+          "retained_frames": 50,
+          "mean_difference": -0.11476367712020874
+        },
+        {
+          "video": "coffee_u1_a5_error_027",
+          "step": 10,
+          "rejected_frames": 105,
+          "retained_frames": 27,
+          "mean_difference": 0.041067659854888916
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 4,
+          "rejected_frames": 14,
+          "retained_frames": 53,
+          "mean_difference": 0.011314749717712402
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 9,
+          "rejected_frames": 34,
+          "retained_frames": 24,
+          "mean_difference": 0.00249636173248291
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 10,
+          "rejected_frames": 35,
+          "retained_frames": 5,
+          "mean_difference": 0.07683306932449341
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 12,
+          "rejected_frames": 13,
+          "retained_frames": 75,
+          "mean_difference": 0.020061016082763672
+        },
+        {
+          "video": "coffee_u1_a5_error_028",
+          "step": 13,
+          "rejected_frames": 28,
+          "retained_frames": 72,
+          "mean_difference": 0.020245492458343506
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 2,
+          "rejected_frames": 54,
+          "retained_frames": 50,
+          "mean_difference": -0.006347715854644775
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 5,
+          "rejected_frames": 3,
+          "retained_frames": 43,
+          "mean_difference": -0.0014827251434326172
+        },
+        {
+          "video": "coffee_u1_a5_error_029",
+          "step": 10,
+          "rejected_frames": 59,
+          "retained_frames": 31,
+          "mean_difference": 0.062222421169281006
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 1,
+          "rejected_frames": 75,
+          "retained_frames": 53,
+          "mean_difference": 0.005697429180145264
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 2,
+          "rejected_frames": 43,
+          "retained_frames": 48,
+          "mean_difference": 0.013640761375427246
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 6,
+          "rejected_frames": 42,
+          "retained_frames": 121,
+          "mean_difference": 0.02364051342010498
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 11,
+          "rejected_frames": 84,
+          "retained_frames": 69,
+          "mean_difference": 0.010914802551269531
+        },
+        {
+          "video": "coffee_u1_a5_error_030",
+          "step": 12,
+          "rejected_frames": 83,
+          "retained_frames": 17,
+          "mean_difference": -0.039642512798309326
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 1,
+          "rejected_frames": 160,
+          "retained_frames": 18,
+          "mean_difference": 0.03510773181915283
+        },
+        {
+          "video": "coffee_u1_a6_error_031",
+          "step": 4,
+          "rejected_frames": 2,
+          "retained_frames": 60,
+          "mean_difference": -0.00494462251663208
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 11,
+          "rejected_frames": 41,
+          "retained_frames": 223,
+          "mean_difference": 0.024801790714263916
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 12,
+          "rejected_frames": 83,
+          "retained_frames": 26,
+          "mean_difference": -0.0026199817657470703
+        },
+        {
+          "video": "coffee_u1_a6_error_032",
+          "step": 13,
+          "rejected_frames": 24,
+          "retained_frames": 88,
+          "mean_difference": 0.020757853984832764
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 14,
+          "rejected_frames": 8,
+          "retained_frames": 91,
+          "mean_difference": -0.006973624229431152
+        },
+        {
+          "video": "coffee_u1_a6_error_033",
+          "step": 15,
+          "rejected_frames": 490,
+          "retained_frames": 41,
+          "mean_difference": -0.03796344995498657
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 1,
+          "rejected_frames": 177,
+          "retained_frames": 15,
+          "mean_difference": -0.030773937702178955
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 11,
+          "rejected_frames": 194,
+          "retained_frames": 69,
+          "mean_difference": 0.004613161087036133
+        },
+        {
+          "video": "coffee_u1_a6_error_034",
+          "step": 14,
+          "rejected_frames": 29,
+          "retained_frames": 41,
+          "mean_difference": 0.04690814018249512
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 2,
+          "rejected_frames": 36,
+          "retained_frames": 78,
+          "mean_difference": 0.01881396770477295
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 3,
+          "rejected_frames": 25,
+          "retained_frames": 77,
+          "mean_difference": 0.027365803718566895
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 5,
+          "rejected_frames": 62,
+          "retained_frames": 4,
+          "mean_difference": -0.024098098278045654
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 11,
+          "rejected_frames": 222,
+          "retained_frames": 57,
+          "mean_difference": 0.021476268768310547
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 13,
+          "rejected_frames": 58,
+          "retained_frames": 116,
+          "mean_difference": 0.02250152826309204
+        },
+        {
+          "video": "coffee_u1_a6_error_036",
+          "step": 14,
+          "rejected_frames": 81,
+          "retained_frames": 5,
+          "mean_difference": -0.0103682279586792
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 1,
+          "rejected_frames": 3,
+          "retained_frames": 204,
+          "mean_difference": 0.03264492750167847
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 3,
+          "rejected_frames": 1,
+          "retained_frames": 263,
+          "mean_difference": 0.03002697229385376
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 4,
+          "rejected_frames": 44,
+          "retained_frames": 23,
+          "mean_difference": -0.014375686645507812
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 5,
+          "rejected_frames": 49,
+          "retained_frames": 123,
+          "mean_difference": 0.0011069774627685547
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 10,
+          "rejected_frames": 9,
+          "retained_frames": 140,
+          "mean_difference": -0.029890060424804688
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 11,
+          "rejected_frames": 89,
+          "retained_frames": 160,
+          "mean_difference": -0.02250349521636963
+        },
+        {
+          "video": "coffee_u1_a7_error_002",
+          "step": 15,
+          "rejected_frames": 188,
+          "retained_frames": 587,
+          "mean_difference": 0.02548074722290039
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 1,
+          "rejected_frames": 17,
+          "retained_frames": 175,
+          "mean_difference": 0.02708190679550171
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 4,
+          "rejected_frames": 56,
+          "retained_frames": 15,
+          "mean_difference": -0.012198209762573242
+        },
+        {
+          "video": "coffee_u1_a7_error_003",
+          "step": 15,
+          "rejected_frames": 174,
+          "retained_frames": 347,
+          "mean_difference": 0.01943528652191162
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 2,
+          "rejected_frames": 14,
+          "retained_frames": 117,
+          "mean_difference": 0.018058836460113525
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 3,
+          "rejected_frames": 20,
+          "retained_frames": 127,
+          "mean_difference": -0.08590614795684814
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 11,
+          "rejected_frames": 137,
+          "retained_frames": 56,
+          "mean_difference": 0.0050154924392700195
+        },
+        {
+          "video": "coffee_u1_a7_error_004",
+          "step": 13,
+          "rejected_frames": 271,
+          "retained_frames": 248,
+          "mean_difference": 0.0074582695960998535
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 13,
+          "rejected_frames": 68,
+          "retained_frames": 417,
+          "mean_difference": 0.029189646244049072
+        },
+        {
+          "video": "coffee_u1_a7_error_007",
+          "step": 15,
+          "rejected_frames": 4,
+          "retained_frames": 699,
+          "mean_difference": 0.02156621217727661
+        },
+        {
+          "video": "coffee_u1_a7_error_008",
+          "step": 2,
+          "rejected_frames": 31,
+          "retained_frames": 67,
+          "mean_difference": -0.003865182399749756
+        },
+        {
+          "video": "coffee_u1_a7_error_008",
+          "step": 11,
+          "rejected_frames": 3,
+          "retained_frames": 242,
+          "mean_difference": 0.002039968967437744
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 4,
+          "rejected_frames": 26,
+          "retained_frames": 10,
+          "mean_difference": 0.03648096323013306
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 12,
+          "rejected_frames": 78,
+          "retained_frames": 116,
+          "mean_difference": -0.08677244186401367
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 13,
+          "rejected_frames": 60,
+          "retained_frames": 603,
+          "mean_difference": 0.09417477250099182
+        },
+        {
+          "video": "coffee_u1_a7_error_009",
+          "step": 15,
+          "rejected_frames": 523,
+          "retained_frames": 208,
+          "mean_difference": 0.027063846588134766
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 1,
+          "rejected_frames": 165,
+          "retained_frames": 4,
+          "mean_difference": 0.02643120288848877
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 4,
+          "rejected_frames": 66,
+          "retained_frames": 13,
+          "mean_difference": -0.015609681606292725
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 5,
+          "rejected_frames": 73,
+          "retained_frames": 29,
+          "mean_difference": 0.09038513898849487
+        },
+        {
+          "video": "coffee_u1_a7_error_011",
+          "step": 8,
+          "rejected_frames": 5,
+          "retained_frames": 99,
+          "mean_difference": -0.004591763019561768
+        },
+        {
+          "video": "coffee_u1_a7_error_035",
+          "step": 15,
+          "rejected_frames": 229,
+          "retained_frames": 269,
+          "mean_difference": 0.017976701259613037
+        }
+      ],
+      "matched_equal_cell_mean_difference": 0.008693205794011514,
+      "gap_length_bins": {
+        "1-10": {
+          "frames": 114,
+          "errors": 16,
+          "normal": 98,
+          "error_auc": 0.8475765306122449,
+          "route_accuracy": 0.631578947368421,
+          "by_step": {
+            "3": 1.0,
+            "4": null,
+            "5": null,
+            "8": 0.0,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": 0.5,
+            "15": null
+          }
+        },
+        "11-30": {
+          "frames": 378,
+          "errors": 24,
+          "normal": 354,
+          "error_auc": 0.2542372881355932,
+          "route_accuracy": 0.3439153439153439,
+          "by_step": {
+            "1": null,
+            "3": null,
+            "4": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": 0.0,
+            "13": null,
+            "14": null,
+            "15": null
+          }
+        },
+        "31-100": {
+          "frames": 3118,
+          "errors": 328,
+          "normal": 2790,
+          "error_auc": 0.6432533438237608,
+          "route_accuracy": 0.6433611289288005,
+          "by_step": {
+            "1": null,
+            "2": null,
+            "3": 0.916045894340269,
+            "4": 0.40157480314960625,
+            "5": null,
+            "6": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": 0.09558823529411764,
+            "13": null,
+            "14": 0.8444444444444444,
+            "15": null
+          }
+        },
+        "101-1000000000": {
+          "frames": 18532,
+          "errors": 2408,
+          "normal": 16124,
+          "error_auc": 0.45717177546770005,
+          "route_accuracy": 0.6908050938916469,
+          "by_step": {
+            "1": null,
+            "2": null,
+            "3": 0.5100957424047925,
+            "4": 0.0,
+            "5": 0.8860510805500982,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": 0.33869787856620337,
+            "12": 0.5742533936651584,
+            "13": null,
+            "14": 0.4027777777777778,
+            "15": 0.27172795166741126
+          }
+        }
+      }
+    }
+  },
+  "script_sha": "89d291a2c350f56488eb3b425258161e576dd054c87840ac9f3f5d73f86bf050",
+  "helper_sha": "b3715737783ec8aecc37d398332c17ecddab2b9c519b57eb050f34de28167b87",
+  "prior_registration_sha": "ce452b4416b8071ed9a45c072cfe1e222d49b4141a56ed8da23c7700b6c5d344"
+}

@@ -1,0 +1,2 @@
+# Preserve original bytes: the archived registration hashes include line endings.
+* -text

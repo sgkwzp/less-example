@@ -1,0 +1,772 @@
+{
+  "complete": true,
+  "core_seconds": 28.603824853897095,
+  "wall_seconds": 52.47375154495239,
+  "checks": [
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_006",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 5807
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_normal_016",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4969
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_normal_026",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 3353
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_001",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 9851
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_010",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6128
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_013",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 10126
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_014",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6430
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_015",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 5391
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a1_error_016",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 7397
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_005",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4164
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_006",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 5020
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_017",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2659
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_018",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2835
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_019",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2214
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_020",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2256
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_021",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2055
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_022",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2567
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a2_error_023",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 1944
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_024",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2718
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_025",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2831
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_026",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2620
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_027",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2510
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_028",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2066
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_029",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2149
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a5_error_030",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2395
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_031",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2733
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_032",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2905
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_033",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2607
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_034",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 3081
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a6_error_036",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2844
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_002",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6800
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_003",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4467
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_004",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4570
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_007",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 3701
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_008",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4119
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_009",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4593
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_011",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4437
+    },
+    {
+      "seed": 0,
+      "video": "coffee_u1_a7_error_035",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6228
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_006",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 5807
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_normal_016",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4969
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_normal_026",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 3353
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_001",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 9851
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_010",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6128
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_013",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 10126
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_014",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6430
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_015",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 5391
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a1_error_016",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 7397
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_005",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4164
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_006",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 5020
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_017",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2659
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_018",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2835
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_019",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2214
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_020",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2256
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_021",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2055
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_022",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2567
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a2_error_023",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 1944
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_024",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2718
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_025",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2831
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_026",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2620
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_027",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2510
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_028",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2066
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_029",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2149
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a5_error_030",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2395
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_031",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2733
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_032",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2905
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_033",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2607
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_034",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 3081
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a6_error_036",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 2844
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_002",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6800
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_003",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4467
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_004",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4570
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_007",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 3701
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_008",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4119
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_009",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4593
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_011",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 4437
+    },
+    {
+      "seed": 1,
+      "video": "coffee_u1_a7_error_035",
+      "control_max_difference": {
+        "N": 0.0,
+        "L": 0.0
+      },
+      "n_frames": 6228
+    }
+  ],
+  "hashes": {
+    "scores/s0/coffee_u1_a7_normal_006.npz": "c2fbee204a7bba75dbc481203c9405a7b2078e5b825d334602d4d5fb0fed2b60",
+    "scores/s0/coffee_u1_a7_normal_016.npz": "15d83832f9d2849bcc6d26d997d5c3f7d623a24423178b3fcb9dce2240a0f36e",
+    "scores/s0/coffee_u1_a6_normal_026.npz": "938d037ee24a823fb9c006fc5266d8583962f712169281a7c048a09117a110bd",
+    "scores/s0/coffee_u1_a1_error_001.npz": "3af53a73261bc0dd91303c48492295fe40ada4b1767a745d18146ae032a5334e",
+    "scores/s0/coffee_u1_a1_error_010.npz": "e3f40eb7c6b7f01a8cf3556cf5c36380e5fa3d36fe2d075b65c6af3bfe5d9037",
+    "scores/s0/coffee_u1_a1_error_013.npz": "022a86335570737b22127fdb3bdf8e7299b0cbb5df5f51ddc9da04f243c5bba8",
+    "scores/s0/coffee_u1_a1_error_014.npz": "5737d481f76bd6fd20c26378922afa32fe1da85fa052c0b6d5426c09baeb5739",
+    "scores/s0/coffee_u1_a1_error_015.npz": "856f203b96d8f6ab820b8e29959372466ee3b13ec51af3fbe02e61ba69d4ca0b",
+    "scores/s0/coffee_u1_a1_error_016.npz": "2cdef2e95b43a6eeb03f8bb8845da6ebaf1a9d8bb7603d313b4c5583c7838fac",
+    "scores/s0/coffee_u1_a2_error_005.npz": "94b2f2fc7a4a66c4b07aca3f50581aa4c37f9b97f9c6325e0c049a158f2017be",
+    "scores/s0/coffee_u1_a2_error_006.npz": "975dae1aa3f7df654e33194d62901ed92c38586e491916a71443f980d49b5a0b",
+    "scores/s0/coffee_u1_a2_error_017.npz": "428b8ba7b8d2beda2cd2b9604c39a5a5735abbf7760ec7aa25e6069505fac4fb",
+    "scores/s0/coffee_u1_a2_error_018.npz": "b42a9f1c5bab66a0f76b96219d93fb8aa8ddfd47b65984140ae7d050a3b49cdd",
+    "scores/s0/coffee_u1_a2_error_019.npz": "77f2e73dcb49114bc5adf08a6e9b80c4ba437faf1d452560980c9ace0c6e9902",
+    "scores/s0/coffee_u1_a2_error_020.npz": "5913dd6b83cf2d35de1b9a057469b73916465a4749d872686b97ec8b16dd5aa3",
+    "scores/s0/coffee_u1_a2_error_021.npz": "88109f0beafd0f9bf42d6deb29f29ebf395e1a6e1ecc4aba76499919242938bf",
+    "scores/s0/coffee_u1_a2_error_022.npz": "05d2beaa1922ffc2029702ebab40aa2c900fbefffc758b366f6f3a80fe5d02f0",
+    "scores/s0/coffee_u1_a2_error_023.npz": "edb568cdab6d527ea2158cc8f81afebfbfa8d4f8d9b9a78d1d4c74e84d8a08eb",
+    "scores/s0/coffee_u1_a5_error_024.npz": "118e468295cbcef1bd0daf78468454e424fad766e0195f9500dc521d24ef1787",
+    "scores/s0/coffee_u1_a5_error_025.npz": "d96d94c3b65c5c8f1e627a2ceab7def58dd1b0d1edd3722f75358452461944c3",
+    "scores/s0/coffee_u1_a5_error_026.npz": "ef5e9d082fd6c2f379068a96a5ef65599e1d2263aac6e5387b936dbd29ef2a19",
+    "scores/s0/coffee_u1_a5_error_027.npz": "1b4148b28a62333a861cc42beaeeea113af55525b5349d4bd4f18f9aa59f44f5",
+    "scores/s0/coffee_u1_a5_error_028.npz": "c9c4525456e1d0876237f193bca4807bcdd3c058b6d2d4e291179dd252627784",
+    "scores/s0/coffee_u1_a5_error_029.npz": "6c5f1104598376179a31bd532617c256c0d05a39ddf4d9847818f2594b65c0c8",
+    "scores/s0/coffee_u1_a5_error_030.npz": "8c6196202fcfa9d4013a0aff5e04ad0f1b366446a0c56af0bf8a359e319b503a",
+    "scores/s0/coffee_u1_a6_error_031.npz": "f225bbb5f15958a58f75bb1716863142ad5277a45272b44a761f7c300f7634ac",
+    "scores/s0/coffee_u1_a6_error_032.npz": "0a8fb2e28d23e044190ff20f57dfd622c336665e8cb86f68065de65648e9a906",
+    "scores/s0/coffee_u1_a6_error_033.npz": "4ace5361122c8396bef6f36fd080dea9432c397358f4729872f868294d773fda",
+    "scores/s0/coffee_u1_a6_error_034.npz": "fbdb6848dfc0b884e4a03c1831479ee85e86b8fd2b3424d48b01d1f930cc5861",
+    "scores/s0/coffee_u1_a6_error_036.npz": "4caa028d8bb696209a5371b542d279e039a7d6d17236b0484405764adafe1f62",
+    "scores/s0/coffee_u1_a7_error_002.npz": "ce4b61b8fc8e97060a768c0105522844a81a4eae35fe5429ecd33ba2a91686be",
+    "scores/s0/coffee_u1_a7_error_003.npz": "a958aeb2669cf82025aa0cf36654ed33a6c24dd61fc0ad0cce24291b24214bde",
+    "scores/s0/coffee_u1_a7_error_004.npz": "18d363b0145d6a34fd8ef20252d2dd9980dce68dfe8b3c717601041d77bd387d",
+    "scores/s0/coffee_u1_a7_error_007.npz": "698c8f53ade2d2376e5b00642746c0533416856160fff1008a52c6e95a6ac90e",
+    "scores/s0/coffee_u1_a7_error_008.npz": "6a0fff03cbcba2d6ff5522b0664b98f223f39de9ab494c94efdbfe7101eff866",
+    "scores/s0/coffee_u1_a7_error_009.npz": "aa952a23b35829cb8c0677eb24a68eaa947e6551c82486abfed14b09753ac6e1",
+    "scores/s0/coffee_u1_a7_error_011.npz": "8ed598062cd3fc50c58ad174579bdfc8b25962b5ede06eba13769233097795a8",
+    "scores/s0/coffee_u1_a7_error_035.npz": "caf4b2f79cd2d59964176b951d15d82875849b0cd52ca69e14b19f563d0e9b9f",
+    "scores/s1/coffee_u1_a7_normal_006.npz": "7fef74bf35b7c793ea45e990506dc739a34e63e6c2228fbc6566c459a5b11492",
+    "scores/s1/coffee_u1_a7_normal_016.npz": "ba0f23692956866f00c3217094dd2dd096a441028492c415e6ee716015146ac9",
+    "scores/s1/coffee_u1_a6_normal_026.npz": "3dd325cd2a131b5b7930314e61a5b002f96df7060685d40c14d8cab50a290b9f",
+    "scores/s1/coffee_u1_a1_error_001.npz": "900edda43d1ecc1cc330e24b01d1920bbddc7c2189d5cd1088b1e45eb86f5cc5",
+    "scores/s1/coffee_u1_a1_error_010.npz": "00354d5546b7b2fbb16d6531d330a1dc64302104d2b5460abaa1fe637b526f85",
+    "scores/s1/coffee_u1_a1_error_013.npz": "ab5f2b7ef13773a3e2558ec08f763cbfb84bb30201466b1e9866d7f236f44ff0",
+    "scores/s1/coffee_u1_a1_error_014.npz": "a61a8d050e3c741e424de2b8f5f84533b899116b8f3fb2fb06474485698f0c5b",
+    "scores/s1/coffee_u1_a1_error_015.npz": "e827930ca223465bff0b4fc56b738366a54f71281e35711089b9de94812c9d43",
+    "scores/s1/coffee_u1_a1_error_016.npz": "5cab124571fc6c80048805edce8c8b20c66c07f2b12cb841e61dd1f26e94be1d",
+    "scores/s1/coffee_u1_a2_error_005.npz": "e89370f3fa5347621f4c41e5ea5932721977a4172d7ea73d0c4c6de4fc6dac94",
+    "scores/s1/coffee_u1_a2_error_006.npz": "c4d3a9c7656a2f564a152d4bdec6b0bd1271ac752c086547a3e715f318f497ba",
+    "scores/s1/coffee_u1_a2_error_017.npz": "fd15a37df8cb1aad98137f6be2682fa5e92d090d28739c0c23b9306f522d7dbb",
+    "scores/s1/coffee_u1_a2_error_018.npz": "41af607903e17acccd68e756acd8a049877dbc79317dd538ee3b130811e2885c",
+    "scores/s1/coffee_u1_a2_error_019.npz": "b6fc0f8c96876d831f988576af7136f581ad847797525a3d4113ab124be44b84",
+    "scores/s1/coffee_u1_a2_error_020.npz": "e576c2c7abc1e6231e5fdd4a5d6d130ef042f9bb5246636b293854e720d84843",
+    "scores/s1/coffee_u1_a2_error_021.npz": "af95fdb57b27953d4a8583b1b111280c9fc82ddd279b3eb63c891beece54d1fc",
+    "scores/s1/coffee_u1_a2_error_022.npz": "db2c0e473bd2cd5ee3511696a89127ea3b30daae0bd75b8fb898bb7f93540b60",
+    "scores/s1/coffee_u1_a2_error_023.npz": "a966b1f048da3e981f1e6aa0c9ffde9c012ab0a5cac24153e7a109ad65886380",
+    "scores/s1/coffee_u1_a5_error_024.npz": "b291cf9e86d113dd0ae19085dfc874b506d6ba74a224c8bfb067248afe0121c4",
+    "scores/s1/coffee_u1_a5_error_025.npz": "ece1ec7c5ba108c6a0aa9b9466a901deb73e5bd880cc6454f98f1397f7e034cd",
+    "scores/s1/coffee_u1_a5_error_026.npz": "be46253138aab344ac32b496d1905110fbba96ea9cd6ceaeb3edbc9c4114dd58",
+    "scores/s1/coffee_u1_a5_error_027.npz": "cf5052b1698db727cbad10231c498850d0c30f7af17c576bb7829765ea1efed8",
+    "scores/s1/coffee_u1_a5_error_028.npz": "b41ee946779c22e1b6b631de90f69d959684d0f60609a491448d87a74f41ca6f",
+    "scores/s1/coffee_u1_a5_error_029.npz": "1305f3db8355525288f3ba465131915994d8082beaad5308776d8b55f38c0207",
+    "scores/s1/coffee_u1_a5_error_030.npz": "f7c52284e28e5152783dc632539d4f1c6c5d1db50714787dd495c6f463fb0fa7",
+    "scores/s1/coffee_u1_a6_error_031.npz": "ce004ea91c4db3aa7add48728cf450592f5c3a804adcf6c0957ea983e682787d",
+    "scores/s1/coffee_u1_a6_error_032.npz": "299eafea2020797f9d176112e9d5556ab7ee2f12472b944312e1aa39cc5ffdd7",
+    "scores/s1/coffee_u1_a6_error_033.npz": "9dac17e29654d8ea9e33e59e59581ea4adbbb6e9e6ecb9b3749a820935ab2f4c",
+    "scores/s1/coffee_u1_a6_error_034.npz": "ec7b1b27ca86e80acc11a93482fdb47e60683cabd40170f7547ce2f7135c3545",
+    "scores/s1/coffee_u1_a6_error_036.npz": "57621dfe2e18deb7207bafa8c9abbaecde5bf20df546879ba31d157d7be3f6e5",
+    "scores/s1/coffee_u1_a7_error_002.npz": "ecc6c9d73e0455c51ca484125bb2a86d469cb583ec0843874156492e2ac4780e",
+    "scores/s1/coffee_u1_a7_error_003.npz": "20eb446eefb025453b09295cb9dce9aec25e6127a6e0e606534d5ba2abf7c6ce",
+    "scores/s1/coffee_u1_a7_error_004.npz": "2c9814ef6e85ca0c1c8b2f7a63fda611e1f361a719bf14a78e17c00de894dc55",
+    "scores/s1/coffee_u1_a7_error_007.npz": "bec8e6da34cc65a3242ef2d3abc5f80d10a40f715444eea2681d819c04b54adc",
+    "scores/s1/coffee_u1_a7_error_008.npz": "19af481da5014ade700432b884d2902a3ff562efc27b6dbb75ecbb86d7efbd48",
+    "scores/s1/coffee_u1_a7_error_009.npz": "6dee84b681e44d75638ca208d46e7a1f084e50d0ae9c6f3c63c98abb426b6066",
+    "scores/s1/coffee_u1_a7_error_011.npz": "d3cb8ce3a8bd95b0275da2de93376211f4e44db12a2d477c0d29ac31dbd844e6",
+    "scores/s1/coffee_u1_a7_error_035.npz": "1db18f969f53b89fd2ea9467bcb6292c7122047b7f0968677f89bd2da5cba8fc"
+  },
+  "registration_sha": "ce452b4416b8071ed9a45c072cfe1e222d49b4141a56ed8da23c7700b6c5d344",
+  "inputs_manifest_sha": "81ce8c23fc8315e6c30d6cd699b03ac269c991b4fde71d5c90c6aaf45cced187",
+  "torch": "2.5.1+cu124"
+}

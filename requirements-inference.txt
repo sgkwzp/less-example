@@ -1,0 +1,15 @@
+-r requirements-replay.txt
+torch==2.5.1
+torchvision==0.20.1
+open-clip-torch==2.24.0
+timm==0.9.16
+torch-geometric==2.5.3
+numba==0.60.0
+llvmlite==0.43.0
+networkx==3.4.2
+safetensors==0.4.5
+PyYAML==6.0.2
+ninja==1.11.1.1
+tensorboardX==2.6.2.2
+pandas==2.2.3
+opencv-python==4.10.0.84

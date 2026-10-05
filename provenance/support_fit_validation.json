@@ -1,0 +1,24 @@
+[
+  {
+    "seed": 0,
+    "theta_max_difference": 6.537881347412622e-12,
+    "probability_max_difference": 2.3351320876940918e-12,
+    "fit": {
+      "loss": 0.33778650736840105,
+      "max_gradient": 9.800715564632634e-08,
+      "iterations": 37,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  },
+  {
+    "seed": 1,
+    "theta_max_difference": 4.11271017242143e-12,
+    "probability_max_difference": 1.4316325902541394e-12,
+    "fit": {
+      "loss": 0.3416704727525266,
+      "max_gradient": 4.085970094908076e-08,
+      "iterations": 40,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "snapshot": "coffee-k2-bg-align-v1",
+  "primary_archive": "L_HARD",
+  "secondary_archive": "L_GAP",
+  "selection_scope": "Coffee development results only; no universal best-method claim",
+  "support_seeds": [0, 1],
+  "support_size": 2,
+  "feature": "L2-normalized native VideoCLIP 256 at 10fps",
+  "reference_top_k": 5,
+  "similarity_logit_scale": 8.0,
+  "dp_first_pass": [0.3, 0.0],
+  "dp_second_pass": [-100.0, -200.0],
+  "probe_l2_lambda": 0.001,
+  "probe_video_weighting": "equal",
+  "probe_threshold": 0.5,
+  "probe_platt_calibration": false,
+  "score_smoothing": {"size": 21, "mode": "nearest", "when": "after composition, within each video"},
+  "aem_checkpoint_epoch": 135,
+  "aem_state": "state_dict, not EMA",
+  "query_gt_used_for_prediction": false,
+  "primary_formula": "(p >= 0.5) * e_L",
+  "secondary_formula": "where(native_background, p * e_L, e_L)",
+  "cautions": [
+    "Keep frozen native C routes for exact historical recovery.",
+    "GT background oracle 75.705 is not deployable.",
+    "Oatmeal overall gain did not pass the registered gate.",
+    "External checkpoints/features are not stored in ordinary Git."
+  ]
+}

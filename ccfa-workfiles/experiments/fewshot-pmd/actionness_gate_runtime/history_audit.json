@@ -1,0 +1,2686 @@
+{
+  "scope": "Retrospective old pipelines, not current frozen AEM gate-only intervention",
+  "results": {
+    "coffee_k2_s0_raw": {
+      "methods": {
+        "original": {
+          "auc": 0.5371715809077019,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 234731312.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.4305862640334191,
+              "contribution": 0.17500904645131568
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40457595.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.6069649816346172,
+              "contribution": 0.03016404180274635
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 445293792.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.6104486115179493,
+              "contribution": 0.3319984926536399
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14264509677886963,
+                0.22239118814468384,
+                0.42071731686592106
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.10172497034072876,
+                0.17660290002822876,
+                0.2981614708900452
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12329990863800049,
+                0.20655739307403564,
+                0.3518290400505067
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12329990863800049,
+                0.20655739307403564,
+                0.3518290400505067
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "old": {
+          "auc": 0.6057280211449172,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 348343735.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.6389945426151464,
+              "contribution": 0.2597152648185543
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 39030587.5,
+              "weight": 0.049696510862144924,
+              "auc": 0.5855563046969505,
+              "contribution": 0.029100105256769444
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 425059870.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.58271013904793,
+              "contribution": 0.3169126510695935
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 38892,
+              "bg_fraction": 0.6537129794601136,
+              "score_quantiles": [
+                0.11699656248092652,
+                0.1931881606578827,
+                0.3833485628877368
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 16412,
+              "bg_fraction": 0.18889771301635533,
+              "score_quantiles": [
+                0.12001609802246094,
+                0.21438813209533691,
+                0.4059440016746521
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 1859,
+              "bg_fraction": 0.2028811524609844,
+              "score_quantiles": [
+                0.1419025182723999,
+                0.24369102716445923,
+                0.47114649643575335
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 1859,
+              "bg_fraction": 0.2028811524609844,
+              "score_quantiles": [
+                0.1419025182723999,
+                0.24369102716445923,
+                0.47114649643575335
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "support": {
+          "auc": 0.5568190022267479,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 284272557.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.5214636990586857,
+              "contribution": 0.2119456015070499
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 39195592.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.5880317843519357,
+              "contribution": 0.029223127958332432
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 423366702.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.5803889927098588,
+              "contribution": 0.3156502727613655
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 7991,
+              "bg_fraction": 0.1343160654855952,
+              "score_quantiles": [
+                0.13076976537704468,
+                0.23741539175573148,
+                0.5019811570644379
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 820,
+              "bg_fraction": 0.009437979811930987,
+              "score_quantiles": [
+                0.12170281410217286,
+                0.22015202045440674,
+                0.4027011394500733
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 87,
+              "bg_fraction": 0.00949470697369857,
+              "score_quantiles": [
+                0.14300403594970704,
+                0.2517656087875366,
+                0.46212018728256227
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 87,
+              "bg_fraction": 0.00949470697369857,
+              "score_quantiles": [
+                0.14300403594970704,
+                0.2517656087875366,
+                0.46212018728256227
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "known_error_vs_background": -4.776966331150437,
+        "same_known": 0.012302270156298867,
+        "cross_known": -0.1262378308228007
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.057532173395157024,
+        "background_cost_max": 0.19661778211593628,
+        "rows": [
+          {
+            "video": "coffee_u1_a1_normal_004",
+            "action_margin_quantile": 0.04746770501136782,
+            "background_cost_quantile": 0.4326437890529627,
+            "normal_action_to_bg_fraction": 0.0012662234884457107,
+            "background_recall": 0.4092741935483871
+          },
+          {
+            "video": "coffee_u1_a2_normal_009",
+            "action_margin_quantile": 0.057532173395157024,
+            "background_cost_quantile": 0.19661778211593628,
+            "normal_action_to_bg_fraction": 0.005032021957913998,
+            "background_recall": 0.14662273476112025
+          }
+        ]
+      }
+    },
+    "coffee_k2_s0_median21": {
+      "methods": {
+        "original": {
+          "auc": 0.5407814919251172,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 232724572.0,
+              "weight": 0.4064436352705685,
+              "auc": 0.42690514077135083,
+              "contribution": 0.17351287733080162
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 41115831.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.6168401658034054,
+              "contribution": 0.030654804000056213
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 451484098.5,
+              "weight": 0.5438598538672866,
+              "auc": 0.6189348380849604,
+              "contribution": 0.33661381059425927
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14658993482589722,
+                0.22237005829811096,
+                0.41028690338134766
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.10576797723770141,
+                0.1778421401977539,
+                0.28397291898727417
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12752646207809448,
+                0.20792394876480103,
+                0.3395561337471011
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12752646207809448,
+                0.20792394876480103,
+                0.3395561337471011
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "old": {
+          "auc": 0.6268010834747769,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 362898129.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.6656928218987439,
+              "contribution": 0.2705666105060486
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40410965.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.6062654151602971,
+              "contribution": 0.030129275789856507
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 437389395.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.5996125561760041,
+              "contribution": 0.3261051971788717
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 38892,
+              "bg_fraction": 0.6537129794601136,
+              "score_quantiles": [
+                0.12093176841735839,
+                0.1940617561340332,
+                0.34373342990875244
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 16412,
+              "bg_fraction": 0.18889771301635533,
+              "score_quantiles": [
+                0.1293926477432251,
+                0.21576076745986938,
+                0.36392736434936523
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 1859,
+              "bg_fraction": 0.2028811524609844,
+              "score_quantiles": [
+                0.1504779577255249,
+                0.24655580520629883,
+                0.4199789895517072
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 1859,
+              "bg_fraction": 0.2028811524609844,
+              "score_quantiles": [
+                0.1504779577255249,
+                0.24655580520629883,
+                0.4199789895517072
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "support": {
+          "auc": 0.5655365191947745,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 287418173.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.5272339519793469,
+              "contribution": 0.21429088408055405
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40113907.5,
+              "weight": 0.049696510862144924,
+              "auc": 0.6018088106579305,
+              "contribution": 0.02990779809579636
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 430995161.5,
+              "weight": 0.5438598538672866,
+              "auc": 0.5908467682132638,
+              "contribution": 0.3213378370184242
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 7991,
+              "bg_fraction": 0.1343160654855952,
+              "score_quantiles": [
+                0.13597440719604492,
+                0.23909220099449158,
+                0.47262112498283415
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 820,
+              "bg_fraction": 0.009437979811930987,
+              "score_quantiles": [
+                0.12829856872558595,
+                0.22233271598815918,
+                0.3752572536468506
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 87,
+              "bg_fraction": 0.00949470697369857,
+              "score_quantiles": [
+                0.1508549451828003,
+                0.25668203830718994,
+                0.4339906573295593
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 87,
+              "bg_fraction": 0.00949470697369857,
+              "score_quantiles": [
+                0.1508549451828003,
+                0.25668203830718994,
+                0.4339906573295593
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "known_error_vs_background": -5.6275726425494526,
+        "same_known": -0.022147769406014733,
+        "cross_known": -0.4767360160447487
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.057532173395157024,
+        "background_cost_max": 0.19661778211593628,
+        "rows": [
+          {
+            "video": "coffee_u1_a1_normal_004",
+            "action_margin_quantile": 0.04746770501136782,
+            "background_cost_quantile": 0.4326437890529627,
+            "normal_action_to_bg_fraction": 0.0012662234884457107,
+            "background_recall": 0.4092741935483871
+          },
+          {
+            "video": "coffee_u1_a2_normal_009",
+            "action_margin_quantile": 0.057532173395157024,
+            "background_cost_quantile": 0.19661778211593628,
+            "normal_action_to_bg_fraction": 0.005032021957913998,
+            "background_recall": 0.14662273476112025
+          }
+        ]
+      }
+    },
+    "coffee_k2_s1_raw": {
+      "methods": {
+        "original": {
+          "auc": 0.4956500851158556,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 196863428.0,
+              "weight": 0.4064436352705685,
+              "auc": 0.3611222000359751,
+              "contribution": 0.14677581975952714
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40048608.5,
+              "weight": 0.049696510862144924,
+              "auc": 0.600829162551419,
+              "contribution": 0.02985911300303003
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 427879855.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.5865760270496909,
+              "contribution": 0.31901515235329847
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14867349863052368,
+                0.24131464958190918,
+                0.42042082548141496
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.09938665628433227,
+                0.17800986766815186,
+                0.29705616235733034
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12108612060546875,
+                0.20131057500839233,
+                0.32688969373703014
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12108612060546875,
+                0.20131057500839233,
+                0.32688969373703014
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "old": {
+          "auc": 0.5574847672729435,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 302978462.0,
+              "weight": 0.4064436352705685,
+              "auc": 0.5557774233259622,
+              "contribution": 0.22589219633791371
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 37424398.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.5614594501911596,
+              "contribution": 0.027902575665078876
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 407324950.5,
+              "weight": 0.5438598538672866,
+              "auc": 0.5583975230208069,
+              "contribution": 0.3036899952699509
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 39817,
+              "bg_fraction": 0.6692607657915084,
+              "score_quantiles": [
+                0.13515617847442626,
+                0.20561841130256653,
+                0.4185887515544893
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 13964,
+              "bg_fraction": 0.16072189035829795,
+              "score_quantiles": [
+                0.11908619403839112,
+                0.21137815713882446,
+                0.4069382190704346
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 2171,
+              "bg_fraction": 0.23693113609079997,
+              "score_quantiles": [
+                0.13362189531326293,
+                0.23060792684555054,
+                0.4549856424331667
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 2171,
+              "bg_fraction": 0.23693113609079997,
+              "score_quantiles": [
+                0.13362189531326293,
+                0.23060792684555054,
+                0.4549856424331667
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "support": {
+          "auc": 0.5167329416496254,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 228083603.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.41839184415732633,
+              "contribution": 0.17005270210686085
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40224475.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.6034675993379518,
+              "contribution": 0.02999023410545104
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 424761246.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.5823007585233393,
+              "contribution": 0.31669000543731346
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 8996,
+              "bg_fraction": 0.1512085252294349,
+              "score_quantiles": [
+                0.15060408115386964,
+                0.2821967899799347,
+                0.5218035340309144
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 1084,
+              "bg_fraction": 0.012476548922113646,
+              "score_quantiles": [
+                0.1159632682800293,
+                0.21482586860656738,
+                0.39202146530151366
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 344,
+              "bg_fraction": 0.03754228964312998,
+              "score_quantiles": [
+                0.14130663871765137,
+                0.24267816543579102,
+                0.4367626040895409
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 344,
+              "bg_fraction": 0.03754228964312998,
+              "score_quantiles": [
+                0.14130663871765137,
+                0.24267816543579102,
+                0.4367626040895409
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "known_error_vs_background": -5.583949423105286,
+        "same_known": 0.20876584403721649,
+        "cross_known": 1.3000010167362575
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.07160567343235032,
+        "background_cost_max": 0.34067929983139034,
+        "rows": [
+          {
+            "video": "coffee_u1_a4_normal_034",
+            "action_margin_quantile": 0.07160567343235032,
+            "background_cost_quantile": 0.34067929983139034,
+            "normal_action_to_bg_fraction": 0.010304659498207885,
+            "background_recall": 0.047841306884480746
+          },
+          {
+            "video": "coffee_u1_a7_normal_012",
+            "action_margin_quantile": 0.041587985754013,
+            "background_cost_quantile": 0.37750922441482515,
+            "normal_action_to_bg_fraction": 0.0006993006993006993,
+            "background_recall": 0.1585150265173836
+          }
+        ]
+      }
+    },
+    "coffee_k2_s1_median21": {
+      "methods": {
+        "original": {
+          "auc": 0.4956938811215638,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 191950450.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.35210993573908783,
+              "contribution": 0.14311284229668111
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40689297.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.6104410903893444,
+              "contribution": 0.030336792279233644
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 432210885.5,
+              "weight": 0.5438598538672866,
+              "auc": 0.5925133915552506,
+              "contribution": 0.322244246545649
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.15362896323204042,
+                0.2410885989665985,
+                0.40994781255722046
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.10291422605514527,
+                0.17947959899902344,
+                0.2829626202583313
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12536017894744872,
+                0.20198208093643188,
+                0.3131418824195862
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.12536017894744872,
+                0.20198208093643188,
+                0.3131418824195862
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "old": {
+          "auc": 0.5653789739095134,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 310531462.5,
+              "weight": 0.4064436352705685,
+              "auc": 0.5696324912029314,
+              "contribution": 0.23152350049274953
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 37833428.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.5675959218830139,
+              "contribution": 0.028207536897168362
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 409951044.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.5619976071890391,
+              "contribution": 0.3056479365195956
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 39817,
+              "bg_fraction": 0.6692607657915084,
+              "score_quantiles": [
+                0.14136487245559692,
+                0.206854909658432,
+                0.37213993072509766
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 13964,
+              "bg_fraction": 0.16072189035829795,
+              "score_quantiles": [
+                0.12598049640655518,
+                0.2159072756767273,
+                0.3621484041213989
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 2171,
+              "bg_fraction": 0.23693113609079997,
+              "score_quantiles": [
+                0.14288121461868286,
+                0.2312072515487671,
+                0.4128106832504277
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 2171,
+              "bg_fraction": 0.23693113609079997,
+              "score_quantiles": [
+                0.14288121461868286,
+                0.2312072515487671,
+                0.4128106832504277
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        },
+        "support": {
+          "auc": 0.51502063648419,
+          "groups": {
+            "known_error_vs_background": {
+              "pairs": 545143522,
+              "wins": 220461234.0,
+              "weight": 0.4064436352705685,
+              "auc": 0.4044095272217139,
+              "contribution": 0.16436967838204533
+            },
+            "same_known": {
+              "pairs": 66655567,
+              "wins": 40973803.0,
+              "weight": 0.049696510862144924,
+              "auc": 0.6147093910400612,
+              "contribution": 0.030548911928884894
+            },
+            "cross_known": {
+              "pairs": 729453362,
+              "wins": 429337654.0,
+              "weight": 0.5438598538672866,
+              "auc": 0.5885745084824217,
+              "contribution": 0.3201020461732599
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 59494,
+              "predicted_bg": 8996,
+              "bg_fraction": 0.1512085252294349,
+              "score_quantiles": [
+                0.15923801064491272,
+                0.2862001657485962,
+                0.4846655249595642
+              ]
+            },
+            "normal_action": {
+              "frames": 86883,
+              "predicted_bg": 1084,
+              "bg_fraction": 0.012476548922113646,
+              "score_quantiles": [
+                0.1213151216506958,
+                0.21773076057434082,
+                0.3647189855575562
+              ]
+            },
+            "error_all": {
+              "frames": 9163,
+              "predicted_bg": 344,
+              "bg_fraction": 0.03754228964312998,
+              "score_quantiles": [
+                0.15044885873794556,
+                0.24149048328399658,
+                0.40194710493087793
+              ]
+            },
+            "error_known": {
+              "frames": 9163,
+              "predicted_bg": 344,
+              "bg_fraction": 0.03754228964312998,
+              "score_quantiles": [
+                0.15044885873794556,
+                0.24149048328399658,
+                0.40194710493087793
+              ]
+            },
+            "error_unknown": {
+              "frames": 0,
+              "predicted_bg": 0,
+              "bg_fraction": null,
+              "score_quantiles": []
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "known_error_vs_background": -6.71538221107042,
+        "same_known": 0.2341375031716532,
+        "cross_known": 1.4454109653664282
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.07160567343235032,
+        "background_cost_max": 0.34067929983139034,
+        "rows": [
+          {
+            "video": "coffee_u1_a4_normal_034",
+            "action_margin_quantile": 0.07160567343235032,
+            "background_cost_quantile": 0.34067929983139034,
+            "normal_action_to_bg_fraction": 0.010304659498207885,
+            "background_recall": 0.047841306884480746
+          },
+          {
+            "video": "coffee_u1_a7_normal_012",
+            "action_margin_quantile": 0.041587985754013,
+            "background_cost_quantile": 0.37750922441482515,
+            "normal_action_to_bg_fraction": 0.0006993006993006993,
+            "background_recall": 0.1585150265173836
+          }
+        ]
+      }
+    },
+    "oatmeal_k2_s0_raw": {
+      "methods": {
+        "original": {
+          "auc": 0.7760903625836194,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 30610026.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.7586192868315726,
+              "contribution": 0.04292048558285592
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 188394940.5,
+              "weight": 0.2879344292881714,
+              "auc": 0.9174376490876217,
+              "contribution": 0.26416188589752604
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 37098264.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.48322843377254776,
+              "contribution": 0.05201810279912638
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10790117.5,
+              "weight": 0.020820774030984503,
+              "auc": 0.7266582764028476,
+              "contribution": 0.01512958777072837
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 286598678.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.7625133656292312,
+              "contribution": 0.4018603005333827
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14826493263244628,
+                0.2323317527770996,
+                0.4231236100196841
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.08764147758483887,
+                0.15299418568611145,
+                0.2763018369674683
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.15715224146842957,
+                0.2675757110118866,
+                0.4843811035156251
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14581658840179443,
+                0.23061615228652954,
+                0.3811965107917786
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.20764619112014773,
+                0.37904787063598633,
+                0.5662314057350158
+              ]
+            }
+          }
+        },
+        "old": {
+          "auc": 0.7083749695101463,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 25813985.0,
+              "weight": 0.0565771083439183,
+              "auc": 0.6397572668217362,
+              "contribution": 0.036195616198782414
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 154635703.0,
+              "weight": 0.2879344292881714,
+              "auc": 0.7530383536246383,
+              "contribution": 0.21682566858301444
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 46534616.5,
+              "weight": 0.10764702398205926,
+              "auc": 0.6061429140592982,
+              "contribution": 0.06524948080629656
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10429895.5,
+              "weight": 0.020820774030984503,
+              "auc": 0.7023991988124149,
+              "contribution": 0.014624494998017849
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 267784571.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.7124572797988199,
+              "contribution": 0.37547970892403504
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 7486,
+              "bg_fraction": 0.5927626890490142,
+              "score_quantiles": [
+                0.11923885345458984,
+                0.2033788561820984,
+                0.517887568473816
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 6679,
+              "bg_fraction": 0.10391772467015185,
+              "score_quantiles": [
+                0.10658815503120422,
+                0.1810689240694046,
+                0.3604778051376343
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 2878,
+              "bg_fraction": 0.31032995471209834,
+              "score_quantiles": [
+                0.14736308455467223,
+                0.2841517925262451,
+                0.5406255605515472
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 1031,
+              "bg_fraction": 0.1696002632011844,
+              "score_quantiles": [
+                0.14652055501937866,
+                0.27282804250717163,
+                0.53494713306427
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 1847,
+              "bg_fraction": 0.5780907668231612,
+              "score_quantiles": [
+                0.15183475017547607,
+                0.2994194030761719,
+                0.5512125492095946
+              ]
+            }
+          }
+        },
+        "support": {
+          "auc": 0.713908333032965,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 21792672.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.5400956340271063,
+              "contribution": 0.03055704920242884
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 157354144.5,
+              "weight": 0.2879344292881714,
+              "auc": 0.7662765041414364,
+              "contribution": 0.22063738789689963
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 38928814.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.5070725093185716,
+              "contribution": 0.05458484657125925
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10836385.5,
+              "weight": 0.020820774030984503,
+              "auc": 0.7297741854865631,
+              "contribution": 0.015194463409661501
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 280233038.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.7455771899071786,
+              "contribution": 0.39293458595271574
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 879,
+              "bg_fraction": 0.0696017103491963,
+              "score_quantiles": [
+                0.14937584400177004,
+                0.28760164976119995,
+                0.5656124287181431
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 983,
+              "bg_fraction": 0.015294373910878765,
+              "score_quantiles": [
+                0.10745359659194946,
+                0.1845535933971405,
+                0.37250193357467654
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 1157,
+              "bg_fraction": 0.12475738624110416,
+              "score_quantiles": [
+                0.16402233839035035,
+                0.3040395975112915,
+                0.5441401302814484
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 64,
+              "bg_fraction": 0.010528047376213193,
+              "score_quantiles": [
+                0.16372308731079102,
+                0.29378366470336914,
+                0.5339758634567261
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 1093,
+              "bg_fraction": 0.3420970266040689,
+              "score_quantiles": [
+                0.1650635838508606,
+                0.32127058506011963,
+                0.5653227018273395
+              ]
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "outside_error_vs_background": -0.5638566996353573,
+        "outside_error_vs_known": 0.3811719313885187,
+        "known_error_vs_background": -1.066463423503731,
+        "same_known": 0.0569968411643652,
+        "cross_known": 1.7454877028680704
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.04734811782836918,
+        "background_cost_max": 0.4417989730834961,
+        "rows": [
+          {
+            "video": "oatmeal_u1_a2_normal_031",
+            "action_margin_quantile": 0.04503717422485368,
+            "background_cost_quantile": 0.625712504982948,
+            "normal_action_to_bg_fraction": 0.00967221923696937,
+            "background_recall": 0.022727272727272728
+          },
+          {
+            "video": "oatmeal_u1_a1_normal_002",
+            "action_margin_quantile": 0.04734811782836918,
+            "background_cost_quantile": 0.4417989730834961,
+            "normal_action_to_bg_fraction": 0.00904782421370099,
+            "background_recall": 0.321285140562249
+          }
+        ]
+      }
+    },
+    "oatmeal_k2_s0_median21": {
+      "methods": {
+        "original": {
+          "auc": 0.7967911872117693,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 31303288.0,
+              "weight": 0.0565771083439183,
+              "auc": 0.775800635717951,
+              "contribution": 0.0438925566202952
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 192766252.0,
+              "weight": 0.2879344292881714,
+              "auc": 0.9387248754608252,
+              "contribution": 0.27029121127442246
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 36624386.5,
+              "weight": 0.10764702398205926,
+              "auc": 0.4770558785789934,
+              "contribution": 0.05135364560217525
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 11131613.0,
+              "weight": 0.020820774030984503,
+              "auc": 0.7496562216457358,
+              "contribution": 0.015608422791807498
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 296429899.0,
+              "weight": 0.5270206643548665,
+              "auc": 0.7886699308685859,
+              "contribution": 0.4156453509230688
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.15597012042999267,
+                0.23045605421066284,
+                0.413402259349823
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.09222209453582764,
+                0.15293580293655396,
+                0.2606906294822693
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.16762065887451172,
+                0.26388439536094666,
+                0.4704231977462769
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.1567426323890686,
+                0.2314855456352234,
+                0.3709939956665039
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.21915361881256104,
+                0.3768026828765869,
+                0.5396116971969604
+              ]
+            }
+          }
+        },
+        "old": {
+          "auc": 0.7423925818747936,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 27105198.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.6717578750053749,
+              "contribution": 0.03800611807505942
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 161013883.5,
+              "weight": 0.2879344292881714,
+              "auc": 0.7840985450918105,
+              "contribution": 0.225768967086696
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 49157866.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.6403124036957841,
+              "contribution": 0.06892772467665009
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10981986.0,
+              "weight": 0.020820774030984503,
+              "auc": 0.7395796216528878,
+              "contribution": 0.015398620180355791
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 281200514.0,
+              "weight": 0.5270206643548665,
+              "auc": 0.7481512178249969,
+              "contribution": 0.3942911518560323
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 7486,
+              "bg_fraction": 0.5927626890490142,
+              "score_quantiles": [
+                0.12624367475509643,
+                0.20267164707183838,
+                0.4550044655799866
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 6679,
+              "bg_fraction": 0.10391772467015185,
+              "score_quantiles": [
+                0.11390441656112671,
+                0.18053245544433594,
+                0.3161403823982586
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 2878,
+              "bg_fraction": 0.31032995471209834,
+              "score_quantiles": [
+                0.15973055362701416,
+                0.28008589148521423,
+                0.49502020478248604
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 1031,
+              "bg_fraction": 0.1696002632011844,
+              "score_quantiles": [
+                0.15829485654830933,
+                0.2708864212036133,
+                0.4928843259811401
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 1847,
+              "bg_fraction": 0.5780907668231612,
+              "score_quantiles": [
+                0.1650206685066223,
+                0.2949379086494446,
+                0.5043872117996215
+              ]
+            }
+          }
+        },
+        "support": {
+          "auc": 0.7372501625024825,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 21241419.0,
+              "weight": 0.0565771083439183,
+              "auc": 0.5264337204370149,
+              "contribution": 0.029784097637056986
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 162691154.5,
+              "weight": 0.2879344292881714,
+              "auc": 0.7922664478976867,
+              "contribution": 0.22812078751958723
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 38497217.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.5014506844717019,
+              "contribution": 0.05397967385714533
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 11288565.0,
+              "weight": 0.020820774030984503,
+              "auc": 0.7602261222791608,
+              "contribution": 0.015828496304426
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 292073622.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.7770797900032765,
+              "contribution": 0.40953710718426695
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 879,
+              "bg_fraction": 0.0696017103491963,
+              "score_quantiles": [
+                0.163309121131897,
+                0.29301220178604126,
+                0.526908041909337
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 983,
+              "bg_fraction": 0.015294373910878765,
+              "score_quantiles": [
+                0.11444209218025209,
+                0.18396490812301636,
+                0.3452559034029643
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 1157,
+              "bg_fraction": 0.12475738624110416,
+              "score_quantiles": [
+                0.17532923817634583,
+                0.3031812906265259,
+                0.5079822540283203
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 64,
+              "bg_fraction": 0.010528047376213193,
+              "score_quantiles": [
+                0.17420250177383423,
+                0.2929720878601074,
+                0.5113499164581299
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 1093,
+              "bg_fraction": 0.3420970266040689,
+              "score_quantiles": [
+                0.17999649047851562,
+                0.3204610347747803,
+                0.5044252872467041
+              ]
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "outside_error_vs_background": -0.8222020438002436,
+        "outside_error_vs_known": 0.23518204328912273,
+        "known_error_vs_background": -1.4948050819504761,
+        "same_known": 0.042987612407020814,
+        "cross_known": 1.524595532823464
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.04734811782836918,
+        "background_cost_max": 0.4417989730834961,
+        "rows": [
+          {
+            "video": "oatmeal_u1_a2_normal_031",
+            "action_margin_quantile": 0.04503717422485368,
+            "background_cost_quantile": 0.625712504982948,
+            "normal_action_to_bg_fraction": 0.00967221923696937,
+            "background_recall": 0.022727272727272728
+          },
+          {
+            "video": "oatmeal_u1_a1_normal_002",
+            "action_margin_quantile": 0.04734811782836918,
+            "background_cost_quantile": 0.4417989730834961,
+            "normal_action_to_bg_fraction": 0.00904782421370099,
+            "background_recall": 0.321285140562249
+          }
+        ]
+      }
+    },
+    "oatmeal_k2_s1_raw": {
+      "methods": {
+        "original": {
+          "auc": 0.7835689997331586,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 33924142.0,
+              "weight": 0.0565771083439183,
+              "auc": 0.8407542022354342,
+              "contribution": 0.04756744159047876
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 188908972.5,
+              "weight": 0.2879344292881714,
+              "auc": 0.9199408602056284,
+              "contribution": 0.2648826465621771
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 44608847.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.5810585440927698,
+              "contribution": 0.06254922303093483
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10696712.0,
+              "weight": 0.020820774030984503,
+              "auc": 0.7203679019341224,
+              "contribution": 0.014998617305344766
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 280686967.0,
+              "weight": 0.5270206643548665,
+              "auc": 0.7467848945278056,
+              "contribution": 0.393571071244223
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.1375269651412964,
+                0.20329385995864868,
+                0.3582119941711427
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.09067763090133667,
+                0.1565893292427063,
+                0.2807494163513184
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.15355857014656066,
+                0.2688651978969574,
+                0.48899366855621357
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14215352535247802,
+                0.23238521814346313,
+                0.36229037046432494
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.21293654441833496,
+                0.39812469482421875,
+                0.6017310500144959
+              ]
+            }
+          }
+        },
+        "old": {
+          "auc": 0.7163325755880767,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 32897690.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.8153152858432123,
+              "contribution": 0.04612818126160414
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 174463042.5,
+              "weight": 0.2879344292881714,
+              "auc": 0.8495926861893291,
+              "contribution": 0.244626985225329
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 48336587.5,
+              "weight": 0.10764702398205926,
+              "auc": 0.6296147299920748,
+              "contribution": 0.06777615193891465
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 9843770.5,
+              "weight": 0.020820774030984503,
+              "auc": 0.6629267294665881,
+              "contribution": 0.013802647633323428
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 245332885.0,
+              "weight": 0.5270206643548665,
+              "auc": 0.6527231905602773,
+              "contribution": 0.3439986095289055
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 8377,
+              "bg_fraction": 0.6633145933961517,
+              "score_quantiles": [
+                0.11363424062728883,
+                0.18215304613113403,
+                0.4752771139144898
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 7120,
+              "bg_fraction": 0.11077918844909136,
+              "score_quantiles": [
+                0.10831788182258606,
+                0.19062140583992004,
+                0.37227344512939453
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 2244,
+              "bg_fraction": 0.2419667888721156,
+              "score_quantiles": [
+                0.14574614763259888,
+                0.3003343982355935,
+                0.5842655777931215
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 1366,
+              "bg_fraction": 0.22470801118605033,
+              "score_quantiles": [
+                0.13717900514602663,
+                0.24893510341644287,
+                0.4910244584083556
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 878,
+              "bg_fraction": 0.27480438184663536,
+              "score_quantiles": [
+                0.20888758897781373,
+                0.4434589743614197,
+                0.6839308974985591
+              ]
+            }
+          }
+        },
+        "support": {
+          "auc": 0.7222256043361089,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 30544946.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.75700638580429,
+              "contribution": 0.04282923230668733
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 178362890.0,
+              "weight": 0.2879344292881714,
+              "auc": 0.8685839972760525,
+              "contribution": 0.25009523754451884
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 41695064.5,
+              "weight": 0.10764702398205926,
+              "auc": 0.5431046777385691,
+              "contribution": 0.05846360226929231
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10186422.0,
+              "weight": 0.020820774030984503,
+              "auc": 0.686002525295211,
+              "contribution": 0.014283103563856318
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 254287442.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.6765473401089831,
+              "contribution": 0.35655442865175413
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 3459,
+              "bg_fraction": 0.27389341990656424,
+              "score_quantiles": [
+                0.13173190355300904,
+                0.23291778564453125,
+                0.567230889816133
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 2586,
+              "bg_fraction": 0.0402352501867065,
+              "score_quantiles": [
+                0.10820555090904235,
+                0.1927262544631958,
+                0.37954597849594923
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 1070,
+              "bg_fraction": 0.11537632089713176,
+              "score_quantiles": [
+                0.15878480672836304,
+                0.3193955272436142,
+                0.5871783096539348
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 705,
+              "bg_fraction": 0.11597302187859845,
+              "score_quantiles": [
+                0.14605842828750612,
+                0.26348161697387695,
+                0.4945017695426941
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 365,
+              "bg_fraction": 0.11424100156494522,
+              "score_quantiles": [
+                0.22612575054168702,
+                0.4573913812637329,
+                0.6626890897750854
+              ]
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "outside_error_vs_background": -0.32989489549168083,
+        "outside_error_vs_known": 0.5468252319189848,
+        "known_error_vs_background": -0.931254966962234,
+        "same_known": 0.048045593053288975,
+        "cross_known": 1.2555819122848644
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.02056536078453064,
+        "background_cost_max": 0.27806048989295945,
+        "rows": [
+          {
+            "video": "oatmeal_u1_a6_normal_004",
+            "action_margin_quantile": 0.02056536078453064,
+            "background_cost_quantile": 0.27806048989295945,
+            "normal_action_to_bg_fraction": 0.010264721772015126,
+            "background_recall": 0.18456375838926176
+          },
+          {
+            "video": "oatmeal_u1_a6_normal_010",
+            "action_margin_quantile": 0.019600020647048952,
+            "background_cost_quantile": 0.37101845443248743,
+            "normal_action_to_bg_fraction": 0.008559201141226819,
+            "background_recall": 0.23184357541899442
+          }
+        ]
+      }
+    },
+    "oatmeal_k2_s1_median21": {
+      "methods": {
+        "original": {
+          "auc": 0.8048678389934487,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 34630493.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.8582599652958619,
+              "contribution": 0.04855786704379154
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 192808092.0,
+              "weight": 0.2879344292881714,
+              "auc": 0.9389286261089899,
+              "contribution": 0.27034987810101885
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 45108624.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.587568456711472,
+              "contribution": 0.06324999575072136
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 11167549.0,
+              "weight": 0.020820774030984503,
+              "auc": 0.7520763242832477,
+              "contribution": 0.015658811201954923
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 290300785.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.7723630484095708,
+              "contribution": 0.407051286895962
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14648538827896118,
+                0.20245778560638428,
+                0.3426699638366699
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.09375303983688354,
+                0.15678060054779053,
+                0.2608142375946045
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.16085374355316162,
+                0.267927348613739,
+                0.4730939269065857
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.14984912872314454,
+                0.23199909925460815,
+                0.34034067392349243
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 0,
+              "bg_fraction": 0.0,
+              "score_quantiles": [
+                0.22722160816192627,
+                0.39725255966186523,
+                0.5809986591339111
+              ]
+            }
+          }
+        },
+        "old": {
+          "auc": 0.7470835625403529,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 34870098.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.8641981821158075,
+              "contribution": 0.048893834180183275
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 182954029.0,
+              "weight": 0.2879344292881714,
+              "auc": 0.8909417302364793,
+              "contribution": 0.25653279862465667
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 50691167.0,
+              "weight": 0.10764702398205926,
+              "auc": 0.6602846223616463,
+              "contribution": 0.07107767457834908
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10271622.5,
+              "weight": 0.020820774030984503,
+              "auc": 0.6917403357016927,
+              "contribution": 0.014402569217762305
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 254018044.0,
+              "weight": 0.5270206643548665,
+              "auc": 0.6758305888734032,
+              "contribution": 0.3561766859394016
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 8377,
+              "bg_fraction": 0.6633145933961517,
+              "score_quantiles": [
+                0.12116914987564088,
+                0.18194186687469482,
+                0.4000011086463928
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 7120,
+              "bg_fraction": 0.11077918844909136,
+              "score_quantiles": [
+                0.11515374183654785,
+                0.19079095125198364,
+                0.32402050495147705
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 2244,
+              "bg_fraction": 0.2419667888721156,
+              "score_quantiles": [
+                0.15781559348106386,
+                0.2942783236503601,
+                0.5461611747741699
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 1366,
+              "bg_fraction": 0.22470801118605033,
+              "score_quantiles": [
+                0.1481318473815918,
+                0.24570631980895996,
+                0.43670661449432374
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 878,
+              "bg_fraction": 0.27480438184663536,
+              "score_quantiles": [
+                0.22756975889205933,
+                0.4534306526184082,
+                0.651483917236328
+              ]
+            }
+          }
+        },
+        "support": {
+          "auc": 0.7539116534295246,
+          "groups": {
+            "outside_error_vs_background": {
+              "pairs": 40349655,
+              "wins": 32384469.5,
+              "weight": 0.0565771083439183,
+              "auc": 0.8025959453680583,
+              "contribution": 0.045408557757478166
+            },
+            "outside_error_vs_known": {
+              "pairs": 205349040,
+              "wins": 186538590.0,
+              "weight": 0.2879344292881714,
+              "auc": 0.9083976725676438,
+              "contribution": 0.26155896541746776
+            },
+            "known_error_vs_background": {
+              "pairs": 76771691,
+              "wins": 42943790.5,
+              "weight": 0.10764702398205926,
+              "auc": 0.5593701264180829,
+              "contribution": 0.06021452941337489
+            },
+            "same_known": {
+              "pairs": 14848957,
+              "wins": 10691079.5,
+              "weight": 0.020820774030984503,
+              "auc": 0.7199885823630575,
+              "contribution": 0.014990719578270096
+            },
+            "cross_known": {
+              "pairs": 375860531,
+              "wins": 265116688.5,
+              "weight": 0.5270206643548665,
+              "auc": 0.7053592134152549,
+              "contribution": 0.3717388812629337
+            }
+          },
+          "confusion": {
+            "background_normal": {
+              "frames": 12629,
+              "predicted_bg": 3459,
+              "bg_fraction": 0.27389341990656424,
+              "score_quantiles": [
+                0.14546297788619997,
+                0.2329627275466919,
+                0.5166112184524536
+              ]
+            },
+            "normal_action": {
+              "frames": 64272,
+              "predicted_bg": 2586,
+              "bg_fraction": 0.0402352501867065,
+              "score_quantiles": [
+                0.11456358432769775,
+                0.19305795431137085,
+                0.3396484851837158
+              ]
+            },
+            "error_all": {
+              "frames": 9274,
+              "predicted_bg": 1070,
+              "bg_fraction": 0.11537632089713176,
+              "score_quantiles": [
+                0.1746534824371338,
+                0.31772565841674805,
+                0.5576650798320775
+              ]
+            },
+            "error_known": {
+              "frames": 6079,
+              "predicted_bg": 705,
+              "bg_fraction": 0.11597302187859845,
+              "score_quantiles": [
+                0.15982019901275635,
+                0.26302415132522583,
+                0.44920715794843785
+              ]
+            },
+            "error_unknown": {
+              "frames": 3195,
+              "predicted_bg": 365,
+              "bg_fraction": 0.11424100156494522,
+              "score_quantiles": [
+                0.2505713105201721,
+                0.45742034912109375,
+                0.634064793586731
+              ]
+            }
+          }
+        }
+      },
+      "support_minus_old_contribution_pp": {
+        "outside_error_vs_background": -0.3485276422705109,
+        "outside_error_vs_known": 0.5026166792811093,
+        "known_error_vs_background": -1.0863145164974193,
+        "same_known": 0.05881503605077911,
+        "cross_known": 1.556219532353209
+      },
+      "support_rule": {
+        "enabled": true,
+        "margin_threshold": 0.02056536078453064,
+        "background_cost_max": 0.27806048989295945,
+        "rows": [
+          {
+            "video": "oatmeal_u1_a6_normal_004",
+            "action_margin_quantile": 0.02056536078453064,
+            "background_cost_quantile": 0.27806048989295945,
+            "normal_action_to_bg_fraction": 0.010264721772015126,
+            "background_recall": 0.18456375838926176
+          },
+          {
+            "video": "oatmeal_u1_a6_normal_010",
+            "action_margin_quantile": 0.019600020647048952,
+            "background_cost_quantile": 0.37101845443248743,
+            "normal_action_to_bg_fraction": 0.008559201141226819,
+            "background_recall": 0.23184357541899442
+          }
+        ]
+      }
+    }
+  },
+  "hashes": {
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_normal_006.npz": "43ae6527de3f70a3c5ec2a426991e7edc079f3145a7ed3852eb922487ccd950f",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_normal_006.npz": "195e91d43fdcdd0e3fbe8f8462f3c0ee84db62394c5caa27544f696af4384f0f",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_normal_006.npz": "d1190eaa80e1d8b0703cae39f8e875d0880173fd1c5adfd96b7d014ccb8ec41f",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_normal_016.npz": "283c565e77f42a9cae9403e77e93d051bcec3bc506e5dbcbaedc58eddd5cb8ff",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_normal_016.npz": "7d29c5598f9e1271b34e65f361ae067f8176a0969f3567c4590331f04e5da34d",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_normal_016.npz": "6821003f0d6ee4a45a2d158ec7ee5499a8727ed0c5f738fb514d1593428d92c0",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a6_normal_026.npz": "48b2cd4b4db9c5847d5c841795f14c153a6608b00bb5ee60e60b0f819c0d95e8",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a6_normal_026.npz": "97bc243b34efea5314c7072d194e0327e93a02b0d42e64e9d83ad66ea31d1884",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a6_normal_026.npz": "ae3758aa89bece94ca7f4d9ec0eab3d23b3860ad5c576085b4e81bd5ad24a186",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a1_error_001.npz": "33e6fb1551b7af7692a388e8c4e8eaedfa0c7f6fd27df270ffbb124cbd03b693",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a1_error_001.npz": "f2c1d87a0a2ddab3de9b0c4ccff4284bd550f6a0ae54395a7f96241da20677cb",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a1_error_001.npz": "782b30aa09ea4960f59008a55e22970c58b7cd34c4ea7fc5fb4cdc1dbb945f1e",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a1_error_010.npz": "6175599a3295fcece80aad609c7777ad58559ee8c5cf8b549d1d4e4f1b83cbc9",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a1_error_010.npz": "9fc5fb85d1a4e57aece0ed0f35c29428afc38801f11b530b780f94c68c1e61be",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a1_error_010.npz": "e46fba0a43737b8816a23d4977547eae4c23869d8ce116c4a4d4dda853254bbe",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a1_error_013.npz": "72b3f6ebd644e27de17cab92d1a1b41207c423d52c6e05d316b328aa7ae7b1fb",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a1_error_013.npz": "2c5d5794c01194347a9b5b6accbadb9e59abe54b63913fb7e62967f009e38d67",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a1_error_013.npz": "23e57d6f78e53030da3fe6dd642cc2bbabda2502c476c9a876aa8695cb25f0dc",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a1_error_014.npz": "76fc323edc7e6d3993f7e7e3d919ef592eacaf2c726ead2dcaf24c86a3ace760",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a1_error_014.npz": "cb7086e9d76d2f85b539f78f778135112fb63744eb9f86dc6c38bf72a89059d4",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a1_error_014.npz": "290b829fb4a4311a37ad7a74ddf19dee981e21dc5f171601495c3c4213162a80",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a1_error_015.npz": "51c3301b96e0a728fcb7cdcc3cbab737ff8099fd5509b5d76923f4c588cdee10",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a1_error_015.npz": "6fcf5e67d7054af9c0a50021c1a059164e391fefddccf268fc654e5915313f62",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a1_error_015.npz": "b93bdea58b1e55f9230bfa1b8a207896b8b8774145c2e8a63a8f2926925d4364",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a1_error_016.npz": "ba1ca010bc0ef643cd9e66179eb17cc1d167ae64750351a5a9523e69901b1e00",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a1_error_016.npz": "b53613cdae503e8a3c93bef3819b40849932680fb7f238f2bfe1d29643f2e4ec",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a1_error_016.npz": "e7f9a13e7328ba927498033275542fe973fc7b5f9946c160da08ea09fd5ff4f7",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_005.npz": "7fbd93974c71f799505fdb04872d279be75af7956e20a9f24cfaa7b269c1bab1",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_005.npz": "b64064bf8c4295bed7d9a9bce8e62485e817d03d55d106d6ae3b597516a3f892",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_005.npz": "fdd1d5c6ed7a0afc23f292e28f6d5d10ec05e871fb70883aa9acc1c23bc71c46",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_006.npz": "b230db00ee5e69f3f89202631143da3fa1aaa281809529b74b64b202df396761",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_006.npz": "ca61403a3e0ebb0775d19e5f01157e3be6cbd79586eed980ae8b2406088f1ad8",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_006.npz": "bfc2c88582684687d21ed8877dbcca518c25747eac7f9b71123d5750dd2f755b",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_017.npz": "6833f67b915533d5c796535f65b1df9d844a11e13594589f260a2c05964ce254",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_017.npz": "a553d5b723a022f602b4304fcb1a9921877b53fbd9b3025df816ea277f32df11",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_017.npz": "e1fb90f4b182684ce59554f32250284a74a3529c0ac03c0536a9e9e0e1bf35c4",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_018.npz": "0badff2d97178b3e19b00b77d60f15757d0e0f2b565fb1806b20ffdd7dd4c006",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_018.npz": "4db49e24a300530e4eda35f5978012dfbfd6273f420d4d0864d51ab23ef023c9",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_018.npz": "f15836cf2168e5339bcf2628cf4ea3343fcc1bf98043d831095c68ddefe4f877",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_019.npz": "fa3a453a1dc0bcc4f5718e6bf89684b77c1f3d1f0a2a80b72c295a78c9e2b53e",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_019.npz": "47bb62af9f8deac847c896f527a0a7977b19c50a797fcdb0ec72aaeb78eeed09",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_019.npz": "10edb4dc51c5bce88c0b3649b7bdec1e511a82338093092b2211a8b238b7f314",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_020.npz": "095a7e649760ee0b80d16ed99ba01ebff0d46f5ec2244a666c94a2cc4d5df238",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_020.npz": "caf3b077f6d6b0c6875e1d1ec6c72329e1353a9240f548d17bcccb1e708bc90e",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_020.npz": "bbffb296766f9ec1e908ffc756ac38a1c1dac8aea70271bfc1b14e65f1ee4a47",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_021.npz": "719691250a16e2aef0338bab7d7904bc191b31f0218df1103a5bed18104d609a",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_021.npz": "f7db89af3af93ab43c19c28dbe07e4c378493b29a261838e206946c8319b70e6",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_021.npz": "0a2103b8abc0993ba2beedf0ea745064ac08340be9870d4b7d2504fe854065f8",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_022.npz": "e49edcbaecc68ec41505a42d540d6c6efae37b24464f463c7c86274849471eb1",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_022.npz": "b682c46e3dfbcc0a6711263812afb4637abcedd7468070a6737f8cabf4afe472",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_022.npz": "db0f98a0cce343831077ef880e16264864132012d9b4db0f3602c76f7cd31513",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a2_error_023.npz": "25d1e225c7ad5dff4054bbeb5d1aa2275f3539f5cce3799ce5fa1681422ad913",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a2_error_023.npz": "36ab4cc4f69073ae48998783864246609ff59e030dd04b6c2d572fca83e629c7",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a2_error_023.npz": "f8bf4bfb8be58fdcf287266ceec8b795666d46a03a1db1e8d695768c26fb5def",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_024.npz": "eba01ef75e4fc3f9f8e8de97cbaafe3e77023deac2db2572063134249366de11",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_024.npz": "b1e093b35a11084a4b0279daadf460dd1a7b81d083842774c277476e92f0afaf",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_024.npz": "208068877988267a10ff52d57dc46d91e40cd2d185decdd22dd1f06ba9ba2314",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_025.npz": "50d1aabbd63f980a16901b9cf730bfe60ca8a2da0ddece60cd66ed0dc3580507",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_025.npz": "ffc191e11b3055d99f923c1ce0929f7146bfdd1e7b06b39cd18ab7cb65557bf4",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_025.npz": "3f8a6f513c9531a629be64c998a787ad5cd516cdd58b7d157e5cc630298dc5c3",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_026.npz": "ddb4aecf96877de64756492acc96e5d746c428b488925937015e77af46218ded",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_026.npz": "35abb7936086918e8a205c7be96fe49d8a85ce0bf76c14166c61bf63500d3f46",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_026.npz": "1a554ba74c9a26829faa409081b0f1d044e0b7cf8addf4967ae0ca5979f835c8",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_027.npz": "e35732c6d5b09f8885be40b782054a903c5ae97bfab6d8acd760db05c894439f",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_027.npz": "6a268dbdb7c3a345466227b353752c70d930388763f81d399014377a9b83aa7a",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_027.npz": "fe54074a887963f82f21878651d5ebe0f2b4dce0feefae7e11bbaf864a786482",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_028.npz": "2554c15ff046f00cac50bb687feeee8f0917b7c7727bb703ad9fad9d1fe00f3d",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_028.npz": "cd7af4fb19c16da6d8b79e997cf0108df547f525c99f093ee2ada7ac2a0f46b5",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_028.npz": "251b50e76bdaac7532a57c9d431c7b1bdf78b11648b6ae10cd76d7abda110159",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_029.npz": "d080290a8754dfd9c946d81f86f92c34df3fc64d4c896e5a1b9c26f9b7b31b38",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_029.npz": "285b17aec686a2962edeb81e7c9339493a0e6fb45e362d01778562c9bb0d278b",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_029.npz": "b2d74e267507257f593b22d84e5cc39601c1713edbae2c46fe0b2ca5e8940938",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a5_error_030.npz": "281e0d1155bf59a70117e60b11a5144dd9329fb477b6218817828e8145457c96",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a5_error_030.npz": "6b0138142d68937369257f19d5aa88371885a64c9ab4a0e67c22980ffbdcda8a",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a5_error_030.npz": "cd831435685fd1b47589e0a99761f156184eea595b25bcf6d15aea983c3f9290",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a6_error_031.npz": "24159bfeb8d5a527add6c16adb4783e67678b0128791016301c9133bd2764034",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a6_error_031.npz": "e56f7d92d73e32c5218b66cb07a9d7908d9fa3b63d6be141ee2dcc5d7f3da7eb",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a6_error_031.npz": "93b16c7dcb707b5a06e5802c09e42a148a89c66da44be80f6cba832a4fc7eb24",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a6_error_032.npz": "fbaa23421db2e7ddaf71d367f43c0121330381a42263c9941844c6f06243d0cb",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a6_error_032.npz": "31549b64508c40b07ac4858071c34a1b0a04779e1fa22892da77e35b4673997a",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a6_error_032.npz": "d63f7b508526efd6f21bc4a6a2d7c166cf4bb599bb087271065a143ecf12dfb1",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a6_error_033.npz": "d3799e580073cfcf0be3aea5e745e8e9556b7c4968d8828bd158eec3f616d209",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a6_error_033.npz": "776f96e9c60fd4f4d74dbf63d179dc57762ccc0764602034b81434e6676e683d",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a6_error_033.npz": "8f5e45e129459ce3fa1a40f45aa409588eab5f14e9b04d9228c6ca4993a3beb9",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a6_error_034.npz": "d2589e326e216a824defe033aed69b32734e8dbea8d1e516d127d95537a75aac",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a6_error_034.npz": "f4e94591ae2f314efbee76a490d7d0935df6c82507592c87fba77b14127b6ee2",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a6_error_034.npz": "a8a30dea15db31abf9e4d02179f28c81c8d1eaff2bf7919704d096c29db9824c",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a6_error_036.npz": "61774ad295e23ec4aa7708eff552d31f35cdfca6ba81cbdc4119a29647036349",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a6_error_036.npz": "d61159096a25dd1813df813de920c662b49985c30278b0bb75bc69026fc045cb",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a6_error_036.npz": "aed133f1f88747d46ffd697d3c889826fcfad031bdc2de8d9779a948d5760fb7",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_002.npz": "03fef54392f8f19e2d47aa1c2fcfbc2e25c2feba619f920d00dc113c70f6d30b",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_002.npz": "64093e30e28ff3137b4db5580867835fa9f7437946c72b2e9b21b3944c74ab97",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_002.npz": "d134b10d1161d5c46da8fc209f6c3bc73a299a09251ac4901c618d42566c4ee1",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_003.npz": "03a93171ff71401827f645194a6bacb9fe040628f3d2b0565ef5c33b7b3f441e",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_003.npz": "f24cc144e0eed921a1cbc34f5417f1cca856586847bdd2dc1e5fb9e2195524e9",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_003.npz": "d5f7c60c93eabb59ef62e1c14ab72f737971c0d63317b7c81dcbf54e32e6c982",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_004.npz": "e375465d800bdee9d9e45ddc019b20d17393117a6013fe144795e94781664bf3",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_004.npz": "ae5a2fb80056b47dbc9bfed14ce77e483236daa79fa0cd88a954a621560be25e",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_004.npz": "c57fa0512d4f43489e5504870cc2225341919442563a166630de7bea29223078",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_007.npz": "66b62361d8f0f25e4a15d5f3dd5726b0a64ba0be8cc5ff911bd7d5d1b214beb9",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_007.npz": "db984ac9baa994cd5d63a18a3d8d2f57d2ee5c244920fa13c35ea504728b6efb",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_007.npz": "433598db509c93c86257f6813cd9b2f4d8264dcfbe31343566ab78bffc0f8a27",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_008.npz": "7ddcf4f41a0b00a6ebc1c936e2588956a9abc4551ddb516c01ae0c5642f6443e",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_008.npz": "7f53cf1c96ac5fc63e4e96540a0f177302c8001a0c38647eef18f6f38be51734",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_008.npz": "7081d75570ce779670e118e6f76c6c22e01ccf8164bc04ce0740a110ecb1ce95",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_009.npz": "8d965966b35cee726b72d43950dafe9c22b39b47640a091d4e309fb8a43d3ab3",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_009.npz": "490fc972d1656df7eca44c3a8da087322cb78d3111cc84ff01240e1e3f151c40",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_009.npz": "886e5e31110c4123a6d30c942f4d1dafc7973fd121884c1f72dd1369ca58db65",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_011.npz": "6794a74531fe9eccb55c4c5bb6f4eda75b70b93edd40484464c8932dcd9e17fd",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_011.npz": "c0d4f7691102e9a971854afe1bcf772515177ed20f583376aa915c6e978309c0",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_011.npz": "4d93c371efdbeefe1dd5def24a235b47929a9e06fd04ac7292e7b12f37cc1e11",
+    "pilot_runtime/support_background/coffee_k2_s0/coffee_u1_a7_error_035.npz": "b7215e4c0a4f51d6d22803558c1d3bb525feea4e3c6385643f18ab8d9211ac9a",
+    "pilot_runtime/background_drop/coffee_k2_s0/coffee_u1_a7_error_035.npz": "eb256d8fb37483b8e49c1fb1cd123dadc39e90629d52459e45f1c0eab7d5f392",
+    "pilot_runtime/coffee_k2_s0/coffee_u1_a7_error_035.npz": "dc8617b0a05284e5eb0870be21545c8a27b91b8445c74b9bc88fdfc599a59758",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_normal_006.npz": "7d3dea19a8a6f806399f36e2606d0ff34db03cf0e8fec45f509ef183cd9dc85a",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_normal_006.npz": "a9fa62ca9f736d84d697d301848dfbdddf720f9135d594e12c5433cd79cf986e",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_normal_006.npz": "d017ad31444911187159a7ad5dd8f24f6ec66c905fb06f46fa02218f4ba8615c",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_normal_016.npz": "06615bfcedbdc7227d027fa1122bcb8314afa9499ecbbda03bc1894674362176",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_normal_016.npz": "3453031ebc8175e4dde6fbb8e6a30b07c9b01a574b6cad448a672aafa8a7defc",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_normal_016.npz": "a9697913b2b81274ff0cbb36244e149cbf775d98719016714b45c6bedc28da2a",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a6_normal_026.npz": "ee4dd91e08740a91b2896efb7660ba8f5504356fa7436f72394d38ef9fe80a30",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a6_normal_026.npz": "f76d9f180912696f226e9ed21f63d47aae001c0733776cd205e4721d74e91e2c",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a6_normal_026.npz": "5dc060b74cb59a0639a9d4b1e0f6502b3c913fbbf5d272eb88e0d6f9ec5cd81b",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a1_error_001.npz": "fe20e4eea4f36f9195c821a58d4f2144e5e24e54880da11dc38205c5e87373de",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a1_error_001.npz": "8edc4db3261b80e4b4ec9ff540aa583dc7877fbcf8bc3fef5fe77112364f904e",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a1_error_001.npz": "625a365f96b342c30a49c745726e6680598bbaff70231d40870609b46765d0f9",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a1_error_010.npz": "44343db1d735ef2923b08f9f3946fceb1b2a90bf3e33090ae9e60aba2900e633",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a1_error_010.npz": "83c3ba7cd963d60534008067e2e7dcec84a6b0b9b4c7fb42818ed2977f215219",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a1_error_010.npz": "d366ee7335e2fb8ff020a77eeb37de1b5ff6702335cf9f5c5349e98e0df63827",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a1_error_013.npz": "f86bbb9309231d06496806a89ccaeb59c32bb47e04ab271baa09e0f5b4c45a91",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a1_error_013.npz": "cbc68016f8405671e143e2b004799939a294a849ee01d42d7776c95056dfdbe1",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a1_error_013.npz": "495ed5f9aeafa185fbaab068750d312d7372f415f9a265ee4c621842f53533dd",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a1_error_014.npz": "70adccff19fcc05f74ebda108111d222ee63bdcc59b2f3beff5ef974c4c8beba",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a1_error_014.npz": "ec0ca6b96ac2666b21ef78aa36c36365fed9d9594df13a48bd6bc837dcb45e67",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a1_error_014.npz": "70494a35b0ceaf96fcdf7f3cb6c32661fd52b317ec3ae6dba0fadcd20a533b82",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a1_error_015.npz": "31826aec323fd147eac7573e475b9c0185ad2edf9b7f40d2bfb604ae0c5bc4d7",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a1_error_015.npz": "be8cde56512f679ca3bca4e1a6c267430fa34e34095c3ab88f671394f9b8987f",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a1_error_015.npz": "c290a40baba810b844ab4cb466f6ff694b1f169479d598975d67d238c1deec43",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a1_error_016.npz": "1c8ec660ee68fc75169f5c2df5608f7b4aba0abf696c85f1f3a7e5bb35d0f026",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a1_error_016.npz": "3cbbc8c9effee981eaeac858e6c09e64b9603d63e14044b256bd1954dd51b4bc",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a1_error_016.npz": "491504c0d2f88811352a745e26c6c3f7b32f3fb66e45245cf697417382e17b62",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_005.npz": "31a53b5d32c1bcb0825b1f2c62d2d48715cafc992796b66671f93a8f381ae0a0",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_005.npz": "6353e4f46277ed57535c76fcacf29abf0fdfaddd4311859839c0d4c13eb8c563",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_005.npz": "4a024e6a8e0f2f0c8764649292baab2fb0cfd6eca4c7c41b8eb9bdcdd3d559b7",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_006.npz": "22fc550a7331af67e28467e26dc9798fb3bcf0ae9fb37ef481e1a4392fef144c",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_006.npz": "0e4eb8a8e992840fc8a47e3acaf05c9af94659a219f23fc11b678b67611ab55e",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_006.npz": "306789ad998f63b9fa14ca638f601dd261d668a7bb75ccd53de8ae5f23114f3a",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_017.npz": "6ac52aa235fedc8f8941288136044a31a0e5d2b0b2793198be30b298cf5f6a57",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_017.npz": "256184f33d08dc443640fd3dac63be0f54663fe350ddd0b4fc888251ed21c78c",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_017.npz": "d306a6832283632f5553347887d9e2ddacf41d472e0a940a16cb112bca228523",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_018.npz": "3ff30308bbe34de57d9931427f10967c68aec0e0da3ded64a6b0dbf289b9e4d8",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_018.npz": "b0a2c2cc7489feeffb37599db0f9933b40da14f8af6a10c481356695a5b4a223",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_018.npz": "586cf9884df167921f496543c1d640efd30c08b79cba428e6e528f6b96b28af4",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_019.npz": "743c31911382d1a363bb2e6e80e23c44529db7db45f083455482fdfc7795e376",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_019.npz": "dcadc95f30c6662582634b3b8ad4775f5f478822924292b52876635cb52a7e81",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_019.npz": "a9c1ea7b0d0d62ccd481c36f02e1abcba097d09082c086cd056ddcc33bd7223b",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_020.npz": "a7770a60e12456f2d8a10389b38ff920460afb3557254072acfee63e15976433",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_020.npz": "e27806e7e8490275e5a5c5570e999cb5def86b84425b212265ef5757159d1528",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_020.npz": "df4de4e603f086d3736d2703e4941261d3853e22c1c007eb027553d58591c5f4",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_021.npz": "4d8639b2913643d6bc28b8cefd414cc7b8b529ca9279b337102fa34afb7ccb00",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_021.npz": "1b2eb78735600b7bd3dcd5176b749b2b0afcc551038c43a3a029c1d987599c78",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_021.npz": "ba91df3bebca4fe5c23cc8ef9627caeddcaee35a678f0c572b4fff05124cd5d6",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_022.npz": "fc1a83f91683f1f72ff4ae106674ddafda4a606971a6bf46afeb4b502c5470b2",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_022.npz": "fecd34f4788ff733caf01eafa7441c82cebf9b4d76633e06099869053ae49016",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_022.npz": "6c424df5c49ce0c5b218d13ceea79648e048276218340fba29e97ea24e2a223a",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a2_error_023.npz": "9ca880edaba276fb03e93bda2f0a276995f239386be3e5c6b04bbc682623bc6b",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a2_error_023.npz": "4e695ade6b4edbbe1ee099ec723a034acc1579a1ad1c3817221453461ba696f0",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a2_error_023.npz": "4098a5a4dc59e101ed399e63561804eed266b448955a523d8a00756d6692ffbe",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_024.npz": "ccba9e479c92676bcf2dda1df7af819af3cf86687293411df6d07eb672bffe57",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_024.npz": "3e95c37dd1138ded0b7c2afb450ab8c60add3f72166fb310ec8cfe4fe2c74b6d",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_024.npz": "0ee1ef149f5c70f52faa156e55d53af3ae42c9d084ac30f5235042c276aae383",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_025.npz": "e3368aebddeba1cc6ac1adad173c6760aa601eaf4510d781d212a7ebfe9a0e05",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_025.npz": "6e78c737769288c5c9bfda305647731b5f17eafa6c117dc7948bd33cd6e10477",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_025.npz": "c342fbff8f03bcf98c06d9cbc68e5faa33fe52553e5b93cbd6052c9f449ed359",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_026.npz": "d20ed4bfcf4b81b0e7e8cd4b35f4a3d384edb54d977b1cf3b834a9f4fca21640",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_026.npz": "46fd32cb9911e10f5965afa1894c40c60ed74769961b03aa9caafc1ab835ab61",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_026.npz": "62e54f9ffedb381dc2460b2b63473a3647e32345b26420e842163adca28f95ab",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_027.npz": "be6a6bf4c56c58403ed15be41f4db42b9f131ac6aba527b2de43d535e8079454",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_027.npz": "67817daf21de4d0eb9711b90e32b9b04b7ed0c336beb4e564e4096f460395fe5",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_027.npz": "53e11076a114643c8d25ee82fb4333d8910658b709fc035347bb3f4732dc614f",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_028.npz": "53309f9c4b7bedfdadfcce5b73f5b96451ff268774de7b1dccb66790ee9f98c9",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_028.npz": "3225d050039cd0fb9217301dac2f7ac5b9b13836be9e1b13d0fd89bdf34f65b7",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_028.npz": "f1b22625d4199a1a94aedf1da22b06ca39983c064e1576bb2dcf17281fba9b87",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_029.npz": "9348b7a14196f20a08f27c1f14b9f24206067ba41a093ea52264d04489c18a2e",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_029.npz": "93b532cf716f11b04bbc8115cecf6948e5972758487c7e5017e2c2b8fbebe08c",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_029.npz": "0c4268a0fce84723c0fa1fd832ee7b374cdbed171e5f3c6c410aebec8d00824e",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a5_error_030.npz": "fc147879c459b79205c801e93541e5f0c92d76731f8d57753364560136a5bfcc",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a5_error_030.npz": "2ab13a23243ff732225a8c18890c7dcf91170e51cf7270de2a2ac314e4be256f",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a5_error_030.npz": "62f593dca6080570b5d846100e19f0e215eb8869e455b57d3c4c761d5f99d8a2",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a6_error_031.npz": "6cf617d4be3ea1e08ab47ccaf3d957fdfc1c342c1668d04bd53e915a89126675",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a6_error_031.npz": "31cdf4b1b60f8d02e51e9985439b844ac2de85be4745c6bc2b4ba3c4b129134a",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a6_error_031.npz": "3b61231476ddbb4d452300e1cfcaa9f64f2e8f89fb5ea6baa5f8d0101e088743",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a6_error_032.npz": "b0336b5f633918cd0dd4b5320246200b7f7f298efaf67cd6f5cc731a5327d687",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a6_error_032.npz": "dd82e8e9fc9576507a54182817184830087edc6a01d3f0b4af13a93f2c57f04d",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a6_error_032.npz": "8ccd99c71277a7ddfb5cb756cfab8dd9d9b688658c833b4bfbe75b86e6632fa9",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a6_error_033.npz": "1807720e3e3cb0b9905df8b9eb5a7a3e4377a0b945ec53c9b4fc61822eab8385",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a6_error_033.npz": "334b33552bbc92a577cb84307af0638ff25ddc20fb91951c88e72f5ac37e45ef",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a6_error_033.npz": "a5f38185ec79f73573b27d90d02afdcf5901fbb73229047e2561e2211b92f0a2",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a6_error_034.npz": "7f8232c5dcc406b08c164500ba4c93d0732c9ed6f252d6d2e919671fc2cae68f",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a6_error_034.npz": "029648033b1990bc7f98ce5ba9de4db2a9eb0720096ea77a6ad0dfcc75b00c4e",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a6_error_034.npz": "2ddce08afcae84876a3ad32c6efceafa1b8dfa5f136f2075c7afd8845dc3f7fc",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a6_error_036.npz": "5baebc8b0b6bb5d8be46da5d97a0d2c5d6e40bb8ed5c57f0b0bfbadc8a400c73",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a6_error_036.npz": "69b24400636348bae14a76587f8707f068cfe4face8f031d05a598f8a58bb466",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a6_error_036.npz": "0b0d9bd3817be1872a9bd0efc776a5b7efcdf332e6d6feea50e5f6f1e718995a",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_002.npz": "d55b1296b04fc5e86b703d95d02a5946408c53c48e80227e2f364b5783cd2249",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_002.npz": "ebf8f09bff8772777d7ac257201c96eed352c825edb1c7a65e553a778ece3f09",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_002.npz": "825157baf1a1848538def470afa22a5004f5d3bc92f3c8af41fb2e5c674d2143",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_003.npz": "829a5ea8e9b8b3244e993a70c3d3a1ba4a240b1896b3afb1a820c90ff196353e",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_003.npz": "aceb7dbc4cec940fc18cf61829d714ec959960c4279fe7aa8a32d990ee0e8749",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_003.npz": "daa3c477e78b5d860cd0d450433d93703d3bbd9a9b0210be7331152f81ffb704",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_004.npz": "8cb7267f98f1a8ce60b03e2d1cfe427135217be55dbb6c1a173ab5ec05d33331",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_004.npz": "60032019561c6e323043fbc3fc1719ccd6ce66c3acfe2bc5bc0c4451bfee99c9",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_004.npz": "81adcc6a42e09e3148001d05f8cc69129c41e575036e0075086f6db85ce0fca3",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_007.npz": "a6dd799af85c44f9fef52feebf73054c8fbfb685d10a4834cd30a2ed7ba20883",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_007.npz": "b759395bc120a9ba63da4a7c07a3e061b79a4490b682b6b6a44a6791ae3b798c",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_007.npz": "1a7125c625247f6ba685862f8fc5735c1fd91d66d8add4fc709e91fb76a74fff",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_008.npz": "cac44359363e0516e52243a14b642d263d965b62407b8723b9a22574983d982e",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_008.npz": "ea5772cf6d2fa0853f6e4b9c710959096d27104563eb7067e1508452c1723cd3",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_008.npz": "c62be3124f0d642571de1a205cab5374124f376589c1e3c628fc49f3e32f635b",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_009.npz": "0373359817405ec3d91300608d24ce3e400bfd8e8e4c45bdd66d0b606b6bc516",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_009.npz": "427fbd31f9ff710ee164af7890caa5fb1f11c8d91e286e80860f83f28031b836",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_009.npz": "a6d86323d90b021ef9a46baf1a280919e207be41052c1b4281889b19dd0365b4",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_011.npz": "2354151888383884432aa7a3ab407b912b37feed47fe0c146c8c92b4a73a5721",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_011.npz": "43fa1b9688fb8ca8a624b9ec714d54e9bd91a641e4cd844bca7d56d9f70e2d02",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_011.npz": "e7990b204ea933f00b413b84147020e1920bcc7fd18667c7953d93fb789d3453",
+    "pilot_runtime/support_background/coffee_k2_s1/coffee_u1_a7_error_035.npz": "a44aa08eff8cac5145bcc93f7f2d563d00e890274cb7baf760d03cf3576614df",
+    "pilot_runtime/background_drop/coffee_k2_s1/coffee_u1_a7_error_035.npz": "f9794a028e544f57e347e9e5fadae7bb76e0b76d96c2685798cecae76d0576f9",
+    "pilot_runtime/coffee_k2_s1/coffee_u1_a7_error_035.npz": "39bde45929fbb5cc0c91c74f527a0cddd225e27ee5c7b5ea1882bd02da5b33c6",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_025.npz": "675a967244eb1ebf3363da5b248151a48c17e7e490676297a3b24045a0e68d94",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_025.npz": "ef1423b33d4a04c20570e69a59c4a8c37bade9947ba3e8af303f676bce317d4d",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_025.npz": "6c0195b8c371cba65bf4621f037f8bd3aa30ad7bacab25b6066c2e5fb95e1166",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_026.npz": "6050c4a31e3e4bba810ef92494a48e3503290241c937580c1a3e482b74bf689b",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_026.npz": "35ca5dbe24492dfaef94f3d669ca1f94c7654ba87166619c7b74bd1a417b00d2",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_026.npz": "3c1dacd8256b35f2f103b34b6ba877d0313451ef2d085bbd34339e219a76ca9e",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_027.npz": "ba91046c8e1b2120afad9fc17a9ebc5a7893f1e3e28cef645353360332b6f40f",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_027.npz": "7f2c967c9ee631da365a0b21df9c5fb692bfbcbbe28ef1cbe2379086857b402f",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_027.npz": "e393a3f33a97968c343934cd39ee0d306a6f292c182a389b5b1fab8135104c5d",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_028.npz": "ce1230072b223244ee16df184e3bfe16201529a803d942ee662c9889cfbb9803",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_028.npz": "6e5a9eed9dc184d3c92dd771322adda582390b4ce198528d2b49c85ece2f4e01",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_028.npz": "f864646bec6cad719bcacd64171df743850f38d80289425193a65ed36a989095",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_029.npz": "77403624d42ece1eb9e79cd3d4e28b5f58a34da74e6377dd6383e9ed56fdf045",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_029.npz": "bfa20819653811ba452bb889299364927de60cddf56a0f8d0326909d21840fd4",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_029.npz": "db0d42252d9d0f8774c84d229b3664ccdd5eacc9497abfb155b0b8c992b31b57",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_030.npz": "8bbfd6bd362660071d1191c32d93fc98b4c02343a694188144046f7393d07bbf",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_030.npz": "aab72fe77dc2df563dfdd06a09f6b2fe4d6e38bd4a9adfa1296ffd48373990f0",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_030.npz": "a083dcf1883e9394e575e6afe2c96b2a038f7aa8d31638b4e8ce9a21a9f52adc",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_031.npz": "fdda851939def20271b4b273ab5f1827205f0b37e8ea5ca75e72af01c5528073",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_031.npz": "f04246acf999f8b0a25282233930deaeab3722b31793d4ebdd1406bb920a4da6",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_031.npz": "978ab8dfbf6c0f8b1f109df235be7eba5db592ae3fae2af69eed21330cd77f51",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_error_032.npz": "94cef29f44779d2d84a39d6cca62543b720b999f46678e65b69f449ee5d6510d",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_error_032.npz": "a36fb54dd224f67eb4989ff90569ba280bd31fceff6ce2f8d13a2dcf4c5bc42d",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_error_032.npz": "f9c6c54827a87a4b73591faa5c4f52d68477fb3a16d23a6712b36b71e191608c",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_017.npz": "a08fa953fc5bf04eed75d992242c3dc27941751f0c5359bf3733555a10dd0326",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_017.npz": "a6fab8e4df4ed58717bf63932b6aab8a31582d8290fb6f0306d3e000d8515cbb",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_017.npz": "c14fb4d5907fdbe56c3d4d05aa7076e1ca6f5c67f5daceadc7ae459033784674",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_018.npz": "7f59fdc67d8c83282173eaeded9afd6e84077d4695294a7f55471257e6735208",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_018.npz": "d4249748400b79be539dfde0b652533a74d26f12190904f01a934f747674ed36",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_018.npz": "7a12d6ebdf517458895bf9ee5fe79a25dc0b200b930cec348e9973e4f24c01da",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_019.npz": "65724d4ec8aa4eb41bc3109a2e8ff6138046eb9febe2b9d44ea42d778e551dda",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_019.npz": "051b110af22cb000324f7d346e703a75391692ba29d1e697f7d2072b5bada394",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_019.npz": "1afc8f64bdab9a4200cf79df673894690701262613936a26b8dec5c606ba3257",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_020.npz": "464d1fe0443dcdee44e71e488e3373465dbfa5ea8200a8a11cdb3c457769a676",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_020.npz": "e02ae3db5fe78bdd2404510027399263002f5ea6a49702dfcfe804d8936f7105",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_020.npz": "025de0d1a51fe3347b74492583a3156731a91bdec4e1d160060fde25219fa3da",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_021.npz": "b7be5319f9c5a355afea963663e5ba111ca2b162d8bd07c5a3d58c9c42229d19",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_021.npz": "c309cd4e2e82ba472772f7efd269c42ab79cfaefccf958415e356772788f7eee",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_021.npz": "8a59f9635f834e4bf586db685d7c563df76eb68c72e47321f52ecf0cfadce1e7",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_022.npz": "a366a801bd38639518a6c6e46b740a33e06b38a74d0981e147f786194fbd3c26",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_022.npz": "5527446b30aa1a78fc404407725a14738f4467247679e742afd4bdc02eeacd9d",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_022.npz": "6a39213a6f88235ec77166b6a1342380f999a905b67b9f7e72afe7c6ba7d658b",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_023.npz": "abe4a7c9058aa344fb02ff694625b434f26d3cfe1bc58711e8f48e433de2e81c",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_023.npz": "bffbfe88a162d127234861a0ef1e004e44687d8be01e16d8e2b67f595c99985e",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_023.npz": "4ae71208ec578f5fff6b1ac2f20d1135780058bbd9f24e2e3b25f3e5560b5a06",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a3_error_024.npz": "56efccd4e9eb0c84008557270f656ab3d1a7ce72655fb2f6f56d24447fc00f78",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a3_error_024.npz": "81ee97ee3971e44915ff34c848bb979adde57c087c1451f1a06cdc8fc56953dd",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a3_error_024.npz": "97eba7d3d89bf93855b2b92a656f5c286f7f13e0a4df2e6ff40ad7bac9305223",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_009.npz": "9e49d39b85c6b7a15a4a393f0c7d97a6240de4199a364a6f3de55a9df37a82ff",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_009.npz": "8273545ce407be84598044f705554f8976720795c6097d592eb78f874a712f21",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_009.npz": "e3c6a0ec6fc65aa149c74c470199e75835159c58cb3ff91fe4e559044da24107",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_010.npz": "e7ba6928746e70d402c02831b825581f13cb156d0d3e730751d76d76f6542eb8",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_010.npz": "34a9cb07dde29ead8ee03622784e8f91fcdcb8d2e3c3acf856244e75884b29f3",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_010.npz": "9325ba3841e75647aff866451491639ec4fdec5977b11e0a659dca9c7be7af1c",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_011.npz": "3d63a8e1944ee76b498df6d322011c39e85a83a9bacb39aa4c1e763df714ed69",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_011.npz": "35a4c67a9801d737298ca6a151e24d58310992bf6a67687e630d2aa8f0943f00",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_011.npz": "4123dfd4fb8cd6b02a10ed380b5a8425c6499d141d32fefb684e740bf874f139",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_012.npz": "bbc6c5566441238ba22d3b532da59a4c43ff85ec142543914eb501f4ab3e95f2",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_012.npz": "e3a403c36754e1fdfd44a60a1f88c7f0a97010ea63b756f197b1e5d793957272",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_012.npz": "35b19adf7020b18d3f6ff8a4a577bb3b148f3522b58a869f4820d9e3527a96bb",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_013.npz": "c1dd2b81f197580b157cab6cb1522843eefae9b114007584bc0001dc2f3c71d3",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_013.npz": "e2c6ebc0d4e12cde10f5a18eb4a8f9567106fd48cdf5138c8357ae616f9f82d3",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_013.npz": "82c10ff076fc0cb18459d0aae801e6ee724a019a887e9ef7e6ef60f422577e03",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_014.npz": "646ca2d72306ddddb4c7c1e8e39d8e8313c6803d7b65603ed0388e04264f03a7",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_014.npz": "e3503badcb9ffa1bcf520fecb213cfda40442471e6fb715f764b600716d8764e",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_014.npz": "9df83df904955f41ee9586d2072b001569af8ecbbe3010abf4da5c431b0af391",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_015.npz": "f4e356b0160dca06eb97af5e8723963de03741997f85c5753192fbd861441ab9",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_015.npz": "396c579bbf007e032d16792835e3d0bd4c8c57605b6e266d7b2dc074edd526b0",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_015.npz": "2bf280941c7f3632a010b33126ae3fb798162c2a20fbfbd60f2b10c20a94da60",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a4_error_016.npz": "2fc15f4b4266059403057d1cdf1819b304c9e79980fb0916b5220b5553b3d638",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a4_error_016.npz": "4b9d00319d4eeb7adff99f32212939e56ae3b268be4ad1ee120a98e5407ae01c",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a4_error_016.npz": "37de07c15b586f6959eb7b367f5c77b23bb023f5e4c6a3e217f5ea61665fa1e4",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_001.npz": "ab4d1bfc11d8869b8f067b50aa335d13fb0d18c38cedfc10dc8dc4053494dedd",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_001.npz": "3323d4761dd0b9408e78087e8ec27b4354c0a41355c5d50b82ddc33fd7217564",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_001.npz": "a8f67c38ce0657ed22fb4d7fca2fd3d059ccacceaaae27261ceb47b5989597be",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_002.npz": "fb1c0c86f05253deab9a55b73ed1f68246b862463f848001c575eea9dc481e3e",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_002.npz": "a30005bbc6839900c67fc5162eee812ebfb326607b9a29b8dd776093a81f029e",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_002.npz": "35b74b39c26857f7b9706d16fdef0e7a6f49810f5fbf609d6de466b6dd651f40",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_003.npz": "e5676613747b19c036e7cd6ec4d97cf628487258db077722075d3a39588cc774",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_003.npz": "aa7724abb7bdcb9e38cb319457af6b72c7b42c574e70ae25c73f63d469d43ae7",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_003.npz": "00208a3f750d84c8e93557c86ee3a64ed2a11774f2111a94b0ec2e57ef4b242c",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_004.npz": "b5b35e54a1f8fe6d68a214c587076d895a965714fc1cfa7da85aaeb9ace4cb57",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_004.npz": "34ccafa2f66e68ae36a9198b352dd55968a3bb3e7f486a30e01956c3092da0c1",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_004.npz": "d6c4de706b1fb8aeffe62a6af6fa22ecf953ca5a3db1a15c8b692f1bde90b40e",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_005.npz": "a792d4fddb2a61961d87f5d3777ff4ab78c92c82457c5205535e810411edaa20",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_005.npz": "69f5c412b4808d043b283905e10aa2d6afa1ecb21e254b95d38d8b95841b19bb",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_005.npz": "9bfbc221496f71fff4c6b4c52de4fa30fd9510e825937bc9447707efdd107dca",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_006.npz": "1e2205aa2e0811be0331ee47fcb15ccb75b363dfd09587e6618eeaae6f11b395",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_006.npz": "40b7204dbc00de52a537914f1b84c43df472bc400c771b18a0f9ed24bf5021c6",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_006.npz": "bbbcb11be9069f8e1a11028348423310a4b56dd77879a7f1d4beab049214921a",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_007.npz": "913c89c0d8b24c0d3417e3d0c7e951716918a5c20e12a53f293b0844d8e5646b",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_007.npz": "b8f5cc712a5e009afbb7d747eb0b47f765ddd913ba7e1e1635c448e53d005ab5",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_007.npz": "8c040fc3062b83fd0cd346cb3c297813e2d8e4275e3dc254771a382766b69cbe",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a5_error_008.npz": "f9a351c0527920f89e957ad298587a444ede5b4a2e8ead32844bb047b0b78b8e",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a5_error_008.npz": "28bb2cfae80af91bd980d42468c0fea6b0442d37fd90593c00ed6755aa00d005",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a5_error_008.npz": "8bb9e9ca2789006ed1c3e7b6ad0a1f8f816c600383889f721834be75303c3755",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_normal_006.npz": "b6c1f74be40ad9a4dc23d6da65da33021a4fde4519ade160694cb8d2fbbbbfc3",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_normal_006.npz": "65a0db3a7f8bba887d6057606488ea5872dbe406504c8f041ca079fab79ac9eb",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_normal_006.npz": "2edf045c40009ebbc79ec7259a6f247d78be88be9bc6bc2d3c8a78fcb1f5304a",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a2_normal_016.npz": "1c1e68199323e68068d7289b1c4e5069b84e460143250464f1b38009d0d6c517",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a2_normal_016.npz": "00e37a1a6bbd8bdd98801d3bf12220ba4f4b3d49e22cdc2e6220fb6ada05d1fe",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a2_normal_016.npz": "876ee5ce144663a0fa3cb27096a9a6d37eab44f84e58d49616671aac4a8189ad",
+    "pilot_runtime/support_background/oatmeal_k2_s0/oatmeal_u1_a1_normal_026.npz": "d466d09940d66af92d3d68b2732c379a5da96c3d120d44e4f10572be756460e5",
+    "pilot_runtime/background_drop/oatmeal_k2_s0/oatmeal_u1_a1_normal_026.npz": "15e37c40bfb01d748d73a6325c89a07290755c6137519f4ad396423e40506084",
+    "pilot_runtime/oatmeal_k2_s0/oatmeal_u1_a1_normal_026.npz": "6cb78ce727a09cade2e59aebbf96b041eb66976ccef220e2cea0d1b16cb42181",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_025.npz": "38e9c3c6fc2fbdb3cf824c908424f2e2e08dc98c92efbe9899653fc5eb4140e7",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_025.npz": "58074e92c05725468f1cdb8e2279dcc093be99363b61785e2b62a9671f0664d5",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_025.npz": "d86ae74b0db0f3b9be5ef341280290a3a00f1781bbf512d3bfc36fd95a70f56f",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_026.npz": "3d8e705c7d093573b33da8435db52a6310b840377282bbba1794829780736fea",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_026.npz": "5abd3138134043dd021d377aa67e434b422cad6915eec7f5134865d842cb4127",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_026.npz": "81f224279b81b20a1c2dc01687f4fd0b5b9c83e72d10d771b35a01f5ccca1beb",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_027.npz": "69940e686d37b0cb0a776474d6379adde6011e17a87b19dcb7d077c669f48ce1",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_027.npz": "0222d23c3bc50334904aaa8ac612cd1077c3b78a0eb1c80ddf36c4adbce39e5e",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_027.npz": "97da040f5aa6d1abe572bf5cec44b2802f768c7df38685f3c962f8c6fa734798",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_028.npz": "f59f0f331ad7788d1fdcdd8061aaab723180f0d362ea9817c45fec066721ee14",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_028.npz": "942f61e35a7fd77264d4486c3a0e9eabac7edcd7952975c2db27209630391ab1",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_028.npz": "6aeffd1e41d5d74e2cc41957ce8acffc314db0fde371c42ec58b312c1af943db",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_029.npz": "b1dc1bf407e6a16e83abb15ac0ef88222b5aeedb9d8de86243e69a3e0a6d9b1b",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_029.npz": "d2e56d162de05a2ec6dadc3353ce9bdd1b28ab59d951941dae8c67c9de3e9b60",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_029.npz": "b7f7facc41d39bd16cfb59b7b6a057c9eca625dff5e095a18c2b8ae088adb96b",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_030.npz": "2b9d6068d761e69b43648f86d688ab6af3fb530af4976678da266bfbe080fd0e",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_030.npz": "3d22ba20e5f26b3ab2ca96636b21db38c110932bfad51458b4d37ab1c5606d20",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_030.npz": "1850979309bdd2dda7b14c7004ac3ae6c3ab1f7ecedaeece9bc02fe699cdf44d",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_031.npz": "4ed9e5384253857749825e395bae35854e84401938e30e6cdf16738b13682eb0",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_031.npz": "f6142f1f6d1beb1432b417a80cef4c7b2c88602d89883998fca59a058b41cb30",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_031.npz": "b9f563b1e97dba874e61430fd773fb19536cee5bcfb8bfbc16987c815ab748bd",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_error_032.npz": "40a9d162c6fb64d0f145a2b79c147ab04636d9e1f7c1d715288b948428757ff5",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_error_032.npz": "b9eac5cf8820ffbb4a32180e718441520e0de723e1386d0a56f90af9fad4bace",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_error_032.npz": "5bdb0a8c2f496706801140dbb8083b684fd4d28e6e2f41c5b17e59900c3492e1",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_017.npz": "295f27551f063e119dcd4e3cacc678aecd3ff5b4df7414291c55c3d10e4a6c00",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_017.npz": "26409bf6f64050d65473d12a34f79ee3e3edb6fcf09b25d9e43440c7b7046d87",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_017.npz": "b5f53c696b065c8482507827127aeeebb3bbd37f25e802d16c18355022c71625",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_018.npz": "f76ea35dd46cbb4ff10fb4d20806e5bab63cc73ab6c2494aef1d54142b131570",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_018.npz": "5dd49afcd3f70f298ae24106b8cfd0ee54714697487c3da407d17f50d470b1cf",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_018.npz": "003f5263470062a687c050dda5762f7b7646097a8ece580e8f9d119d493b1ceb",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_019.npz": "4f3a02df5d984d54bb36634a2ab0643a988742e7a024c691b537f9384f904913",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_019.npz": "3e42ca3bc7b6f0f65239690eefdec9252f8935dabce57f9d5ade0f8635d076e5",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_019.npz": "8f03b688bcf314cf637d7fdf84891425a0ce9b004b182d55da1a4d692c53f38f",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_020.npz": "c2e9ff87e84c7a84ec6631c92dfacf9f71327025d524672305188718702711b5",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_020.npz": "3abb342bb43e7314d274db7ff179cd6489e1904e7f422e027e113dbc9f9158c5",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_020.npz": "18c176511aad63ee6ba4eb81ba46aa5d7773d1dc71dfb3fd8240debae1c106d6",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_021.npz": "9751426c42f04330554bc72d389a70213248aaf71d47fdc5712788d409009faf",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_021.npz": "90778f44c91b02eb136ce9260906f734a39402dbf6b9d9262414e8a4ac47b566",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_021.npz": "b45e027b90ab7148a32656173f9166042490d27003637108d4f618a591b70ca4",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_022.npz": "d8d79e731022c335f8e87b8f71e3d1cb25d1b76ac513ee5581d22187eab4ed3d",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_022.npz": "834d511a9e969146112060e3b2d5b3665f7cec2b85c38cae158431dd7b03b791",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_022.npz": "bd9573507d0626de33ac8e7da1f417e03de031e03af8e1564efacf5a6e8119f2",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_023.npz": "3666828beb7952ef69bd20d97207bb4183f8ee21b2137b0db8810fcfa7e9b80f",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_023.npz": "2ace574c5175c801bbda63d6259e86d032cbcaed9deec09adf3e5240e86d2288",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_023.npz": "adb35f24590cd1a1dc79eb800d98f50afa4999c079dec65d9567a4ff4409d4c8",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a3_error_024.npz": "9dfb35b4c415b98b0e749ecb9d204e44ecac81595c44e9deaa324f6d7254288f",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a3_error_024.npz": "13f55e17834bb3f090bfa9f2d22b5121a632d9c15e5be67514591c1dcd93cfba",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a3_error_024.npz": "11d750e3ebae72dd6a9d05e02719c9f9282c45dc2dc22f7a6aa8ca378398a7bf",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_009.npz": "5142b1d03360da43334016b1ee9e133ef8c4de3a7ebc15e1ed30d51d76896dcb",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_009.npz": "9a942fd0c9a902b331ac96f3f9219b06606330d73f118e44f85716c3e9e8c191",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_009.npz": "1e57713d944c399ac51c9f844a92393008413fff92b4a23599dc6cccb36a720d",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_010.npz": "335c771284979a3baf4d9d6a4fcbc063f9501d3e73a2575eed8b814a17217468",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_010.npz": "121049f3a670b1553b9afb033380ef7c60c42a4300aa62f01b4801e92e6b517a",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_010.npz": "c42ce08321fb41c7d92768c93840b31e6c78fe6667ac9bf7e229afd2e9dbbbcc",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_011.npz": "7446402900ee16e3d53e7e15592b30eca9ff949a889431739554b24630701cb5",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_011.npz": "de5d93ea4e8dc1b40bb42e802c9cb25cf8c0be530435a0d65acc1c3518815a49",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_011.npz": "e25097896be1ac7f709f76413ebb6ec731e6c2a041690b64cabc79250449bbe0",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_012.npz": "59f6d3290000295b5758d454d2a7834b030164e67d9e505e0761e047cbe550f5",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_012.npz": "86b1dbf375bcc7d53e5c62285cd30e2c79bd31abd5fff3846bfde73eee1c4d37",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_012.npz": "41187658f9c40d69348ea246940fe9332a942524e5fe7f43ca79d973adf630dd",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_013.npz": "9ab49a41aea6a4473afc5606471c8ca483216d6d75a603428d2a5ecb1ac116f4",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_013.npz": "8a6c908ef65f3f5d00a7533cb1754ddf09d2d4c2edeab5045484df35455daa6d",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_013.npz": "299d50cc9046beb163353d8ccfc421d9953cfadb4acac2ec2b9a0fccc163629a",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_014.npz": "b6da415a8ca4d2a4eea0501aa10ca75f36374169986ef084db72c4d0bacdfa3d",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_014.npz": "76ae40d5044bed715029a85bca3850d807ea7bb2702f0534996b90ccf3656596",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_014.npz": "f263e74b517bf3d8a5294db7bf096de79cc43286028e9e64cecad7a3f600478b",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_015.npz": "5f40ca0bde4e7d540b5fe42a03b3ecd61a765704e5d4bd26f3891d3bd40f0ff4",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_015.npz": "4d6a6697d46ae252c53fdb39c2a7edaa50f2911186b9cd6d92183b4679342e91",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_015.npz": "4619330a390ae8a7459a64cfaf2fbb8e89e4cde8cfa177db8e064a5843baed92",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a4_error_016.npz": "e8c376e5d2940ec1290a49b210f9abf4330af9dbafdab90226f4363b608e2bf9",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a4_error_016.npz": "ddb736967abe1530e18e0edd0aa468f0d42028777e5fb15dbebd91d844bcc95a",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a4_error_016.npz": "e4f1699037b322ac58db8d68c7ad07c9785cc85348a7d3640258083b1c440565",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_001.npz": "23782bdf1f6668504d708547096098802c38e3bf02ddad079ec8bc9d55f3af17",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_001.npz": "a183ba13b4a08da19012bd2e54853f450afaabc8cf519a3aded0ff685e4ff6a4",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_001.npz": "c07972c4a7fa011fb5c7f1e0c886ef36824e8f82dd0d1a3944a5c53a67b4589f",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_002.npz": "7c34830fb33fb560435a74c0781261ec09e9eb9d2077d6d0effdbf2994bf2824",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_002.npz": "ed28d9a4ad6ce5da8d45f9ffe26173ba659d4802f7f196644de2e5cd4ba6d333",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_002.npz": "6698f598f26e5cad79c54d1f62ce9f19d1fbf21840e973af9829f1f8b38f2c77",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_003.npz": "65de7ecbe6066ef09ea60613e2dfc8b2bf96a470b0629dc77695f00eb98f550c",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_003.npz": "c0e74116658eb2b556c59615cc9791dcc0dfb21ed9d7892d896d3cf60940710c",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_003.npz": "308e1ba2647db483bd03e3863116e3142608174531f76e5ac9674d50a7a7ecec",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_004.npz": "96427b492784f23ab05288781854417f9f56a22deed0de642bdefdf096863b07",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_004.npz": "48ab465cb2ab4e5ead977c3aa6dc08c355152efb8941e4613d34aa3749bd4e89",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_004.npz": "05d1e8bcc444c2014dd7f1a5c8495a21f5c6c945e5872a6a4194fcafc21bdf45",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_005.npz": "3e6e91175dfdebd031d3998111a53d65cfc5e651fb3ac67d2a92c2c0f289b6f1",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_005.npz": "ac945fb688992310b16e6e0a318abacd745d3e4ade06c4706827aec32a50ea43",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_005.npz": "60dadf2825832639be8a4ce0c6427e927672a6e98fd9b25aef572fceebaef612",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_006.npz": "2559d1430db70608dd57f2bf8b700cfa00a148b03a38f72f3fc46feb483838d2",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_006.npz": "a8e2445ac947e72d3788629b35147fc89e1c9ae3d960677a599f61d407351945",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_006.npz": "26011b9324a66bc6378d07a43c7025bf61022746e2194fcd424d21f881365392",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_007.npz": "ca093b086589d1d158c8c1b7bb567b34096c638439cb9e4f383d44f96357854c",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_007.npz": "038ec5931684c16e456c20189e325bce0c25ae78b4538c8504a217a8fee06614",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_007.npz": "564ee24232e1a55f9b703fb4c1282e31bf75ce88b0f33e8b0e393d6badef4730",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a5_error_008.npz": "4c4fc36721950c929249b51075ff54e09becfaa95cb4f521959aba2d2447207a",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a5_error_008.npz": "400d6d75fdaa9e727ce18a28601f5a278b7b4e02ed67062a9bd87b6da0d8e445",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a5_error_008.npz": "739fb0a92da04d7f523a66c2069891fb7c009e51b18f6c09f834d8918b1ea95c",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_normal_006.npz": "ce4038a8f4faf285245860c6037a552e8d18aada61ac008bb87cc28c0de1b7d4",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_normal_006.npz": "118015c39e6b4e63d0a23b6743eacfe5fe1d658f28a7675d683b6be724490ee2",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_normal_006.npz": "1b765e398c165d355ae3c392d916e37e3fbad42c88d0e362ba5761e0bf66f36d",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a2_normal_016.npz": "19c7f72d5ba83d92ea70c0d4bcb375fcbe6bbde9a1343b19e7e596009909edb1",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a2_normal_016.npz": "5ec68a93d31ff715b459314f774b96170b7e32827f042590b7db14d549b77c66",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a2_normal_016.npz": "03e4906c85df09d085d1ee5464b8c42df430d162343c9484fdc1b981ca8f23f3",
+    "pilot_runtime/support_background/oatmeal_k2_s1/oatmeal_u1_a1_normal_026.npz": "017ddfe4a290e90987ed854b1ceb971e051573222ae789e775fce12cb6edec55",
+    "pilot_runtime/background_drop/oatmeal_k2_s1/oatmeal_u1_a1_normal_026.npz": "297a992130b5804d347b41e30a481dadfdaf60c09aadeef4c4b3db162d7ef303",
+    "pilot_runtime/oatmeal_k2_s1/oatmeal_u1_a1_normal_026.npz": "2e3f38267437403d587de425abfe1e83ee4c2768007f838ddacd84603661afd2"
+  },
+  "script_sha": "1a920311a2d47d04111ac31ef76e924cc4263b90b09a3d136cafd15b0ee4e37b"
+}

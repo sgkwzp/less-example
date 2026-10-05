@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+.venv/
+outputs/
+external/
+*.pth
+*.pth.tar
+*.safetensors
+code/AEM/data/egoper/*/vc_v_features_10fps/
+build/
+*.so
+*.pyd
